@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 Intro", "010 Intro", "{B2774530-C905-4535-82E1-774E97DAB3F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 Variabler", "010 Variabler", "{47863C65-BB5A-4606-9677-2B319D52E9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler-tal", "Variabler-tal\Variabler-tal.csproj", "{8C603EFA-9A58-4B06-9443-E197E6E46B87}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C603EFA-9A58-4B06-9443-E197E6E46B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C603EFA-9A58-4B06-9443-E197E6E46B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C603EFA-9A58-4B06-9443-E197E6E46B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C603EFA-9A58-4B06-9443-E197E6E46B87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47863C65-BB5A-4606-9677-2B319D52E9EE} = {B2774530-C905-4535-82E1-774E97DAB3F0}
+		{8C603EFA-9A58-4B06-9443-E197E6E46B87} = {47863C65-BB5A-4606-9677-2B319D52E9EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
