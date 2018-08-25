@@ -1,4 +1,4 @@
-﻿# Opgave
+﻿# Brug af variabler (tal)
 
 Start en ny tom konsol applikation og sørg for følgende:
 
