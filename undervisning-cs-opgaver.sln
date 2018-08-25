@@ -35,6 +35,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "050 Hukommelse", "050 Hukom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hukommelse-struct-class", "Hukommelse-struct-class\Hukommelse-struct-class.csproj", "{415EA82F-03CE-499A-AEC6-0C6D5E2954A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "060 Klasser", "060 Klasser", "{FC38DEEA-FD81-49EE-86CF-E2D158DA4318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser-simpel", "Klasser-simpel\Klasser-simpel.csproj", "{B2366CB0-2FBB-4D47-9E69-F31D29558D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser-terning", "Klasser-terning\Klasser-terning.csproj", "{0804C663-0B3A-4F41-84F8-29560CE45D8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +91,14 @@ Global
 		{415EA82F-03CE-499A-AEC6-0C6D5E2954A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{415EA82F-03CE-499A-AEC6-0C6D5E2954A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{415EA82F-03CE-499A-AEC6-0C6D5E2954A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2366CB0-2FBB-4D47-9E69-F31D29558D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2366CB0-2FBB-4D47-9E69-F31D29558D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2366CB0-2FBB-4D47-9E69-F31D29558D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2366CB0-2FBB-4D47-9E69-F31D29558D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +115,8 @@ Global
 		{294AF716-DD62-460B-A4DD-8FAE72BD882A} = {F2EC2426-9609-48FF-9C98-F2D2804D5E72}
 		{0D60F2E4-987C-4866-BA07-B6ECEF833963} = {F2EC2426-9609-48FF-9C98-F2D2804D5E72}
 		{415EA82F-03CE-499A-AEC6-0C6D5E2954A6} = {33F0AFDC-8B50-4734-AC67-846EE31387FB}
+		{B2366CB0-2FBB-4D47-9E69-F31D29558D49} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
+		{0804C663-0B3A-4F41-84F8-29560CE45D8E} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
