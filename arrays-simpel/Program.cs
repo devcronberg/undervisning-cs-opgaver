@@ -16,13 +16,9 @@ namespace arrays_simpel
             for (int i = 0; i < månedsløn.Length; i++)
             {
                 sum += månedsløn[i];
-            }
-            double gns = sum / månedsløn.Length;
-
-            for (int i = 0; i < månedsløn.Length; i++)
-            {
                 Console.WriteLine(månedsløn[i]);
             }
+            double gns = sum / månedsløn.Length;
             Console.WriteLine("Gennemsnit " + gns.ToString("N2"));
 
             // Hold console åben ved debug
@@ -31,7 +27,6 @@ namespace arrays_simpel
                 Console.Write("Press any key to continue . . . ");
                 Console.ReadKey();
             }
-
         }
     }
 }
