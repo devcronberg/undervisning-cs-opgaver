@@ -24,7 +24,7 @@ namespace Fejlhåndtering_egenexception
                 System.IO.File.WriteAllText(sti, tal.ToString());
                 Console.WriteLine($"Tal i fil er nu {tal}");
             }
-            catch (System.FormatException ex)
+            catch (System.FormatException)
             {
                 throw new ApplicationException($"'{indhold}' kan ikke konverteres til et heltal");
             }

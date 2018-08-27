@@ -41,6 +41,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser-simpel", "Klasser-s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser-terning", "Klasser-terning\Klasser-terning.csproj", "{0804C663-0B3A-4F41-84F8-29560CE45D8E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "070 Indkapsling", "070 Indkapsling", "{DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-simpel-egenskab", "indkapsling-simpel-egenskab\indkapsling-simpel-egenskab.csproj", "{9F7E5501-972B-498B-A061-2B867EAF6BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-automatisk-egenskab", "indkapsling-automatisk-egenskab\indkapsling-automatisk-egenskab.csproj", "{1FA06E27-605E-4C97-A9FD-9B9AEE71B950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-getter-som-metode", "indkapsling-getter-som-metode\indkapsling-getter-som-metode.csproj", "{D67B378F-FC91-4940-AFF2-E21B5C2AF52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-terning", "indkapsling-terning\indkapsling-terning.csproj", "{B6B840A0-924A-4C20-932D-84D4AD21439F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +109,22 @@ Global
 		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0804C663-0B3A-4F41-84F8-29560CE45D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7E5501-972B-498B-A061-2B867EAF6BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7E5501-972B-498B-A061-2B867EAF6BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7E5501-972B-498B-A061-2B867EAF6BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7E5501-972B-498B-A061-2B867EAF6BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +143,10 @@ Global
 		{415EA82F-03CE-499A-AEC6-0C6D5E2954A6} = {33F0AFDC-8B50-4734-AC67-846EE31387FB}
 		{B2366CB0-2FBB-4D47-9E69-F31D29558D49} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
 		{0804C663-0B3A-4F41-84F8-29560CE45D8E} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
+		{9F7E5501-972B-498B-A061-2B867EAF6BD5} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{B6B840A0-924A-4C20-932D-84D4AD21439F} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
