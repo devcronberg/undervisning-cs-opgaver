@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-getter-som-meto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-terning", "indkapsling-terning\indkapsling-terning.csproj", "{B6B840A0-924A-4C20-932D-84D4AD21439F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "080 Arrays", "080 Arrays", "{420E0AD8-BE55-4972-A227-050D8A78CEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-simpel", "arrays-simpel\arrays-simpel.csproj", "{0438615B-5A9C-45A5-ACF3-EAC21148FCBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,10 @@ Global
 		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B840A0-924A-4C20-932D-84D4AD21439F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,7 @@ Global
 		{1FA06E27-605E-4C97-A9FD-9B9AEE71B950} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 		{D67B378F-FC91-4940-AFF2-E21B5C2AF52E} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 		{B6B840A0-924A-4C20-932D-84D4AD21439F} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
