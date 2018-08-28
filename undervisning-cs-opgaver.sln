@@ -75,6 +75,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arv-terning-uden-polymorfi"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder-statisk", "Metoder-statisk\Metoder-statisk.csproj", "{DD45A20A-EB5E-47AE-825E-5E308D20E394}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "110 Interface", "110 Interface", "{49268C95-C4C9-4826-A12D-680379CBFB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface-compare", "interface-compare\interface-compare.csproj", "{1BA25761-ABB7-4D0A-B263-695105B3C7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface-using", "interface-using\interface-using.csproj", "{2F41E820-59A1-4D16-81EC-17922B0023A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface-eget-interface", "interface-eget-interface\interface-eget-interface.csproj", "{27746CCB-1247-489C-8344-742CE3C83D70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +193,18 @@ Global
 		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA25761-ABB7-4D0A-B263-695105B3C7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA25761-ABB7-4D0A-B263-695105B3C7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA25761-ABB7-4D0A-B263-695105B3C7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA25761-ABB7-4D0A-B263-695105B3C7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F41E820-59A1-4D16-81EC-17922B0023A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F41E820-59A1-4D16-81EC-17922B0023A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F41E820-59A1-4D16-81EC-17922B0023A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F41E820-59A1-4D16-81EC-17922B0023A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27746CCB-1247-489C-8344-742CE3C83D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27746CCB-1247-489C-8344-742CE3C83D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27746CCB-1247-489C-8344-742CE3C83D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27746CCB-1247-489C-8344-742CE3C83D70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +236,9 @@ Global
 		{B8D99D8D-AF57-49D9-996E-D00E76DCEA10} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
 		{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
 		{DD45A20A-EB5E-47AE-825E-5E308D20E394} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
+		{1BA25761-ABB7-4D0A-B263-695105B3C7B6} = {49268C95-C4C9-4826-A12D-680379CBFB0F}
+		{2F41E820-59A1-4D16-81EC-17922B0023A9} = {49268C95-C4C9-4826-A12D-680379CBFB0F}
+		{27746CCB-1247-489C-8344-742CE3C83D70} = {49268C95-C4C9-4826-A12D-680379CBFB0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
