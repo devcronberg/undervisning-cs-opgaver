@@ -10,7 +10,7 @@ namespace Klasser_terning
 
         public Terning()
         {
-            Ryst();
+            this.værdi = 1;
             this.snyd = false;
         }
 
