@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arv-terning-med-polymorfi",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arv-terning-uden-polymorfi", "arv-terning-uden-polymorfi\arv-terning-uden-polymorfi.csproj", "{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder-statisk", "Metoder-statisk\Metoder-statisk.csproj", "{DD45A20A-EB5E-47AE-825E-5E308D20E394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD45A20A-EB5E-47AE-825E-5E308D20E394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{142696E7-12C0-421D-B0C1-E9A531E4A413} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
 		{B8D99D8D-AF57-49D9-996E-D00E76DCEA10} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
 		{9A05F13E-8CA5-42CC-B42A-3ABE943AFF27} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
+		{DD45A20A-EB5E-47AE-825E-5E308D20E394} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
