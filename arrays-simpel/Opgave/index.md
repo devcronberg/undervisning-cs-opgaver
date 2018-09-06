@@ -1,6 +1,14 @@
 ﻿# Arrays (Simpel)
 
-Du skal oprette et (int) array med et antal tilfældige månedslønninger, udskrive disse samt et beregne et gennemsnit.
+I en tom konsol-app skal du oprette et (int) array med et antal tilfældige månedslønninger, udskrive disse samt et beregne et gennemsnit. 
+
+Brug evt. dette som udgangspunkt:
+
+```csharp
+int[] månedsløn = { 10000, 20000, 15000, 20000, 30000, 15000 };
+```
+
+Resultatet skal se nogenlunde således ud:
 
 ```
 10000

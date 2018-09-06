@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "klasser-statisk", "klasser-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-nullable", "variabler-nullable\metoder-nullable.csproj", "{2B1A1515-5D30-49E5-A8C5-28041CBE5D23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-split", "arrays-split\arrays-split.csproj", "{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{2B1A1515-5D30-49E5-A8C5-28041CBE5D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1A1515-5D30-49E5-A8C5-28041CBE5D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1A1515-5D30-49E5-A8C5-28041CBE5D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +266,7 @@ Global
 		{C4F2778D-1564-49EF-992C-5AEAA74AD668} = {49268C95-C4C9-4826-A12D-680379CBFB0F}
 		{B5F5F404-C3B3-4332-9E4C-ADAFE59031DA} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
 		{2B1A1515-5D30-49E5-A8C5-28041CBE5D23} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
+		{C129A1EE-DA10-42F9-A964-6D9F5C2DAA25} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
