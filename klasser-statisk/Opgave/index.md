@@ -5,4 +5,4 @@ Du skal skabe en tom konsol-applikation med en enkelt klasse kaldet Beregninger.
 * int LægSammen(int a, int b) der lægger to tal sammen
 * int TrækFra(int a, int b) der trækker to tal fra hinanden
 
-Man må _ikke_ kunne skabe en instans af klassen (privat constructor).
+Man må _ikke_ kunne skabe en instans af klassen (static class / privat constructor).
