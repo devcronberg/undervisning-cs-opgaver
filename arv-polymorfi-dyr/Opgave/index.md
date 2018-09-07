@@ -16,3 +16,26 @@ string[] navne = System.IO.File.ReadAllLines(sti);
 ```
 
 Skab 20 dyr og placer dem i et array af Dyr. Løb herefter arrayet igennem og kald SigNoget() (som runtime jo ved findes på både Hund og Kat fordi den kommer fra Dyr).
+
+PS - TilfældigtDyr() kan evt. kodes som
+
+```csharp
+
+private static System.Random rnd = new Random();
+
+public static Dyr TilfældigtDyr()
+{
+
+    string sti = @"x:\dyrenavne.txt";
+    string[] navne = System.IO.File.ReadAllLines(sti);
+    int index = rnd.Next(0, navne.Length);
+    if (index % 2 == 0)
+    {
+        return new Hund() { Navn = navne[index] };
+    }
+    else
+    {
+        return new Kat() { Navn = navne[index] };
+    }
+}
+```
