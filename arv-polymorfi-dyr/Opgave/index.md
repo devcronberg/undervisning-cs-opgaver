@@ -7,7 +7,7 @@ Du skal skabe en konsol applikation med følgende klasser
 
 Test både Hund og Kat ved at skabe instanser og kalde SigNoget().
 
-På Dyr skal du nu skabe en statisk metode TilfældigtDyr() som enten returnerer en Hund eller en Kat med et tilfældigt navn fra filen dyrenavne.txt (se fællesdrev). Brug System.Random til at finde et tilfældigt tal, og brug dette til at finde og returnere et tilfældigt Dyr. 
+På Dyr skal du nu skabe en statisk metode TilfældigtDyr() som enten returnerer en Hund eller en Kat med et tilfældigt navn fra filen dyrenavne.txt (se fællesdrev). Brug System.Random til at finde et tilfældigt tal, og brug dette til at finde og returnere et tilfældigt Dyr (hund/kat) med et tilfældigt navn. 
 Følgende skaber et array af navne fra en fil som du kan bruge til at navngive dyret:
 
 ```csharp
