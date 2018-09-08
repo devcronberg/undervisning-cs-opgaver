@@ -2,7 +2,7 @@
 
 Du skal skabe en konsol app med en klasse Kunde som følger:
 
-´´´csharp
+```csharp
 public class Kunde
 {
     // event mangler
@@ -17,17 +17,17 @@ public class Kunde
         }
     }
 }
-´´´
+```
 
 I klassen skal der være en hændelse (event) kaldet KreditOverskredet. Den skal kaldes såfremt kreditmax overskrides. Hændelsen skal blot være af typen EventHandler, der som argument tager en sender (object) og eventargs (System.EventArgs). Se evt. løsning.
 
 Følgende kode kan benyttes som test:
 
-´´´csharp
+```csharp
 Kunde k = new Kunde() { KreditMax = -500 };
 k.KreditOverskredet += (s, e) => {
     Console.WriteLine("Kredit overskredet");
 };
 k.Køb(100);
 k.Køb(600);	// Her skal metoden bundet til KreditOverskredet blive kaldt automatisk
-´´´
+```

@@ -4,12 +4,12 @@ Du skal skabe en konsol app der skal lytte efter rettelser i tekstfiler i c:\tem
 
 Brug FileSystemWatcher (System.IO), og bind en metode til Changed-hændelsen. Brug evt. følgende skabelon kode
 
-´´´csharp
+```csharp
 System.IO.FileSystemWatcher w =
     new System.IO.FileSystemWatcher(@"c:\temp", "*.txt");
 w.EnableRaisingEvents = true;
 // bind en metode til w.Changed
-´´´
+```
 
 Brug et uendeligt loop så applikationen holdes ”åben” og ”lytter”.
 
