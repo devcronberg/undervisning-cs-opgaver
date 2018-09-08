@@ -14,3 +14,7 @@ class Person {
 * Skriv dem ud i en ForEach
 
 Prøv også at skabe en generisk Dictionary hvor nøglen er en int og værdien af en instans af en Person. Tilføj 3 forskellige personer og find en person udfra nøglen (lst[x]).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

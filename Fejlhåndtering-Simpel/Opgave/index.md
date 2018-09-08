@@ -29,3 +29,7 @@ fejl – [den konkret exception message]” ved en eventuel fejl.
 
 Overvej hvordan koden kan ændres således, at brugeren blot bliver bedt om
 at prøve igen - dog max 3 gange. Se forslag til løsning i metoden PrøvIgen.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

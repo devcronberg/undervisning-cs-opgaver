@@ -32,3 +32,7 @@ Console.WriteLine(t2.Værdi);
 ```
 
 Du har nu skabt en (fattigmands)implementation af (konstruktor baseret) dependency injection.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

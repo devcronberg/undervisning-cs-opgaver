@@ -15,3 +15,6 @@ Console.WriteLine(appSettings.AppId);   // 10
 appSettings = AppSettings.HentAppSettings();
 Console.WriteLine(appSettings.AppId);   // 10
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

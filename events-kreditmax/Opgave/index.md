@@ -31,3 +31,6 @@ k.KreditOverskredet += (s, e) => {
 k.Køb(100);
 k.Køb(600);	// Her skal metoden bundet til KreditOverskredet blive kaldt automatisk
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

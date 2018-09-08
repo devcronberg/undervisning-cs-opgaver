@@ -38,3 +38,6 @@ Ruder 3
 Hjerter 14
 Spar 2
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

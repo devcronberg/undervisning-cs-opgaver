@@ -21,3 +21,7 @@ Der burde nu skrives både til console og til tekstfilen.
 Ekstra:
 
 Prøv at slette AppendLog-metoden og tilføj den til Log som en anonym metode i stedet.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -16,3 +16,6 @@ Brug et uendeligt loop så applikationen holdes ”åben” og ”lytter”.
 Prøv at skabe både en metode og en lambda.
 
 PS - hvis du oplever at Windows smider flere hændelser i træk så er [du ikke den eneste](https://stackoverflow.com/questions/1764809/filesystemwatcher-changed-event-is-raised-twice). Bare ignorer det lige nu ;)
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -15,3 +15,6 @@ Det skal ende med
 12
 15
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -7,3 +7,7 @@ Du skal skabe en tom konsol app med en klasse Person med følgende medlemmer:
 * En metode kaldet FuldtNavn som returnerer Fornavn + ” ” + Efternavn. Overvej om det bør være en egenskab i stedet? Hvad er forskellen?
 
 Brug klassen i Main ved at skabe et objekt med new og test at det virker.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

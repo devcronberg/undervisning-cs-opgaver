@@ -30,3 +30,7 @@ skal resulterer i:
 
 
 Kopier eventuelt fra løsning.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

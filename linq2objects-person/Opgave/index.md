@@ -22,3 +22,7 @@ Prøv herefter:
 - Grupper og sorter efter height således, at der skabes grupper fra 160-170, 170-180, 180-190, 190-200, 200-210. Den svær .. kig i løsningen og søg evt på nettet.
  
 Prøv at bruge både LINQ og Lambda.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

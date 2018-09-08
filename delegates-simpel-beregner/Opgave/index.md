@@ -42,3 +42,6 @@ til funktionen kan se således ud:
 var f = FindTilfældigFunktion();
 int res4 = f(5, 5);
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -30,3 +30,6 @@ Der burde nu skrives både til console og til tekstfilen.
 
 Prøv at oprette en Maskine2 som en kopi af Maskine, og ret klassen 
 så den ikke benytter din egen delegate men en Action i stedet.
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -50,3 +50,7 @@ Du skal nu loade filen i et XDocument-objekt og skabe følgende metoder:
 - string FindNavn(XDocument d, int id)
   - Finder et givet navn efter et id. Hvis intet findes skal der returneres "?"
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

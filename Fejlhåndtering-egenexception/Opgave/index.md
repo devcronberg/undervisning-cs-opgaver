@@ -25,3 +25,6 @@ catch (Exception)
 ```
 
 Se (eller kør) evt. løsningen inden du starter.
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

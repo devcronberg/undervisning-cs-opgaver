@@ -39,3 +39,6 @@ public static Dyr TilfældigtDyr()
     }
 }
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

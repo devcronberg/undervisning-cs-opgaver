@@ -48,3 +48,6 @@ Console.WriteLine(res);
 Kan du godt se, at opgaven er præcis den samme som delegates-simpel-beregner? Den 
 opgave benytter din egen definition af en delegate - denne benytter blot den indbyggede
 Func<int, int, int>.
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

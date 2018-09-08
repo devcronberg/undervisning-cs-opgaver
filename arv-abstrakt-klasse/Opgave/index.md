@@ -25,3 +25,6 @@ Spørgsmål:
 
 * Kan man skabe en instans af Person?
 * Kan Skriv2 i Person indeholde kode?
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

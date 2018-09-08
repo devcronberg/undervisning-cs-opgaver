@@ -30,3 +30,7 @@ static void Test(){
 
 Se evt. løsning for eksempel.
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -15,3 +15,7 @@ Herefter skal du kalde a.ForEach – både ved at benytte
 en metode ListVærdi du selv har lavet, og ved at 
 benytte en lambda. Metoden skal blot udskrive alle værdier med 
 en Console.WriteLine.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

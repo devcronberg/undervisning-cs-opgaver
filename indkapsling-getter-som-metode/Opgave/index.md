@@ -9,3 +9,7 @@ Du skal skabe en tom konsol app med en klasse Trekant med følgende medlemmer:
 Test den med forskellige værdier fra Main.
 
 (se evt https://www.regneregler.dk/vilkaarlig-trekant-areal).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -6,3 +6,7 @@ Du skal skabe en tom konsol-applikation med en enkelt klasse kaldet Beregninger.
 * int TrækFra(int a, int b) der trækker to tal fra hinanden
 
 Man må _ikke_ kunne skabe en instans af klassen (static class / privat constructor).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

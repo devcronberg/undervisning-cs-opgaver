@@ -10,3 +10,7 @@ Brug ikke automatiske egenskaber… Skriv dem fuldt (propfull)
 Ekstra:
 * Der skal logges (console.writeline) når der aflæses og tildeles en værdi til Navn og Pris
 * Tilføj eventuelt en custom constructor hvor pris og navn kan angives (men man skal også kunne oprette en instans uden argumenter – så husk en tom default constructor).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

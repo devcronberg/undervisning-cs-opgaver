@@ -10,3 +10,7 @@ Start en ny tom konsol applikation:
 * Test metoden i main ved at skrive ud til consol (null = '' i WriteLine)
 
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -13,3 +13,6 @@ For at lege lidt med instans- og statiske metoder så prøv at kigge på System.
   * Udskriv Extension
 
 Bemærk, at de statiske (hjælpe)metoder kan findes på System.File og instans metoderne kræver at du opretter et objekt og kalder metoderne på selve objektet
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

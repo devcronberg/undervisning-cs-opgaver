@@ -11,3 +11,6 @@ Test klassen i main som:
 UdvidetRandom r = new UdvidetRandom();
 Console.WriteLine(r.NextBool()); // true eller false
 ```
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

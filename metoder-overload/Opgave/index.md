@@ -15,3 +15,7 @@ Console.WriteLine(Beregn(1, 2, 4, 5));
 Få det til at virke først, og prøv derefter at tilrette metoderne så kalder 
 hinanden i stedet for at have dubleret kode (se evt. løsning).
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

@@ -19,3 +19,7 @@ Prøv at skabe instanser af både Terning og LudoTerning og test at metoder fung
 Ekstra:
 
 * Der skal logges (console.writeline) når der aflæses og tildeles en værdi.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

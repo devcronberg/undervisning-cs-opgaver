@@ -13,3 +13,7 @@ Prøv eventuelt at
 * Lege escape karakterer (tab = \t, newline = \r\n) (skriv ud til console)
 * Gemme en streng til en fil (System.IO.File.WriteAllText())
  
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

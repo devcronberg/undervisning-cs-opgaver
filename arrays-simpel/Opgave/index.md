@@ -23,3 +23,6 @@ Gennemsnit 18.333,33
 Prøv eventuelt også at sortere og udskrive.
 
 PS: Spørg evt. instruktør for en mere avanceret løsning
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

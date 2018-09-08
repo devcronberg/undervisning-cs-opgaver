@@ -31,3 +31,6 @@ t2.Skriv();
 ```
 
 Prøv at oprette et par andre objekter af klassen og visualiser stack og heap.
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

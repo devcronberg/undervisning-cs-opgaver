@@ -12,3 +12,7 @@ Du skal skabe en tom konsol app med en klasse Person med følgende medlemmer:
 Brug klassen i Main ved at skabe en 2-3 objekter med new og test at metoderne virker.
 
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

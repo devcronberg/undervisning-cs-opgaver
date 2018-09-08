@@ -14,3 +14,7 @@ Start en ny tom konsol applikation og sørg for følgende:
 
 Se løsning for inspiration.
 
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

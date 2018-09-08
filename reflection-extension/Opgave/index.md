@@ -9,3 +9,7 @@ Console.WriteLine(r.FormatName());
 ```
 
 Du skal altså skabe en extension method der udvider System.String med en FormatName-metode (første bogstav skal konverteres til stort).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

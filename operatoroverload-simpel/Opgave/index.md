@@ -10,3 +10,7 @@ Console.WriteLine(h1 > h2);  // true
 
 Ekstra: 
 Prøv evt. også at overloade == og !=
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->

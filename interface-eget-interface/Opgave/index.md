@@ -26,3 +26,7 @@ en hund og en ubåd), og tilføj et par objekter af både Hund og Ubåd. Løb nu
 arrayet igennem og kald Gem(). Der skulle gerne skrives hhv. ”Gemmer hund…” og 
 ”Gemmer ubåd…”. Du har altså skabt en samhørighed mellem en hund og ubåd 
 ved at begge klasser består af en konkret metode.
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->
