@@ -1,6 +1,6 @@
 ﻿# LINQ to XML
 
-Du skal skabe en konsol app og i denne tilføje en xml-fil kaldet personer.xml med følgende indehold:
+Du skal skabe en konsol app og i denne tilføje en xml-fil kaldet personer.xml med følgende indhold:
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
