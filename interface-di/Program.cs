@@ -22,6 +22,13 @@ class Program
             Console.WriteLine(t2.Værdi);
         }
 
+        // Hold console åben ved debug
+        if (System.Diagnostics.Debugger.IsAttached)
+        {
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey();
+        }
+
     }
 }
 

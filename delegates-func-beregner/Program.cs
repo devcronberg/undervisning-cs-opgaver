@@ -21,6 +21,12 @@ namespace delegates_func_beregner
             res = f(5, 5);
             Console.WriteLine(res);
 
+            // Hold console åben ved debug
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.Write("Press any key to continue . . . ");
+                Console.ReadKey();
+            }
         }
 
         public static int Beregner(int a, int b, Func<int, int, int> funktion)
