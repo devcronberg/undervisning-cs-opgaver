@@ -23,4 +23,5 @@ Prøv herefter:
  
 Prøv at bruge både LINQ og Lambda.
 
+[comment]: # (This actually is the most platform independent comment)
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
