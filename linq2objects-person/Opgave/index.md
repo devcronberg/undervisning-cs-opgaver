@@ -23,5 +23,6 @@ Prøv herefter:
  
 Prøv at bruge både LINQ og Lambda.
 
-[comment]: # (This actually is the most platform independent comment)
+[comment]: # footerstart
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+[comment]: # footerslut
