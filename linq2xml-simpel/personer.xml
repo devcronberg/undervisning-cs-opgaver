@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<personer>
+  <person id="1">
+    <navn>Mikkel</navn>
+    <alder>15</alder>
+  </person>
+  <person id="2">
+    <navn>Mathias</navn>
+    <alder>12</alder>
+  </person>
+  <person id="3">
+    <navn>Lene</navn>
+    <alder>53</alder>
+  </person>
+  <person id="4">
+    <navn>Michell</navn>
+    <alder>51</alder>
+  </person>
+  <person id="5">
+    <navn>Lis</navn>
+    <alder>73</alder>
+  </person>
+  <person id="6">
+    <navn>Bjarne</navn>
+    <alder>75</alder>
+  </person>
+  <person id="7">
+    <navn>Lise</navn>
+    <alder>41</alder>
+  </person>
+  <person id="8">
+    <navn>Peter</navn>
+  </person>
+</personer>

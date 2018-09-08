@@ -129,6 +129,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "150 LINQ2Objects", "150 LIN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq2objects-person", "linq2objects-person\linq2objects-person.csproj", "{81C6C489-4FF5-467C-8D2C-16F23E50EC74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "153 Linq2XML", "153 Linq2XML", "{C653D15D-8F7A-4918-843D-DF2A53A20A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq2xml-simpel", "linq2xml-simpel\linq2xml-simpel.csproj", "{E075E686-6524-4A26-A9A8-85295151224F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -323,6 +327,10 @@ Global
 		{81C6C489-4FF5-467C-8D2C-16F23E50EC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C6C489-4FF5-467C-8D2C-16F23E50EC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C6C489-4FF5-467C-8D2C-16F23E50EC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E075E686-6524-4A26-A9A8-85295151224F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E075E686-6524-4A26-A9A8-85295151224F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E075E686-6524-4A26-A9A8-85295151224F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E075E686-6524-4A26-A9A8-85295151224F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -375,6 +383,7 @@ Global
 		{45E9C9C4-6644-40DB-A9B8-11F8F1E22963} = {92DBBE8B-0F00-48C5-8E5C-54A08E390F37}
 		{0672C274-6ABA-41E0-8BD2-7A6456B2FD9A} = {BD2A6845-614A-46D4-9C83-E8268E09FAA3}
 		{81C6C489-4FF5-467C-8D2C-16F23E50EC74} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
+		{E075E686-6524-4A26-A9A8-85295151224F} = {C653D15D-8F7A-4918-843D-DF2A53A20A56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
