@@ -137,6 +137,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "900 Tools", "900 Tools", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetFooter", "SetFooter\SetFooter.csproj", "{0C48F946-41C0-41A8-B030-42D6C78162F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "145 Dynamic", "145 Dynamic", "{25488A58-62B2-4B7F-95FA-233B26A3C370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic-anonym", "dynamic-anonym\dynamic-anonym.csproj", "{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +343,10 @@ Global
 		{0C48F946-41C0-41A8-B030-42D6C78162F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C48F946-41C0-41A8-B030-42D6C78162F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C48F946-41C0-41A8-B030-42D6C78162F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +401,7 @@ Global
 		{81C6C489-4FF5-467C-8D2C-16F23E50EC74} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
 		{E075E686-6524-4A26-A9A8-85295151224F} = {C653D15D-8F7A-4918-843D-DF2A53A20A56}
 		{0C48F946-41C0-41A8-B030-42D6C78162F2} = {0226F319-A358-46B5-ABFF-043CA3E91F75}
+		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84} = {25488A58-62B2-4B7F-95FA-233B26A3C370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
