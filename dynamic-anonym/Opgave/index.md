@@ -1,15 +1,15 @@
 ﻿# Anonyme objekter 
 
-Du skal skabe en konsol app og:
+Med udgangspunkt i en ny konsol app skal du:
 
-- dan et anonymt objekt med felterne navn (værdi a) og alder (værdi 10)
-- skriv ud på console "Person hedder [navn] og er [alder]"
-- dan en metode SkrivPerson der som argument tager et anonymt (dynamic) objekt og 
+- danne et anonymt objekt med felterne navn (værdi a) og alder (værdi 10)
+- skrive ud på console "Person hedder [navn] og er [alder]"
+- danne en metode SkrivPerson der som argument tager et anonymt (dynamic) objekt og 
 skriver ud på console "Person hedder [navn] og er [alder]".
-- kald metoden
-- dan et nyt ExandoObject med felterne navn (værdi b) og alder (værdi 20)
-- skriv ud på console "Person hedder [navn] og er [alder]"
-- kald SkrivPerson-metoden
+- kalde metoden
+- danne et nyt ExandoObject med felterne navn (værdi b) og alder (værdi 20)
+- skrive ud på console "Person hedder [navn] og er [alder]"
+- kalde SkrivPerson-metoden
 
 Det skulle gerne ende med
 
