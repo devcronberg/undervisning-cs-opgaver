@@ -1,4 +1,4 @@
-﻿# IO (File/Directory)
+﻿# IO (FileInfo/DirectoryInfo)
 
 Du skal skabe en konsol app hvor du skal benytte System.IO.FileInfo og System.IO.DirectoryInfo til at:
 

@@ -147,6 +147,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-brug-af-fileogdirectory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-brug-af-fileinfoogdirectoryinfo", "io-brug-af-fileinfoogdirectoryinfo\io-brug-af-fileinfoogdirectoryinfo.csproj", "{01D5A620-22FE-409C-9A15-960DD01740C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "168 Data", "168 Data", "{A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-sqlite", "data-sqlite\data-sqlite.csproj", "{1B09742E-BE8A-4E6D-8433-05EB678E1C92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -361,6 +365,10 @@ Global
 		{01D5A620-22FE-409C-9A15-960DD01740C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D5A620-22FE-409C-9A15-960DD01740C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D5A620-22FE-409C-9A15-960DD01740C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B09742E-BE8A-4E6D-8433-05EB678E1C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B09742E-BE8A-4E6D-8433-05EB678E1C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B09742E-BE8A-4E6D-8433-05EB678E1C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B09742E-BE8A-4E6D-8433-05EB678E1C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -418,6 +426,7 @@ Global
 		{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84} = {25488A58-62B2-4B7F-95FA-233B26A3C370}
 		{E3EF7D79-1CF7-47CA-819A-F91C7FAA3FA7} = {72A0EBF9-D732-4993-9F61-1915D6095837}
 		{01D5A620-22FE-409C-9A15-960DD01740C1} = {72A0EBF9-D732-4993-9F61-1915D6095837}
+		{1B09742E-BE8A-4E6D-8433-05EB678E1C92} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
