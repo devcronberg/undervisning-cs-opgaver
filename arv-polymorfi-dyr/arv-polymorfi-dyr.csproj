@@ -50,8 +50,5 @@
     <None Include="App.config" />
     <None Include="Opgave\index.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="dyrenavne.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
