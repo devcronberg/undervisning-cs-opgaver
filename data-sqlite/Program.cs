@@ -16,15 +16,54 @@ namespace data_sqlite
 
         static void Main(string[] args)
         {
-            // Sørg for at køre denne mindst en gang
+            // Sørg for at køre denne mindst en gang (ellers overskriver den bare db med "friske" data)
             // Den opretter en simpel database med en tabel kaldet Person
             // med skemaet PersonId (int/auto/key), Navn (varchar), Alder (int)
             // og nogle få rækker
             Setup();
+
             VisData_DataReader();
             Console.WriteLine();
             VisData_DataTable();
+            Console.WriteLine();
+            Console.WriteLine(FindAntalUnder20());
+            Console.WriteLine();
+            OpdaterPerson();
+            Console.WriteLine();
+            VisData_DataReader();
 
+        }
+
+        private static void OpdaterPerson()
+        {
+
+            using (SQLiteConnection cn = new SQLiteConnection(connectionString))
+            {
+                cn.Open();
+                using (SQLiteCommand cm = new SQLiteCommand(cn))
+                {
+                    cm.CommandText = "update person set alder = 16 where personid = 1";
+                    cm.CommandType = System.Data.CommandType.Text;
+                    int antal = cm.ExecuteNonQuery();
+                    Console.WriteLine("Person opdateret - " + antal + " poster påvirket");
+                }
+            }
+        }
+
+        private static int FindAntalUnder20()
+        {
+
+            using (SQLiteConnection cn = new SQLiteConnection(connectionString))
+            {
+                cn.Open();
+                using (SQLiteCommand cm = new SQLiteCommand(cn))
+                {
+                    cm.CommandText = "select count(*) from person where alder<20";
+                    cm.CommandType = System.Data.CommandType.Text;
+                    object resultat = cm.ExecuteScalar();
+                    return Convert.ToInt32(resultat);
+                }
+            }
         }
 
         private static void VisData_DataReader()
@@ -48,6 +87,7 @@ namespace data_sqlite
             }
         }
 
+        // Ekstra
         private static void VisData_DataTable()
         {
             DataTable dt = new DataTable("data");
