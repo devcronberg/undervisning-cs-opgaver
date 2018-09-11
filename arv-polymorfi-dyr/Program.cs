@@ -10,6 +10,21 @@ namespace arv_polymorfi_dyr
     {
         static void Main(string[] args)
         {
+
+            Hund h = new Hund() { Navn = "a" };
+            h.SigNoget();
+            Kat k = new Kat() { Navn = "b" }; ;
+            k.SigNoget();
+            Dyr d = new Kat() { Navn = "c" }; ;
+            d.SigNoget();
+            Console.WriteLine();
+            List<Dyr> forskelligeDyr = new List<Dyr>() { h, k, new Hund() { Navn = "c" }, new Kat() { Navn = "d" } };
+            foreach (Dyr item in forskelligeDyr)
+            {
+                item.SigNoget();
+            }
+            Console.WriteLine();
+
             Dyr[] dyr = new Dyr[20];
             for (int i = 0; i < 20; i++)
             {
