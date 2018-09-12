@@ -16,6 +16,10 @@ metoden når app starter. Metoden opretter en simpel database med en tabel kalde
 PersonId (int/auto/key), Navn (varchar), Alder (int) og nogle få rækker med data (se metode):
 
 ```csharp
+
+private static string databaseFil = "personer.db";
+private static string connectionString = "Data Source=" + databaseFil + ";Version=3;";
+
 private static void Setup()
 {
     SQLiteConnection.CreateFile(databaseFil);
