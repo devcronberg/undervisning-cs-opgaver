@@ -16,7 +16,7 @@ Prøv herefter:
 - Sorter og udskriv efter navn og udskriv igen
 - Sorter og udskriv efter gender og så navn
 - Filtre og udskriv således, at der kun vises personer hvor height < 170
-- Filtre og udskriv således, at der kun vises personer hvor gender=  < 170, isHealthy = true
+- Filtre og udskriv således, at der kun vises personer hvor height =  < 170, isHealthy = true
 - Gruppér efter gender og udskriv hver gruppe (husk – der er tale om tilfældige navn/gender mv)
 - Sorter og udskriv navn – men der skal kun returneres et anonymt objekt med navn og height	
 - Grupper og sorter efter height således, at der skabes grupper fra 160-170, 170-180, 180-190, 190-200, 200-210. Den svær .. kig i løsningen og søg evt på nettet.

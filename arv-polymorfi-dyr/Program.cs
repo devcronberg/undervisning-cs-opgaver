@@ -10,6 +10,21 @@ namespace arv_polymorfi_dyr
     {
         static void Main(string[] args)
         {
+
+            Hund h = new Hund() { Navn = "a" };
+            h.SigNoget();
+            Kat k = new Kat() { Navn = "b" }; ;
+            k.SigNoget();
+            Dyr d = new Kat() { Navn = "c" }; ;
+            d.SigNoget();
+            Console.WriteLine();
+            List<Dyr> forskelligeDyr = new List<Dyr>() { h, k, new Hund() { Navn = "c" }, new Kat() { Navn = "d" } };
+            foreach (Dyr item in forskelligeDyr)
+            {
+                item.SigNoget();
+            }
+            Console.WriteLine();
+
             Dyr[] dyr = new Dyr[20];
             for (int i = 0; i < 20; i++)
             {
@@ -36,9 +51,11 @@ namespace arv_polymorfi_dyr
         public static Dyr TilfældigtDyr()
         {
 
-            string sti = @"x:\dyrenavne.txt";
-            string[] navne = System.IO.File.ReadAllLines(sti);
-            int index = rnd.Next(0, navne.Length);
+            string data = "Freja;Bella;Emma;Mille;Fie;Molly;Lady;Trine;Trunte;Luna;Amanda;";
+            data += "Bonnie;Laika;Ronja;Sally;Trille;Zita;Tøsen;Bianca;Zenta;Victor;Buller;";
+            data += "Buster;King;Simba;Thor;Charlie;Samson;Bamse;Mickey;Max;Rasmus;Sofus;Anton;";
+            data += "Laban;Basse;Bølle;Oliver;Oscar;Balder";
+            string[] navne = data.Split(';'); int index = rnd.Next(0, navne.Length);
             if (index % 2 == 0)
             {
                 return new Hund() { Navn = navne[index] };

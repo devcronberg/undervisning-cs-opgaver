@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA4FBA0E-1E8B-43F4-AFB3-818C68EA66D3}</ProjectGuid>
+    <ProjectGuid>{F7C4C904-52F2-481B-B55C-F4F77C2C6CC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>arv_polymorfi_dyr</RootNamespace>
-    <AssemblyName>arv-polymorfi-dyr</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>gemerics_swap</RootNamespace>
+    <AssemblyName>gemerics-swap</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
