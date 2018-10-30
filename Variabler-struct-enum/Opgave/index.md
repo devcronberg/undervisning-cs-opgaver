@@ -8,7 +8,7 @@ Du kan vælge om du vil lægge struct og enum i en fil for sig selv eller i prog
 
 Brug debugger’en så meget som muligt.
 
-Se løsning for inspiration.
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-struct-enum) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
