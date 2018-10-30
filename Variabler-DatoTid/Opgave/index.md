@@ -12,7 +12,7 @@ Start en ny tom konsol applikation og sørg for følgende:
 * Opret et TimeSpan t4, tildel den værdien af t2-t3 og skriv ud
 * Opret et TimeSpan t5, tildel den værdien af t2+t3 og skriv ud
 
-Se løsning for inspiration.
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-DatoTid/Program.cs) for inspiration.
 
 
 <!-- footerstart -->
