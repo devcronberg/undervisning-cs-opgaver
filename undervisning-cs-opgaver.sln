@@ -165,6 +165,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-task", "async-task\as
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-heltsimpel", "delegates-heltsimpel\delegates-heltsimpel.csproj", "{AB9AEA09-1004-4B74-A2A7-63C899968CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-rekursiv-filer", "metoder-rekursiv-filer\metoder-rekursiv-filer.csproj", "{FE1646C4-C292-484C-A6BE-8FE72B1C4470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -403,6 +405,10 @@ Global
 		{AB9AEA09-1004-4B74-A2A7-63C899968CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9AEA09-1004-4B74-A2A7-63C899968CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9AEA09-1004-4B74-A2A7-63C899968CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1646C4-C292-484C-A6BE-8FE72B1C4470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1646C4-C292-484C-A6BE-8FE72B1C4470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1646C4-C292-484C-A6BE-8FE72B1C4470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1646C4-C292-484C-A6BE-8FE72B1C4470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -466,6 +472,7 @@ Global
 		{0CB22466-09EF-4718-8D1F-73DBB9CC3DBC} = {8F6A4123-7050-42C8-BDEB-AF99BFB25A00}
 		{D5A0B90C-5AE6-4457-9615-0EB1B21598FA} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
 		{AB9AEA09-1004-4B74-A2A7-63C899968CBD} = {9DBA3402-0D65-4538-A870-1D277010F40E}
+		{FE1646C4-C292-484C-A6BE-8FE72B1C4470} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
