@@ -6,6 +6,8 @@ Start en ny tom konsol applikation og sørg for følgende:
 
 Du kan vælge om du vil lægge struct og enum i en fil for sig selv eller i program.cs.
 
+Ekstra: Tilføj evt. en enum Køn, og brug den i Person.
+
 Brug debugger’en så meget som muligt.
 
 Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-struct-enum) for inspiration.
