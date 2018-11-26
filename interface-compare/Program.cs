@@ -25,7 +25,7 @@ namespace Test
         }
     }
 
-    class Hund : IComparable
+    class Hund : IComparable< Hund >
     {
         public string Navn { get; set; }
         public int Alder { get; set; }
@@ -40,7 +40,7 @@ namespace Test
         //    return 0;
         // }
         
-        public int CompareTo<Hund>(Hund h)
+        public int CompareTo(Hund h)
         {            
             if (h.Alder > this.Alder)
                 return -1;
