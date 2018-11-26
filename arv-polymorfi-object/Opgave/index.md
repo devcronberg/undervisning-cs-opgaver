@@ -11,6 +11,8 @@ skrive ud på konsolen. Den burde udskrive navnet på typen.
 
 Tilføj nu en overskrevet version af ToString der returnerer "Faktura til {Kunde} nr {Nr} fra {Dato}".
 
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-polymorfi-object/Program.cs)
+
 Prøv at køre programmet igen - giver ToString mere mening nu?
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
