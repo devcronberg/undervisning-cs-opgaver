@@ -11,6 +11,9 @@ Test klassen i main som:
 UdvidetRandom r = new UdvidetRandom();
 Console.WriteLine(r.NextBool()); // true eller false
 ```
+
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-random-udvid/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
