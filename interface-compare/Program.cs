@@ -25,6 +25,7 @@ namespace Test
         }
     }
 
+    // class Hund : IComparable
     class Hund : IComparable< Hund >
     {
         public string Navn { get; set; }
