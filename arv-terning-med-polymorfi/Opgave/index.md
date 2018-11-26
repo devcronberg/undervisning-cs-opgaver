@@ -16,6 +16,8 @@ Skab nu en ny klasse LudoTerning der arver fra Terning. Klassen har to metoder
 
 Prøv at skabe instanser af både Terning og LudoTerning og test at metoder fungerer.	
 
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/arv-terning-med-polymorfi)
+
 Ekstra:
 
 * Der skal logges (console.writeline) når der aflæses og tildeles en værdi.
