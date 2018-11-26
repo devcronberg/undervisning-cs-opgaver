@@ -30,15 +30,24 @@ namespace Test
         public string Navn { get; set; }
         public int Alder { get; set; }
 
-        public int CompareTo(object obj)
-        {
-            Hund h = obj as Hund;
+        //public int CompareTo(object obj)
+        //{
+        //    Hund h = obj as Hund;
+        //    if (h.Alder > this.Alder)
+        //        return -1;
+        //    if (h.Alder < this.Alder)
+        //        return 1;
+        //    return 0;
+        // }
+        
+        public int CompareTo<Hund>(Hund h)
+        {            
             if (h.Alder > this.Alder)
                 return -1;
             if (h.Alder < this.Alder)
                 return 1;
             return 0;
-        }
+        }        
     }
 }
 
