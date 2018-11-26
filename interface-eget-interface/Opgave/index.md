@@ -27,6 +27,8 @@ arrayet igennem og kald Gem(). Der skulle gerne skrives hhv. ”Gemmer hund…�
 ”Gemmer ubåd…”. Du har altså skabt en samhørighed mellem en hund og ubåd 
 ved at begge klasser består af en konkret metode.
 
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/interface-eget-interface/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
