@@ -16,20 +16,16 @@ namespace delegates_heltsimpel
             f1.Invoke("test");
             
             MinDelegate1 f2 = MinSkrivTilConsole;
-            f2.Invoke("test");
+            f2("test");
             
             MinDelegate1 f3 = MinSkrivTilConsole;
+            f3 += Console.WriteLine;
             f3("test");
             
             f1 -= MinSkrivTilConsole;
             f2 -= MinSkrivTilConsole;
             f3 -= MinSkrivTilConsole;
-
-            MinDelegate1 f4 = MinSkrivTilConsole;
-            f4 += Console.WriteLine;
-            f4("test");
-            f4 -= Console.WriteLine;
-            f4 -= MinSkrivTilConsole; 
+            f3 -= Console.WriteLine;
 
         }
 
