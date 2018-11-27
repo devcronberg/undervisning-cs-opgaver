@@ -29,6 +29,8 @@ Nu skal du:
   - ryd op i alle delegate objekter med -= så der ikke længere eksisterer referencer til metoder
     - test det evt ved at kalde f1, f2 og f3 igen. Får du en null-ref exception? Hvorfor?
 
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-heltsimpel/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
