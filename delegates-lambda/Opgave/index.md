@@ -16,6 +16,8 @@ en metode ListVærdi du selv har lavet, og ved at
 benytte en lambda. Metoden skal blot udskrive alle værdier med 
 en Console.WriteLine.
 
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-lambda/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
