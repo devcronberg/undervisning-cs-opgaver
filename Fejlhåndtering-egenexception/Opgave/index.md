@@ -24,7 +24,7 @@ catch (Exception)
 }
 ```
 
-Se (eller kør) evt. løsningen inden du starter.
+Se (eller kør) [evt. løsningen](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Fejlh%C3%A5ndtering-egenexception/Program.cs) inden du starter.
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
