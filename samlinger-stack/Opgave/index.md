@@ -38,6 +38,9 @@ Ruder 3
 Hjerter 14
 Spar 2
 ```
+
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/samlinger-stack/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
