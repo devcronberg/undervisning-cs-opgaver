@@ -5,7 +5,7 @@ Du skal skabe en tom konsol app med en klasse Vare med følgende medlemmer:
 * En offentlig egenskab (double) Pris (med private felt kaldet pris)
 * En offentlig metode PrisMedMoms 
 
-Brug ikke automatiske egenskaber… Skriv dem fuldt (propfull)
+Skriv dem fuldt (propfull)
 
 Ekstra:
 * Der skal logges (console.writeline) når der aflæses og tildeles en værdi til Navn og Pris
