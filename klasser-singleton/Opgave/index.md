@@ -15,6 +15,9 @@ Console.WriteLine(appSettings.AppId);   // 10
 appSettings = AppSettings.HentAppSettings();
 Console.WriteLine(appSettings.AppId);   // 10
 ```
+
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/klasser-singleton/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
