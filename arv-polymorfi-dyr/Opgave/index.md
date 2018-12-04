@@ -50,6 +50,9 @@ public static Dyr TilfældigtDyr()
     }
 }
 ```
+
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-polymorfi-dyr/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

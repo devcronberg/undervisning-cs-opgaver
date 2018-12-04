@@ -12,6 +12,8 @@ Ekstra:
 * Der skal logges (console.writeline) når der aflæses og tildeles en værdi.
 * Tilføj eventuelt en custom constructor hvor værdi kan angives når der oprettes en instans.
 
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-terning/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

@@ -30,6 +30,8 @@ fejl – [den konkret exception message]” ved en eventuel fejl.
 Overvej hvordan koden kan ændres således, at brugeren blot bliver bedt om
 at prøve igen - dog max 3 gange. Se forslag til løsning i metoden PrøvIgen.
 
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Fejlh%C3%A5ndtering-Simpel/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

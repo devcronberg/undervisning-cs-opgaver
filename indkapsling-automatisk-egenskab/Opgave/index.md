@@ -8,6 +8,8 @@ Du skal skabe en tom konsol app med en klasse Person med følgende medlemmer:
 
 Brug klassen i Main ved at skabe et objekt med new og test at det virker.
 
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-automatisk-egenskab/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

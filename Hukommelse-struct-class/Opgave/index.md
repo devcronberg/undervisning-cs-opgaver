@@ -43,6 +43,9 @@ Du skulle gerne komme frem til at når der er tale om en værdibaseret variabel 
 og når der er tale om en class:
 
 ![class](class.png)
+
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Hukommelse-struct-class/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

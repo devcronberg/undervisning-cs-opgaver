@@ -25,6 +25,9 @@ Spørgsmål:
 
 * Kan man skabe en instans af Person?
 * Kan Skriv2 i Person indeholde kode?
+
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-abstrakt-klasse/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

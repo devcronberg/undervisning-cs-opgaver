@@ -15,6 +15,8 @@ class Person {
 
 Prøv også at skabe en generisk Dictionary hvor nøglen er en int og værdien af en instans af en Person. Tilføj 3 forskellige personer og find en person udfra nøglen (lst[x]).
 
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/samlinger-simpel/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
