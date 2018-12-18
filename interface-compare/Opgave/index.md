@@ -31,6 +31,7 @@ namespace Test
 
 Når du afvikler applikationen vil du få en fejl fordi frameworket ikke ved hvordan objekterne skal sammenlignes. Sørg nu for at implementere IComparable< Hund > (eller bare IComparable men det kræver typekonvertering), og sammenlign to objekter på Alder. Metoden bør returnere -1, 1 eller 0. Nu burde frameworket kunne sortere.
     
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/interface-compare/Program.cs)
     
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
