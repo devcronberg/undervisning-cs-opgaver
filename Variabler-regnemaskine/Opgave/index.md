@@ -10,7 +10,12 @@ Start en ny tom konsol applikation der kan lægge to tal sammen:
 * Læg t1 og t2 sammen og tildel resulat til en ny double variabel
 * Udskriv resultat formateret med to decimaler og tusindtal seperator
 
-Se løsning for inspiration.
+Prøv også at
+
+* taste et "forkert" tal ind (eksempelvis 10a) - hvad sker der så? (der burde ske en fejl - prøv både med og uden debugger)
+* bruge både . og , som decimaltegn - hvad sker der så? (konvertering benytter den kultur maskinen nu har)
+
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-regnemaskine/Program.cs) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
