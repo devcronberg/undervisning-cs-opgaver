@@ -4,15 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0BF98DC-1CF9-4204-8CCE-F5A7CFF0CA84}</ProjectGuid>
+    <ProjectGuid>{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>dynamic_anonym</RootNamespace>
-    <AssemblyName>dynamic-anonym</AssemblyName>
+    <RootNamespace>Variabler_regnemaskine</RootNamespace>
+    <AssemblyName>Variabler-regnemaskine</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

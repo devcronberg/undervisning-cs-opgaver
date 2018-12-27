@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-rekursiv-filer", "m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejlhåndtering-egenexception-bibliotek", "Fejlhåndtering-egenexception-bibliotek\Fejlhåndtering-egenexception-bibliotek.csproj", "{6EB4348C-5F39-4690-9B1C-1D7192B4A3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler-regnemaskine", "Variabler-regnemaskine\Variabler-regnemaskine.csproj", "{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -415,6 +417,10 @@ Global
 		{6EB4348C-5F39-4690-9B1C-1D7192B4A3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB4348C-5F39-4690-9B1C-1D7192B4A3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB4348C-5F39-4690-9B1C-1D7192B4A3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -480,6 +486,7 @@ Global
 		{AB9AEA09-1004-4B74-A2A7-63C899968CBD} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{FE1646C4-C292-484C-A6BE-8FE72B1C4470} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 		{6EB4348C-5F39-4690-9B1C-1D7192B4A3DE} = {F2EC2426-9609-48FF-9C98-F2D2804D5E72}
+		{94F7DDF1-5F2B-4D58-A175-A52989CEDB3E} = {47863C65-BB5A-4606-9677-2B319D52E9EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
