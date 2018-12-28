@@ -7,7 +7,7 @@ Start en ny tom konsol applikation og sørg for følgende:
 
 Brug debugger’en så meget som muligt.
 
-Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-tal/Program.cs) for inspiration, og du kan også se mig løse opgaver på en video:
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-tal/Program.cs) for inspiration, og du kan også se mig løse opgaven på en video:
 
 [![](https://d1ka0itfguscri.cloudfront.net/X5q/2018/12/28/13/33/cFluIyr8xc/preview200.jpg)](https://mcronberg.screencasthost.com/watch/cFluIyr8xc)
 
