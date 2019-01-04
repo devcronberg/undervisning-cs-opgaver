@@ -18,6 +18,9 @@ int kort2Kulør = 2;
 
 vil det være oplagt at skabe en enumeration. Så din opgave er at skabe en enum kaldet KortKulør med de fire mulige værdier. Herefter skal du "rydde op" i ovennævnte kode så den bliver nemmere både at skrive og læse.
 
+- Prøv eventuelt at tildele egne værdier (spar = 10, hjerter = 20, ...).
+- Prøv eventuelt at skrive værdien af kort1Kulør ud - både som tekst og som nummer (se løsning)
+
 Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-regnemaskine/Program.cs) for inspiration.
 
 <!-- footerstart -->
