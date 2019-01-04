@@ -21,7 +21,7 @@ vil det være oplagt at skabe en enumeration. Så din opgave er at skabe en enum
 - Prøv eventuelt at tildele egne værdier (spar = 10, hjerter = 20, ...).
 - Prøv eventuelt at skrive værdien af kort1Kulør ud - både som tekst og som nummer (se løsning)
 
-Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-regnemaskine/Program.cs) for inspiration.
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-Enum/) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
