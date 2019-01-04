@@ -31,7 +31,7 @@ Vare v2Kopi = v2;
 Console.WriteLine($"{v2Kopi.Navn} koster {v2Kopi.Pris:N2}");
 ```
 
-Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-Struct/) for inspiration.
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler_Struct) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
