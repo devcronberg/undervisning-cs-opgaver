@@ -1,4 +1,4 @@
-﻿# Enum
+﻿# Struct
 
 Du skal skabe en del af en applikation der kan bruges i et ERP (Enterprise Resource Planning) system, og her skal du arbejde meget med varer. Derfor vil det være oplagt at have din egen datatype til at kunne gemme data relateret til en vare. 
 
