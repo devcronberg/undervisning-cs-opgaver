@@ -7,17 +7,15 @@ namespace MinApp
         static void Main(string[] args)
         {
 
+            SpilleKort s1 = new SpilleKort();
+            s1.Værdi = 2;
+            s1.Kulør = Kulør.Spar;
+            Console.WriteLine($"{s1.Kulør} {s1.Værdi}");
 
-            FilTyper ft = FilTyper.csv;
-            Console.WriteLine(ft);
-            Console.WriteLine((int)ft);
-
-
-            Person p;	// (eller Person p = new Person();)
-            p.id = 1;
-            p.navn = "Mikkel";
-            Console.WriteLine(p.navn);
-
+            SpilleKort s2 = new SpilleKort();
+            s2.Værdi = 10;
+            s2.Kulør = Kulør.Hjerter;
+            Console.WriteLine($"{s2.Kulør} {s2.Værdi}");
 
             // Hold console åben ved debug
             if (System.Diagnostics.Debugger.IsAttached)
@@ -29,16 +27,19 @@ namespace MinApp
         }
     }
 
-    public struct Person
+    enum Kulør
     {
-        public int id;
-        public string navn;
+        Spar,
+        Hjerter,
+        Ruder,
+        Klør
     }
 
-    public enum FilTyper
+    struct SpilleKort
     {
-        pdf,
-        txt,
-        csv
+        public int Værdi;
+        public Kulør Kulør;
     }
+
+
 }

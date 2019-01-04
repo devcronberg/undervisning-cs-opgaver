@@ -1,17 +1,31 @@
-﻿# Brug af variabler (struct/enum)
+﻿# struct/enum
 
-Start en ny tom konsol applikation og sørg for følgende:
-* Opret en enum kaldet FilTyper med værdierne csv, pdf, og txt. Opret en variabel ft af denne type, og tildel den værdien ”csv”. Udskriv ft-variablen. Overvej hvordan man kan udskrive værdien og ikke strengen.
-* Opret en struktur kaldet Person med en public int Id og public string Navn. Opret en variabel p af denne type, og tildel Id værdien 1 og Navn værdien ”Mikkel”. Udskriv navnet.
+Du skal påbegynde en kortspil-app, og til det skal du danne en struct, der repræsentere et spillekort. Kortet skal have en værdi (int) og en kulør (enum = hjerter, spar, ruder og klør).
 
-Du kan vælge om du vil lægge struct og enum i en fil for sig selv eller i program.cs.
+Når du er færdig skal du kunne køre følgende kode:
 
-Ekstra: Tilføj evt. en enum Køn, og brug den i Person.
+```csharp
+SpilleKort s1 = new SpilleKort();
+s1.Værdi = 2;
+s1.Kulør = Kulør.Spar;
+Console.WriteLine($"{s1.Kulør} {s1.Værdi}");
 
-Brug debugger’en så meget som muligt.
+SpilleKort s2 = new SpilleKort();
+s2.Værdi = 10;
+s2.Kulør = Kulør.Hjerter;
+Console.WriteLine($"{s2.Kulør} {s2.Værdi}");
+```
+
+hvilket vil resultere i 
+
+```
+Spar 2
+Hjerter 10
+```
 
 Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-struct-enum) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
+
