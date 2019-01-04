@@ -23,7 +23,7 @@ Spar 2
 Hjerter 10
 ```
 
-Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Variabler-struct-enum) for inspiration.
+Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-struct-enum/Program.cs) for inspiration.
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
