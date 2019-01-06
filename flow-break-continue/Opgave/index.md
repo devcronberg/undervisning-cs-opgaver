@@ -16,7 +16,7 @@ Det skal ende med
 15
 ```
 
-Se evt.[løsning for inspiration](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/flow-break-continue/Program.cs).
+Se evt. [løsning for inspiration](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/flow-break-continue/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
