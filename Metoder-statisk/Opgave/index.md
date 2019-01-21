@@ -3,6 +3,7 @@
 For at lege lidt med instans- og statiske metoder så prøv at kigge på System.IO.File og System.IO.FileInfo.
 
 * Opret en fil på c:\temp kaldet test.txt og put lidt tekst i
+  - PS: Husk at windows kunne finde på at kalde den test.txt.txt (måske)
 * Dan en ny consol app
 * Skriv kode der benytter (hjælpe)metoder fra System.File
   - Prøv Exists (findes filen)
