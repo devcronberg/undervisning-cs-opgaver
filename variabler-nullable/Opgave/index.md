@@ -9,7 +9,7 @@ Start en ny tom konsol applikation:
 
 * Test metoden i main ved at skrive ud til consol (null = '' i WriteLine)
 
-
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/variabler-nullable/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
