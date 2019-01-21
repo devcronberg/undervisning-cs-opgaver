@@ -29,7 +29,7 @@ skal resulterer i:
 
 
 
-Kopier eventuelt fra løsning.
+Kopier eventuelt fra [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-rekursiv/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
