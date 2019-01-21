@@ -27,7 +27,7 @@ Få koden til at virke så et kald til ```PrintFiler(@"c:\git");``` viser alle f
 den virkelige opgave er at forstå hvad der egentlig sker. Brug debuggeren og se værdien af (og skønheden ved)
 rekursion ;)
 
-Se evt. løsning.
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-rekursiv-filer/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
