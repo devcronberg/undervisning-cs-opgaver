@@ -28,7 +28,7 @@ static void Test(){
 }
 ```
 
-Se evt. løsning for eksempel.
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-simple/Program.cs) for eksempel.
 
 
 <!-- footerstart -->
