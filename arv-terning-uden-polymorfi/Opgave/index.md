@@ -9,6 +9,8 @@ Du skal skabe en tom konsol app med en klasse Terning med følgende medlemmer:
 * En Offentlig metode Skriv() der viser terningen (eksempelvis [1] eller [2]) 
 * Tilføj en default constructor (hvor Ryst kaldes) og en custom constructor hvor værdi kan angives når der oprettes en instans.
 
+Prøv terningen i Main() på forskellige måder så du er sikker på at den virker!
+
 Skab nu en ny klasse LudoTerning der arver fra Terning. Klassen har to metoder
 
 * ErGlobus() returnerer true hvis værdien er 3 – ellers false
