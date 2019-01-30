@@ -19,7 +19,7 @@ public class Kunde
 }
 ```
 
-I klassen skal der være en hændelse (event) kaldet KreditOverskredet. Den skal kaldes såfremt kreditmax overskrides. Hændelsen skal blot være af typen EventHandler, der som argument tager en sender (object) og eventargs (System.EventArgs). Se evt. løsning.
+I klassen skal der være en hændelse (event) kaldet KreditOverskredet. Den skal kaldes såfremt kreditmax overskrides. Hændelsen skal blot være af typen EventHandler, der som argument tager en sender (object) og eventargs (System.EventArgs). Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/events-kreditmax/Program.cs).
 
 Følgende kode kan benyttes som test:
 

@@ -20,9 +20,9 @@ Resultatet skal se nogenlunde således ud:
 Gennemsnit 18.333,33
 ```
 
-Prøv eventuelt også at sortere og udskrive.
+Prøv eventuelt også at sortere og udskrive. Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arrays-simpel/Program.cs).
 
-PS: Spørg evt. instruktør for en mere avanceret løsning
+PS: Opgaven kan også løses ved hjælp af LINQ - se senere
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->

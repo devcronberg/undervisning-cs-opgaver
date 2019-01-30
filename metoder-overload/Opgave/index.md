@@ -13,7 +13,7 @@ Console.WriteLine(Beregn(1, 2, 4, 5));
 ```
 
 Få det til at virke først, og prøv derefter at tilrette metoderne så kalder 
-hinanden i stedet for at have dubleret kode (se evt. løsning).
+hinanden i stedet for at have dubleret kode (se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-overload/Program.cs)).
 
 
 <!-- footerstart -->

@@ -33,6 +33,8 @@ Console.WriteLine(t2.Værdi);
 
 Du har nu skabt en (fattigmands)implementation af (konstruktor baseret) dependency injection.
 
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/interface-di/Program.cs)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
