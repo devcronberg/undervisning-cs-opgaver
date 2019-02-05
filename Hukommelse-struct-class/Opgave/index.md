@@ -5,7 +5,7 @@ Opret en ny konsol app og tilføj en struct kaldet Person med et offentligt stri
 ```csharp
 struct Person
 {
-    public string navn;
+    public int Id;
 }
 ```
 
@@ -14,17 +14,17 @@ Tilføj kode til main:
 1) 
 - Opret en ny person med Person k1 = new Person(); (så felter sættes til default værdi – best pratice)
 - Opret en ny person med Person k2 = new Person();
-- Sæt k1.navn = ”a”
-- Sæt k2.navn = ”b”
-- Udskriv k1.navn og k2.navn
+- Sæt k1.Id = 1
+- Sæt k2.Id = 2
+- Udskriv k1.Id og k2.Id
 
 2) 
 - Sæt k1 = k2;
-- Udskriv k1.navn og k2.navn
+- Udskriv k1.Id og k2.Id
 
 3)
-- Sæt k1.navn = ”c”
-- Udskriv k1.navn og k2.navn
+- Sæt k1.Id = 3
+- Udskriv k1.Id og k2.Id
 
 Hvad skriver den ud – og hvorfor??
 
@@ -36,13 +36,9 @@ Hvad skriver den ud – og hvorfor??
 
 -------------
 
-Du skulle gerne komme frem til at når der er tale om en værdibaseret variabel (struct) har koden (punkt 1 til punkt 3) følgende konsekvens:
+Du skulle gerne komme frem til, at når der er tale om en værdibaseret variabel (struct) kopieres der værdier, og når der er tale om en referencebaseret variabel kopieres der referencer.
 
-![struct](struct.png)
-
-og når der er tale om en class:
-
-![class](class.png)
+<iframe width=640 height=392 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqnhDg355T&v=5&controls=1&title=0&ff=1" allowfullscreen="true"></iframe>
 
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Hukommelse-struct-class/Program.cs)
 
