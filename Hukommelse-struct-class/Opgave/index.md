@@ -36,7 +36,7 @@ Hvad skriver den ud – og hvorfor??
 
 -------------
 
-Du skulle gerne komme frem til, at når der er tale om en værdibaseret variabel (struct) kopieres der værdier, og når der er tale om en referencebaseret variabel kopieres der referencer.
+Du skulle gerne komme frem til, at når der er tale om en værdibaseret variabel (struct) kopieres der værdier, og når der er tale om en referencebaseret variabel (class) kopieres der referencer.
 
 Se eventuelt følgende videoer:
 
