@@ -6,17 +6,17 @@ class Program
     {
 
         Person k1 = new Person();
-        k1.navn = "a";
+        k1.Id = 1;
         Person k2 = new Person();
-        k2.navn = "b";
-        Console.WriteLine(k1.navn);
-        Console.WriteLine(k2.navn);
+        k2.Id = 2;
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
         k1 = k2;
-        Console.WriteLine(k1.navn);
-        Console.WriteLine(k2.navn);
-        k1.navn = "c";
-        Console.WriteLine(k1.navn);
-        Console.WriteLine(k2.navn);
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
+        k1.Id = 3;
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
 
         // Hold console åben ved debug
         if (System.Diagnostics.Debugger.IsAttached)
@@ -29,5 +29,5 @@ class Program
 
 struct Person   // ret til class Person jf. opgave
 {
-    public string navn;
+    public int Id;
 }

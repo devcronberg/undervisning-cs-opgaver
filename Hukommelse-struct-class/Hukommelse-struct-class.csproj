@@ -50,9 +50,5 @@
     <None Include="App.config" />
     <None Include="Opgave\index.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Opgave\class.png" />
-    <Content Include="Opgave\struct.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿# Hukommelse (struct / class)
 
-Opret en ny konsol app og tilføj en struct kaldet Person med et offentligt string felt kaldet navn:
+Opret en ny konsol app og tilføj en struct kaldet Person med et offentligt felt kaldet Id (int):
 
 ```csharp
 struct Person
