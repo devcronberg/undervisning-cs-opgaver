@@ -38,7 +38,9 @@ Hvad skriver den ud – og hvorfor??
 
 Du skulle gerne komme frem til, at når der er tale om en værdibaseret variabel (struct) kopieres der værdier, og når der er tale om en referencebaseret variabel kopieres der referencer.
 
-<iframe width=640 height=392 frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqnhDg355T&v=5&controls=1&title=0&ff=1" allowfullscreen="true"></iframe>
+Se eventuelt følgende videoer:
+
+![](https://dfjnl57l0uncv.cloudfront.net/www/3.1.156/images/scrbox-playing-overlay.png)
 
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Hukommelse-struct-class/Program.cs)
 
