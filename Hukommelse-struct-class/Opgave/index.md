@@ -40,7 +40,8 @@ Du skulle gerne komme frem til, at når der er tale om en værdibaseret variabel
 
 Se eventuelt følgende videoer:
 
-![](https://dfjnl57l0uncv.cloudfront.net/www/3.1.156/images/scrbox-playing-overlay.png)
+- ![struct](https://mcronberg.screencasthost.com/watch/cqnhDT35p8)
+- ![class](https://mcronberg.screencasthost.com/watch/cqnhDg355T)
 
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Hukommelse-struct-class/Program.cs)
 
