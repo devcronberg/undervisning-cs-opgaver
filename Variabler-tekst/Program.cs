@@ -19,7 +19,7 @@ namespace Navn
 
             Console.WriteLine(fornavn + "\r\n\t" + efternavn);
             System.IO.File.WriteAllText("c:\\temp\\test.txt", samletNavn);
-
+            string samletNavn2 = $"{fornavn} {efternavn}";
 
             // Hold console åben ved debug
             if (System.Diagnostics.Debugger.IsAttached)
