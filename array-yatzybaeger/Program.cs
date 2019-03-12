@@ -10,10 +10,10 @@ namespace arrays_yatzybaeger
     {
         static void Main(string[] args)
         {
-Bæger b = new Bæger();
-b.Skriv();
-b.Ryst();
-b.Skriv();
+            Bæger b = new Bæger();
+            b.Skriv();
+            b.Ryst();
+            b.Skriv();
         }
     }
 
