@@ -77,7 +77,7 @@ hvilket kunne udskrive:
 [4][3][6][5][5]
 ```
 
-Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arrays-yatzybaeger/Program.cs)
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/array-yatzybaeger/Program.cs)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
