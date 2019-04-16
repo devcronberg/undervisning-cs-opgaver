@@ -9,7 +9,11 @@ foreach (var person in people)
 ```
 Prøv det først – hent et antal (10 eksempelvis) personer og udskriv navnet.
 
-Prøv herefter:
+Her er et diagram af en Person:
+
+![](https://github.com/devcronberg/MCronberg.CSCourseHelper.Standard/raw/master/Person.png)
+
+Brug en liste af personer til at:
 
 - Sorter og udskriv efter navn og udskriv igen
 - Sorter og udskriv efter gender og så navn
