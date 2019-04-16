@@ -1,14 +1,12 @@
 ﻿# LINQ to Objects
 
-Start med at skabe en tom konsol applikation, og tilføj via NuGet pakken MCronbergPersonRepository (søg efter ”cronberg”). Det vil tilføje mappen /Models/PersonNuGetPackage og nogle klasser der kan bruges til at levere data som vi kan lege med ved hjælp af LINQ. Bemærk at klasserne leverer tilfældige data – eksempelvis:
+Start med at skabe en tom konsol applikation, og tilføj via NuGet pakken MCronberg.CSCourseHelper.Standard (søg efter ”mcronberg”). Det vil tilføje nogle klasser der kan bruges til at levere data som vi kan lege med ved hjælp af LINQ. Man kan eksempelvis finde data om personer som følger:
 
 ```csharp
-var r = new PersonNuGetPackage.PersonRepositoryRandom();
-var people = r.GetPeople(100);
+var people = MCronberg.PersonRepositoryStatic.JustGetPeople();
 foreach (var person in people)
     Console.WriteLine(person.Name);
 ```
-
 Prøv det først – hent et antal (10 eksempelvis) personer og udskriv navnet.
 
 Prøv herefter:

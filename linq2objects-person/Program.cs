@@ -10,8 +10,7 @@ namespace linq2objects_person
     {
         static void Main(string[] args)
         {
-            var r = new PersonNuGetPackage.PersonRepositoryRandom();
-            var people = r.GetPeople(10);
+            var people = MCronberg.PersonRepositoryStatic.JustGetPeople();
             foreach (var person in people)
                 Console.WriteLine(person.Name);
 
