@@ -12,6 +12,7 @@ Prøv eventuelt at
 
 * Lege escape karakterer (tab = \t, newline = \r\n) (skriv ud til console)
 * Gemme en streng til en fil (System.IO.File.WriteAllText())
+* Danne en streng som en interpoleret streng ($"")
  
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Variabler-tekst/Program.cs)

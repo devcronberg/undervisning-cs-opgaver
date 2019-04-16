@@ -13,6 +13,7 @@ namespace Fejlhåndtering_simpel
             try
             {
                 Run();
+                //PrøvIgen();
             }
             catch (Exception ex)
             {
