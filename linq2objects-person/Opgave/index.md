@@ -1,6 +1,6 @@
 ﻿# LINQ to Objects
 
-Start med at skabe en tom konsol applikation, og tilføj via NuGet pakken MCronberg.CSCourseHelper.Standard (søg efter ”mcronberg”). Det vil tilføje nogle klasser der kan bruges til at levere data som vi kan lege med ved hjælp af LINQ. Man kan eksempelvis finde data om personer som følger:
+Start med at skabe en tom konsol applikation, og tilføj via NuGet pakken MCronberg.CSCourseHelper.Standard (søg efter ”mcronberg” - du kan evt finde projektet bag nuget-pakken [her](https://github.com/devcronberg/MCronberg.CSCourseHelper.Standard) hvis du har interesse i koden). Det vil tilføje nogle klasser der kan bruges til at levere data som vi kan lege med ved hjælp af LINQ. Man kan eksempelvis finde data om personer som følger:
 
 ```csharp
 var people = MCronberg.PersonRepositoryStatic.JustGetPeople();
