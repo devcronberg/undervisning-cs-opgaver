@@ -11,15 +11,15 @@ namespace metoder_tuples
         static void Main(string[] args)
         {
 
-(double sum, double gns) resultat = FindSumOgGns(5.4, 10.5);
-Console.WriteLine($"Sum: {resultat.sum:n2}");
-Console.WriteLine($"Gns: {resultat.gns:n2}");
+            (double sum, double gns) resultat = FindSumOgGns(5.4, 10.5);
+            Console.WriteLine($"Sum: {resultat.sum:n2}");
+            Console.WriteLine($"Gns: {resultat.gns:n2}");
 
-// eller
+            // eller
 
-var resultat2 = FindSumOgGns(5.4, 10.5);            
-Console.WriteLine($"Sum: {resultat2.sum:n2}");
-Console.WriteLine($"Gns: {resultat2.gns:n2}");
+            var resultat2 = FindSumOgGns(5.4, 10.5);
+            Console.WriteLine($"Sum: {resultat2.sum:n2}");
+            Console.WriteLine($"Gns: {resultat2.gns:n2}");
 
         }
 
