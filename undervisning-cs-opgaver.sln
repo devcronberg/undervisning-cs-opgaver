@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 Variabler", "010 Variabler", "{47863C65-BB5A-4606-9677-2B319D52E9EE}"
 EndProject
@@ -178,6 +178,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejlhåndtering-egenexception-simpel", "Fejlhåndtering-egenexception-simpel\Fejlhåndtering-egenexception-simpel.csproj", "{D0C0DB2A-7FBD-4C4D-9193-50180AC794FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-yatzybaeger", "array-yatzybaeger\arrays-yatzybaeger.csproj", "{4092DB92-78AA-45D4-B2F0-DC300B81E7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-tuples", "metoder-tuples\metoder-tuples.csproj", "{76203466-D8E1-49E3-8FFC-CB7075B4104A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -445,6 +447,10 @@ Global
 		{4092DB92-78AA-45D4-B2F0-DC300B81E7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4092DB92-78AA-45D4-B2F0-DC300B81E7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4092DB92-78AA-45D4-B2F0-DC300B81E7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -515,6 +521,7 @@ Global
 		{85638E36-A614-4959-9B18-6255D54F7EF6} = {47863C65-BB5A-4606-9677-2B319D52E9EE}
 		{D0C0DB2A-7FBD-4C4D-9193-50180AC794FD} = {F2EC2426-9609-48FF-9C98-F2D2804D5E72}
 		{4092DB92-78AA-45D4-B2F0-DC300B81E7C9} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
+		{76203466-D8E1-49E3-8FFC-CB7075B4104A} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
