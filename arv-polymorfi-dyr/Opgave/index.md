@@ -2,7 +2,7 @@
 
 Du skal skabe en konsol applikation med følgende klasser
 
-* Dyr – med egenskaben Navn og metoden SigNoget() (skriver til konsol: Jeg er et dyr og heder …). Man må ikke kunne skabe en instans af Dyr.
+* Dyr – med egenskaben Navn og metoden SigNoget() (skriver til konsol: Jeg er et dyr og hedder …). Man må ikke kunne skabe en instans af Dyr (måske en abstrakt klasse? måske en abstrakt metode SigNoget()?).
 * Hund – der arver fra Dyr og overskriver SigNoget() (skriver til konsol: Jeg er en hund og hedder …)
 * Kat - der arver fra Dyr og overskriver SigNoget() (skriver til konsol: Jeg er en kat og hedder …)
 
