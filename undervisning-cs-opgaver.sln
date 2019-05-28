@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-yatzybaeger", "array
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-tuples", "metoder-tuples\metoder-tuples.csproj", "{76203466-D8E1-49E3-8FFC-CB7075B4104A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "events-kreditmax-eventargs", "events-kreditmax-eventargs\events-kreditmax-eventargs.csproj", "{95859526-6D05-45AC-88B4-7E5CCC172D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -451,6 +453,10 @@ Global
 		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76203466-D8E1-49E3-8FFC-CB7075B4104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95859526-6D05-45AC-88B4-7E5CCC172D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95859526-6D05-45AC-88B4-7E5CCC172D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95859526-6D05-45AC-88B4-7E5CCC172D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95859526-6D05-45AC-88B4-7E5CCC172D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -522,6 +528,7 @@ Global
 		{D0C0DB2A-7FBD-4C4D-9193-50180AC794FD} = {F2EC2426-9609-48FF-9C98-F2D2804D5E72}
 		{4092DB92-78AA-45D4-B2F0-DC300B81E7C9} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
 		{76203466-D8E1-49E3-8FFC-CB7075B4104A} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
+		{95859526-6D05-45AC-88B4-7E5CCC172D56} = {F3332CE6-17B2-462C-AA5B-BB6D3CE11F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
