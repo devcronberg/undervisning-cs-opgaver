@@ -23,8 +23,6 @@ Brug en liste af personer til at:
 - Sorter og udskriv navn – men der skal kun returneres et anonymt objekt med navn og height	
 - Grupper og sorter efter height således, at der skabes grupper fra 160-170, 170-180, 180-190, 190-200, 200-210. Den svær .. kig i løsningen og søg evt på nettet.
  
-Prøv at bruge både LINQ og Lambda.
-
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/linq2objects-person/Program.cs)
 
 <!-- footerstart -->
