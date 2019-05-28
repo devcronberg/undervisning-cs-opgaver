@@ -28,11 +28,11 @@ namespace delegates_log
 
         public void Start()
         {
-            Log(DateTime.Now.ToLongTimeString() + " Starter");
+            Log?.Invoke(DateTime.Now.ToLongTimeString() + " Starter");
         }
         public void Stop()
         {
-            Log(DateTime.Now.ToLongTimeString() + " Stopper");
+            Log?.Invoke(DateTime.Now.ToLongTimeString() + " Stopper");
         }
     }
 
@@ -43,11 +43,11 @@ namespace delegates_log
 
         public void Start()
         {
-            Log(DateTime.Now.ToLongTimeString() + " Starter");
+            Log?.Invoke(DateTime.Now.ToLongTimeString() + " Starter");
         }
         public void Stop()
         {
-            Log(DateTime.Now.ToLongTimeString() + " Stopper");
+            Log?.Invoke(DateTime.Now.ToLongTimeString() + " Stopper");
         }
     }
 }
