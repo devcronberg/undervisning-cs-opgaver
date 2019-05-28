@@ -19,7 +19,12 @@ public class Kunde
 }
 ```
 
-I klassen skal der være en hændelse (event) kaldet KreditOverskredet. Den skal kaldes såfremt kreditmax overskrides. Hændelsen skal være af typen EventArgs<KreditOverskredetEventArgs>, der som argument tager en sender (object) og KreditOverskredetEventArgs (din egen type som består af en Saldo). Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/events-kreditmax/Program.cs).
+I klassen skal der være en hændelse (event) kaldet KreditOverskredet. 
+Den skal kaldes såfremt kreditmax overskrides. 
+Hændelsen skal være af typen EventHandler<KreditOverskredetEventArgs>, der som argument tager en sender (object) og KreditOverskredetEventArgs (din egen type som består af en Saldo). 
+Så du skal altså skabe en klasse KreditOverskredetEventArgs med en egenskab kaldet Saldo (int), der arver fra EventArgs.
+
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/events-kreditmax/Program.cs).
 
 Følgende kode kan benyttes som test:
 
