@@ -28,6 +28,8 @@ m.Stop();
 ```
 Der burde nu skrives både til console og til tekstfilen.
 
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-log/Program.cs)
+
 ## Prøv eventuelt senere...
 Når du har været igennem de indbyggede delegates (Action, Func mv) så prøv at oprette en Maskine2 som en kopi af Maskine, og ret klassen 
 så den ikke benytter din egen delegate men en Action i stedet.
