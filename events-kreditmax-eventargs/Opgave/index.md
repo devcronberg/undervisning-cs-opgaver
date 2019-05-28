@@ -1,4 +1,4 @@
-﻿# Events (KreditMax)
+﻿# Events med egen eventargs (KreditMax)
 
 Du skal skabe en konsol app med en klasse Kunde som følger:
 
