@@ -9,23 +9,23 @@ namespace samlinger_ienumable
     {
         static void Main(string[] args)
         {
-Garage g = new Garage();
-g.BilInd(new Bil() { Model = "a", Mærke = "x", NummerPlade = "xx", Årgang = 2000 });
-g.BilInd(new Bil() { Model = "b", Mærke = "y", NummerPlade = "yy", Årgang = 2019 });
-g.BilInd(new Bil() { Model = "c", Mærke = "z", NummerPlade = "ww", Årgang = 1978 });
-foreach (var item in g)
-    Console.WriteLine(item);
-g.Sorter();
-foreach (var item in g)
-    Console.WriteLine(item);
-Console.WriteLine();
-var b = g.BilUd("ww");
-Console.WriteLine(b);
-Console.WriteLine();
-foreach (var item in g)
-    Console.WriteLine(item);
+            Garage g = new Garage();
+            g.BilInd(new Bil() { Model = "a", Mærke = "x", NummerPlade = "xx", Årgang = 2000 });
+            g.BilInd(new Bil() { Model = "b", Mærke = "y", NummerPlade = "yy", Årgang = 2019 });
+            g.BilInd(new Bil() { Model = "c", Mærke = "z", NummerPlade = "ww", Årgang = 1978 });
+            foreach (var item in g)
+                Console.WriteLine(item);
+            g.Sorter();
+            foreach (var item in g)
+                Console.WriteLine(item);
+            Console.WriteLine();
+            var b = g.BilUd("ww");
+            Console.WriteLine(b);
+            Console.WriteLine();
+            foreach (var item in g)
+                Console.WriteLine(item);
 
-// Test af BilUd ved fejl
+            // Test af BilUd ved fejl
             // b = g.BilUd("wa");
         }
     }
