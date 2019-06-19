@@ -9,12 +9,12 @@ skabe en tom console-applikation og tilføje
 	- override ToString()
 		bare returner Navn og Alder så det er nemt at udskrive
 
-- et klasse PersonRepositoryMemory med
+- en klasse PersonRepositoryMemory med
 	- En constructor som tager en liste af tilfældige personer, og gemmer disse i et private felt
-	- En metode List<Person> HentPersoner(), som returnerer alle personerne sorteret efter Navn
-	- En metode List<Person> HentPersoner(), som modtager en int og returnerer et antal personer sorteret efter Navn
-	- En metode List<Person> HentPersoner()<T>, som modtager en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer sorteret efter den angivne expression
-	- En metode List<Person> HentPersoner()<T>, som modtager en Expression svarende til den der skal benyttes af LINQs Where, og en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer filtreret og sorteret efter der angivne expression's'
+	- En metode List<<Person>> HentPersoner(), som returnerer alle personerne sorteret efter Navn
+	- En metode List<<Person>> HentPersoner(), som modtager en int og returnerer et antal personer sorteret efter Navn
+	- En metode List<<Person>> HentPersoner()<<T>>, som modtager en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer sorteret efter den angivne expression
+	- En metode List<<Person>> HentPersoner()<<T>>, som modtager en Expression svarende til den der skal benyttes af LINQs Where, og en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer filtreret og sorteret efter de angivne expression's'
 
 Kig på signaturen til LINQs expressions brugt i Where og OrderBy før du skaber de sidste to metoder.
 
