@@ -16,7 +16,7 @@ skabe en tom console-applikation og tilføje
 	- En metode List\<Person\> HentPersoner()\<T\>, som modtager en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer sorteret efter den angivne expression
 	- En metode List\<Person\> HentPersoner()\<T\>, som modtager en Expression svarende til den der skal benyttes af LINQs Where, og en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer filtreret og sorteret efter de angivne expression's'
 
-Kig på signaturen til LINQs expressions brugt i Where og OrderBy før du skaber de sidste to metoder.
+Kig på signaturen til LINQs expressions brugt i Where og OrderBy før du skaber de sidste to metoder, og husk du kan gøre en liste IQueryable ved at kalde AsQueryable\<Person\>().
 
 Når klassen er færdig så udtræk alle metoder til et interface kaldet IPersonRepository, og prøv følgende kode:
 
