@@ -74,7 +74,7 @@ Navn: b, Alder: 20
 Navn: d, Alder: 15
 ```
 
-Se eventuelt [min løsning](../program.cs).
+Se eventuelt [min løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/expressiontrees-repository/Program.cs).
 
 
 <!-- footerstart -->
