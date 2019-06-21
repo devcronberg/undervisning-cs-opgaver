@@ -5,7 +5,7 @@ Klassen har en ID (int) egenskab, som tildeles en værdi i en
 custom constructor. Hvis Id er < 0 skal der smides en Exception 
 af en type du selv skal oprette kaldet StockItemException ved at 
 arve fra Exception. Det skal være muligt at bruge en custom 
-constroctor der tager en string (skal blot sendes videre til 'mor').
+constructor der tager en string (skal blot sendes videre til 'mor').
 
 Meddelelsen skal være ”Wrong id”.
 
