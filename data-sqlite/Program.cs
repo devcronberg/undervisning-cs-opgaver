@@ -12,7 +12,7 @@ namespace data_sqlite
     {
 
         private static string databaseFil = "c:\\temp\\people.db";
-        private static string connectionString = "Data Source=" + databaseFil + ";Version=3;";
+        private static string connectionString = "Data Source=" + databaseFil;
 
         static void Main(string[] args)
         {
