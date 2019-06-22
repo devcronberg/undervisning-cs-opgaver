@@ -8,7 +8,7 @@ namespace avanceredetyper_filter
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
 
             Kennel k = new Kennel();
@@ -78,7 +78,7 @@ namespace avanceredetyper_filter
                     h.Add(item);
             return h;
 
-            // eller med LINQ
+            // eller med LINQ to objects
             return _hunde.Where(new Func<Hund, bool>(filter)).ToList();
         }
     }
