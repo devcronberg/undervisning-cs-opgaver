@@ -1,4 +1,4 @@
-﻿# Expression (repository)
+﻿# Operator overload (Nibble)
 
 I denne opgave skal du skabe din egen datatype - en [Nibble](https://da.wikipedia.org/wiki/Nibble) (gammel 4 bit struktur).
 
