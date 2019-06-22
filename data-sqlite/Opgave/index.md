@@ -11,44 +11,7 @@ indeholder implementationer af DbConnection, DbReader, DbCommand mv i følgende 
 
 De fungerer på samme måde som SqlClient-versionens SqlConnection, SqlCommand mv.
 
-Tilføj denne metode til Program for at skabe en database, og sørg for at kalde 
-metoden når app starter. Metoden opretter en simpel database med en tabel kaldet Person med skemaet 
-PersonId (int/auto/key), Navn (varchar), Alder (int) og nogle få rækker med data (se metode):
-
-```csharp
-
-private static string databaseFil = "personer.db";
-private static string connectionString = "Data Source=" + databaseFil + ";Version=3;";
-
-private static void Setup()
-{
-    SQLiteConnection.CreateFile(databaseFil);
-    using (SQLiteConnection cn = new SQLiteConnection(connectionString))
-    {
-        cn.Open();
-        using (SQLiteCommand cm = new SQLiteCommand(cn))
-        {
-            cm.CommandText = "create table person (PersonId INTEGER PRIMARY KEY AUTOINCREMENT, Navn VARCHAR(50), Alder INT)";
-            cm.CommandType = System.Data.CommandType.Text;
-            cm.ExecuteNonQuery();
-        }
-
-        using (SQLiteCommand cm = new SQLiteCommand(cn))
-        {
-            string sql = "insert into person (navn, alder) values('Mikkel',15);";
-            sql += "insert into person (navn, alder) values('Mathias',12);";
-            sql += "insert into person (navn, alder) values('Lene',53);";
-            sql += "insert into person (navn, alder) values('Michell',51);";
-            sql += "insert into person (navn, alder) values('Lis',73);";
-            sql += "insert into person (navn, alder) values('Bjarne',72);";
-            cm.CommandText = sql;
-            cm.CommandType = System.Data.CommandType.Text;
-            cm.ExecuteNonQuery();
-        }
-
-    }
-}
-```
+Du kan hente en demo sqlite database [ved at klikke her](https://github.com/mcronberg/undervisning-db-sqlite/raw/master/db-download/people.db), og gemme filen i c:\temp. Kig [direkte på repository](https://github.com/mcronberg/undervisning-db-sqlite#sqlite-demo-database) for at få en forklaring på tabeller i databasen, samt connectionstring.
 
 Din opgave er nu at 
 
