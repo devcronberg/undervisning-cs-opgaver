@@ -191,6 +191,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "expressiontrees-repository"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-inotifypropertychanged", "metoder-inotifypropertychanged\metoder-inotifypropertychanged.csproj", "{77746201-5847-4653-BC1C-C858CB83A207}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "405 AvanceredeMetoder", "405 AvanceredeMetoder", "{966E43B3-1F4A-4C99-B698-96C4ED6AFDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredemetoder-overload", "avanceredemetoder-overload\avanceredemetoder-overload.csproj", "{2147235C-DBA1-41F1-A217-3C5E6AC3099A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +481,10 @@ Global
 		{77746201-5847-4653-BC1C-C858CB83A207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77746201-5847-4653-BC1C-C858CB83A207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77746201-5847-4653-BC1C-C858CB83A207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -552,6 +560,7 @@ Global
 		{BAB67337-716F-43CC-A43E-332BD94C89F2} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691} = {8DB35241-B236-4E3A-BB95-ED3CF46906B4}
 		{77746201-5847-4653-BC1C-C858CB83A207} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
+		{2147235C-DBA1-41F1-A217-3C5E6AC3099A} = {966E43B3-1F4A-4C99-B698-96C4ED6AFDE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
