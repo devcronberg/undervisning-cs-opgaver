@@ -195,6 +195,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "405 AvanceredeMetoder", "40
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredemetoder-overload", "avanceredemetoder-overload\avanceredemetoder-overload.csproj", "{2147235C-DBA1-41F1-A217-3C5E6AC3099A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "400 AvanceredeTyper", "400 AvanceredeTyper", "{2A6F615B-77AC-4B27-8B52-CE04CEDA83BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredetyper-filter", "avanceredetyper-filter\avanceredetyper-filter.csproj", "{447EF9C2-7820-4403-9652-B0F94AD19E84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -485,6 +489,10 @@ Global
 		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2147235C-DBA1-41F1-A217-3C5E6AC3099A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447EF9C2-7820-4403-9652-B0F94AD19E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447EF9C2-7820-4403-9652-B0F94AD19E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447EF9C2-7820-4403-9652-B0F94AD19E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447EF9C2-7820-4403-9652-B0F94AD19E84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -561,6 +569,7 @@ Global
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691} = {8DB35241-B236-4E3A-BB95-ED3CF46906B4}
 		{77746201-5847-4653-BC1C-C858CB83A207} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 		{2147235C-DBA1-41F1-A217-3C5E6AC3099A} = {966E43B3-1F4A-4C99-B698-96C4ED6AFDE2}
+		{447EF9C2-7820-4403-9652-B0F94AD19E84} = {2A6F615B-77AC-4B27-8B52-CE04CEDA83BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}

@@ -1,6 +1,6 @@
 ﻿# Expression (repository)
 
-I denne applikation skal du skabe et simpelt repository til at hente personer på forskellig måde. Start med at
+I denne applikation skal du skabe et simpelt repository til at hente personer på forskellig måde - LINQ/EF style. Start med at
 skabe en tom console-applikation og tilføje 
 
 - en klasse Person med egenskaberne
@@ -9,8 +9,11 @@ skabe en tom console-applikation og tilføje
 	- override ToString()
 		bare returner Navn og Alder så det er nemt at udskrive
 
-- en klasse PersonRepositoryMemory med
-	- En constructor som tager en liste af tilfældige personer, og gemmer disse i et private felt
+- en klasse PersonRepository med
+	- En constructor som tager en liste (IEnumerable\<Person\>) af tilfældige personer, og gemmer disse i et private felt. Denne samling skal simulere
+	en "database"
+		- Felter skal være af typen IQueryable\<Person\> for at simulere LINQ to EF
+		- For at gemme som IQueryable kan du kalde AsQueryable\<Person\>()
 	- En metode List\<Person\> HentPersoner(), som returnerer alle personerne sorteret efter Navn
 	- En metode List\<Person\> HentPersoner(), som modtager en int og returnerer et antal personer sorteret efter Navn
 	- En metode List\<Person\> HentPersoner()\<T\>, som modtager en Expression svarende til den der skal benyttes af LINQs OrderBy, og returnerer personer sorteret efter den angivne expression
@@ -39,7 +42,7 @@ namespace expressiontrees_repository
                 new Person() { Navn = "d", Alder = 15 },
                 new Person() { Navn = "c", Alder = 5 }
             };
-            IPersonRepository r = new PersonRepositoryMemory(lst);
+            IPersonRepository r = new PersonRepository(lst);
             r.HentPersoner().ForEach(p => WriteLine(p));
             WriteLine();
             r.HentPersoner(2).ForEach(p => WriteLine(p));
