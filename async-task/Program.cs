@@ -12,11 +12,19 @@ namespace async_task
     {
         static async Task Main(string[] args)
         {
-            DanFil(@"c:\temp\a1.txt");
+            // Brug denne til at skabe en fil
+            // DanFil(@"c:\temp\a1.txt");
 
-            //string t = HentTekst(@"c:\temp\a1.txt").Result;
-            string t = await HentTekst(@"c:\temp\a1.txt");
-            Console.WriteLine(t);
+            try
+            {
+                string t1 = await HentTekst(@"c:\temp\a1.txt");
+                Console.WriteLine(t1);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                
+            }
         }
 
         public static async Task<string> HentTekst(string fil)
@@ -28,13 +36,25 @@ namespace async_task
         }
 
 
+
+        public static Task<string> HentTekst1(string fil)
+        {
+            Task<string> res;
+            using (var stream = System.IO.File.OpenText(fil))
+            {
+                res =  stream.ReadToEndAsync();
+            }
+            return res;
+        }
+
+
         public static void DanFil(string fil)
         {
             if (System.IO.File.Exists(fil))
                 System.IO.File.Delete(fil);
 
             using (var s = System.IO.File.AppendText(fil))
-                for (int i = 0; i < 1000; i++)
+                for (int i = 0; i < 10000; i++)
                     s.WriteLine(Guid.NewGuid().ToString());
         }
     }

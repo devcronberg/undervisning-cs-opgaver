@@ -187,7 +187,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "samlinger-ienumable", "saml
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "415 ExpressionTrees", "415 ExpressionTrees", "{8DB35241-B236-4E3A-BB95-ED3CF46906B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "expressiontrees-repository", "expressiontrees-repository\expressiontrees-repository.csproj", "{3BDF080F-C3BB-45F3-AA34-812CA46AE691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "expressiontrees-repository", "expressiontrees-repository\expressiontrees-repository.csproj", "{3BDF080F-C3BB-45F3-AA34-812CA46AE691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-inotifypropertychanged", "metoder-inotifypropertychanged\metoder-inotifypropertychanged.csproj", "{77746201-5847-4653-BC1C-C858CB83A207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +473,10 @@ Global
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77746201-5847-4653-BC1C-C858CB83A207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77746201-5847-4653-BC1C-C858CB83A207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77746201-5847-4653-BC1C-C858CB83A207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77746201-5847-4653-BC1C-C858CB83A207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -545,6 +551,7 @@ Global
 		{95859526-6D05-45AC-88B4-7E5CCC172D56} = {F3332CE6-17B2-462C-AA5B-BB6D3CE11F12}
 		{BAB67337-716F-43CC-A43E-332BD94C89F2} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{3BDF080F-C3BB-45F3-AA34-812CA46AE691} = {8DB35241-B236-4E3A-BB95-ED3CF46906B4}
+		{77746201-5847-4653-BC1C-C858CB83A207} = {BD042EEC-2B09-4ACA-8281-2DD60884886B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
