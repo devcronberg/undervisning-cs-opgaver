@@ -6,37 +6,37 @@ namespace avanceredemetoder_overload
     {
         static void Main(string[] args)
         {
-byte a = 8;
-Nibble n1 = new Nibble(a);
-Console.WriteLine(n1.Value);
+            byte a = 8;
+            Nibble n1 = new Nibble(a);
+            Console.WriteLine(n1.Value);
 
-int b = 8;
-Nibble n2 = new Nibble(b);
-Console.WriteLine(n2.Value);
+            int b = 8;
+            Nibble n2 = new Nibble(b);
+            Console.WriteLine(n2.Value);
 
-string c = "1000";
-Nibble n3 = new Nibble(c);
-Console.WriteLine(n3.Value);
+            string c = "1000";
+            Nibble n3 = new Nibble(c);
+            Console.WriteLine(n3.Value);
 
-Nibble n4 = new Nibble("0000");
-n4 = a;
-n4 = b;
-n4 = c;
-Console.WriteLine(n4.Value);
+            Nibble n4 = new Nibble("0000");
+            n4 = a;
+            n4 = b;
+            n4 = c;
+            Console.WriteLine(n4.Value);
 
-byte d = n4;
-Console.WriteLine(d);
-int e = n4;
-Console.WriteLine(e);
-string f = n4;
-Console.WriteLine(f);
+            byte d = n4;
+            Console.WriteLine(d);
+            int e = n4;
+            Console.WriteLine(e);
+            string f = n4;
+            Console.WriteLine(f);
 
-Nibble n5 = new Nibble(8);
-Nibble n6 = new Nibble(9);
-Console.WriteLine(n5 > n6);
-Console.WriteLine(n5 < n6);
-Console.WriteLine(n5 == n6);
-Console.WriteLine(n5 != n6);
+            Nibble n5 = new Nibble(8);
+            Nibble n6 = new Nibble(9);
+            Console.WriteLine(n5 > n6);
+            Console.WriteLine(n5 < n6);
+            Console.WriteLine(n5 == n6);
+            Console.WriteLine(n5 != n6);
 
         }
     }
@@ -44,9 +44,11 @@ Console.WriteLine(n5 != n6);
     internal class Nibble
     {
         private byte value; // byte er 256, nibbel er 16
-        
-        public byte Value {
-            get {
+
+        public byte Value
+        {
+            get
+            {
                 return value;
             }
         }
@@ -128,7 +130,8 @@ Console.WriteLine(n5 != n6);
             return HashCode.Combine(value);
         }
 
-        private static void CheckVærdi(int v) {
+        private static void CheckVærdi(int v)
+        {
             if (v > 15 || v < 0)
                 throw new Exception("Forkert værdi");
         }
