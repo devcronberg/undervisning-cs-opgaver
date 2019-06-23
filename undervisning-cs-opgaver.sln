@@ -205,6 +205,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "420 AvanceretLinq", "420 Av
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceretlinq-extensions", "avanceretlinq-extensions\avanceretlinq-extensions.csproj", "{831C0755-C2CE-4DA2-BD47-C9F87363168C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflection-attributter", "reflection-attributter\reflection-attributter.csproj", "{440009F7-10E6-43F1-8514-5EB6E32E00DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +509,10 @@ Global
 		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440009F7-10E6-43F1-8514-5EB6E32E00DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440009F7-10E6-43F1-8514-5EB6E32E00DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440009F7-10E6-43F1-8514-5EB6E32E00DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440009F7-10E6-43F1-8514-5EB6E32E00DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -586,6 +592,7 @@ Global
 		{447EF9C2-7820-4403-9652-B0F94AD19E84} = {2A6F615B-77AC-4B27-8B52-CE04CEDA83BD}
 		{C016C311-6A4D-4858-840B-E5E01E05C02C} = {8F6A4123-7050-42C8-BDEB-AF99BFB25A00}
 		{831C0755-C2CE-4DA2-BD47-C9F87363168C} = {7E259AC6-32F9-4124-8540-215882DEB6B7}
+		{440009F7-10E6-43F1-8514-5EB6E32E00DB} = {BD2A6845-614A-46D4-9C83-E8268E09FAA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
