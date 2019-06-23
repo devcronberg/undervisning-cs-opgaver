@@ -201,6 +201,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredetyper-filter", "a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generisk-metode", "generisk-metode\generisk-metode.csproj", "{C016C311-6A4D-4858-840B-E5E01E05C02C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "420 AvanceretLinq", "420 AvanceretLinq", "{7E259AC6-32F9-4124-8540-215882DEB6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceretlinq-extensions", "avanceretlinq-extensions\avanceretlinq-extensions.csproj", "{831C0755-C2CE-4DA2-BD47-C9F87363168C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -499,6 +503,10 @@ Global
 		{C016C311-6A4D-4858-840B-E5E01E05C02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C016C311-6A4D-4858-840B-E5E01E05C02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C016C311-6A4D-4858-840B-E5E01E05C02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831C0755-C2CE-4DA2-BD47-C9F87363168C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -577,6 +585,7 @@ Global
 		{2147235C-DBA1-41F1-A217-3C5E6AC3099A} = {966E43B3-1F4A-4C99-B698-96C4ED6AFDE2}
 		{447EF9C2-7820-4403-9652-B0F94AD19E84} = {2A6F615B-77AC-4B27-8B52-CE04CEDA83BD}
 		{C016C311-6A4D-4858-840B-E5E01E05C02C} = {8F6A4123-7050-42C8-BDEB-AF99BFB25A00}
+		{831C0755-C2CE-4DA2-BD47-C9F87363168C} = {7E259AC6-32F9-4124-8540-215882DEB6B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
