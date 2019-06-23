@@ -10,24 +10,34 @@ namespace async_webclient
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("App start");
 
             Console.WriteLine("Henter tilfældige tal synkront");
             List<string> lst1 = new List<string>();
             for (int i = 0; i < 10; i++)
                 lst1.Add(TilFældigTalSync(10, 100));
-            Console.WriteLine("Tilfældige tal hentet synkront");
             foreach (var item in lst1)
                 Console.Write(Convert.ToInt32(item) + " ");
 
-            Console.WriteLine();
-            Console.WriteLine("Henter tilfældige tal asynkront");
+            Console.WriteLine("\r\nHenter tilfældige tal asynkront");
             List<Task<string>> lst2 = new List<Task<string>>();
             for (int i = 0; i < 10; i++)
                 lst2.Add(TilFældigTalASync(10, 100));
+
+            // WaitAll
             Task.WaitAll(lst2.ToArray());
-            Console.WriteLine("Tilfældige tal hentet asynkront");
-            foreach (var item in lst2)
-                Console.Write(Convert.ToInt32(item.Result) + " ");
+            //foreach (var item in lst2)
+            //    Console.Write(Convert.ToInt32(item.Result) + " ");
+
+            Task.WhenAll(lst2.ToArray()).ContinueWith(t =>
+            {
+                foreach (var item in t.Result)
+                    Console.Write(Convert.ToInt32(item) + " ");
+            });
+
+
+            Console.WriteLine("\r\nApp slut");
+            Console.ReadLine();
         }
 
         static string TilFældigTalSync(int min, int max)
