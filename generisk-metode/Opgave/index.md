@@ -31,7 +31,7 @@ Console.WriteLine(AntalMax(lst3, "b"));
 Console.WriteLine(AntalMax(lst4, new Hund { Navn = "A" }));
 ```
 
-hvor koden forudsætter en klasse Hund med et Navn, og at klassen også implementere IComparable.
+hvor koden forudsætter en klasse Hund med et Navn, og at klassen også implementerer IComparable.
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/generisk-metode/Program.cs)
 
