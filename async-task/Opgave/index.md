@@ -1,6 +1,6 @@
 ﻿# ASync (Fil)
 
-Du skal skabe en (7.3 - ret version i projektets properties/build/advanced) konsol app med følgende main:
+Du skal skabe en (.NET 7.3 - ret version i projektets properties/build/advanced - eller .NET Core) konsol app med følgende main:
 
 ```csharp
 static async Task Main(string[] args) {}
@@ -15,7 +15,7 @@ public static void DanFil(string fil)
         System.IO.File.Delete(fil);
 
     using (var s = System.IO.File.AppendText(fil))
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 10000; i++)
             s.WriteLine(Guid.NewGuid().ToString());
 }
 ```
