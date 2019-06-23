@@ -26,14 +26,15 @@ namespace async_webclient
 
             // WaitAll
             Task.WaitAll(lst2.ToArray());
-            //foreach (var item in lst2)
-            //    Console.Write(Convert.ToInt32(item.Result) + " ");
+            foreach (var item in lst2)
+                Console.Write(Convert.ToInt32(item.Result) + " ");
 
-            Task.WhenAll(lst2.ToArray()).ContinueWith(t =>
-            {
-                foreach (var item in t.Result)
-                    Console.Write(Convert.ToInt32(item) + " ");
-            });
+            // WhenAll
+            //Task.WhenAll(lst2.ToArray()).ContinueWith(t =>
+            //{
+            //    foreach (var item in t.Result)
+            //        Console.Write(Convert.ToInt32(item) + " ");
+            //});
 
 
             Console.WriteLine("\r\nApp slut");
