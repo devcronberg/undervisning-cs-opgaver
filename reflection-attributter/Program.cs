@@ -7,15 +7,16 @@ namespace reflection_attributter
     {
         static void Main(string[] args)
         {
-Console.WriteLine("Start");
-Log("Logges dette");
-Console.WriteLine("Slut");
-            
-// Test();  giver kompileringsfejl på designtime
+            Console.WriteLine("Start");
+            Log("Logges dette");
+            Console.WriteLine("Slut");
+
+            // Test();  giver kompileringsfejl på designtime
         }
 
         [Conditional("DEBUG")]
-        static void Log(string tekst) {
+        static void Log(string tekst)
+        {
             Console.WriteLine(tekst);
         }
 
