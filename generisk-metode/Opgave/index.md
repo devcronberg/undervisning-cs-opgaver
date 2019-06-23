@@ -35,6 +35,8 @@ hvor koden forudsætter en klasse Hund med et Navn, og at klassen også implemen
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/generisk-metode/Program.cs)
 
+Opgaven er inspireret af Jesper Guldmann.
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
