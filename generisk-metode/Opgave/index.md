@@ -16,7 +16,7 @@ static int AntalMaxInt(IEnumerable<int> liste, int maxVærdi)
 }
 ```
 
-men du skal kode den generisk så alle typer der implementere IComparable (og dermed har en CompareTo) kan benyttes - eksempelvis:
+men du skal kode den generisk så alle typer der implementerer IComparable (og dermed har en CompareTo) kan benyttes - eksempelvis:
 
 ```csharp
 List<int> lst1 = new List<int>() { 5, 1, 41, 5, 21, 2, 61, 5 };
