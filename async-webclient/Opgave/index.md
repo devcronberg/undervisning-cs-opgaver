@@ -29,11 +29,11 @@ I Main skal du nu
 - Skriv "App Slut" til konsol
 - Console.ReadLine() som sidste instruktion i Main
 	
-## Hvordan fungerer det?
+*Hvordan fungerer det?*
 
 - Kan du se nogen forskel i hastigheden mellem de to metoder?
 - Hvad med rækkefølgen at tekster til konsol - giver det mening? 
-	- Kan du se at WaitAll faktisk blokkerer? 
+	- Kan du se at WaitAll blokerer? 
 	- At "App slut" faktisk kommer til slut?
 
 Prøv nu at 
@@ -43,12 +43,12 @@ Prøv nu at
 Task som argument. Denne Task har et Result som er en liste strenge (tal)
 - Udskrive listen af tal
 
-## Hvordan fungerer det?
+*Hvordan fungerer det?*
 
-	- Kan du se nogen forskel i hastigheden mellem de to metoder?
-	- Hvad med rækkefølgen at tekster til konsol - giver det mening? 
-		- Kan du se at WhenAll faktisk ikke blokkerer? 
-		- At "App slut" ikke kommer til slut men det gør listen aF tal?
+- Kan du se nogen forskel i hastigheden mellem de to metoder?
+- Hvad med rækkefølgen at tekster til konsol - giver det mening? 
+	- Kan du se at WhenAll faktisk ikke blokkerer? 
+	- At "App slut" ikke kommer til slut men det gør listen aF tal?
 
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/async-webclient/Program.cs)
