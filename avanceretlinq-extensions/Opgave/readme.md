@@ -27,7 +27,7 @@ som burde resultere i:
 2
 ```
 
-Prøv dem også med andet en int - hver med hunde eller terninger?
+Prøv dem også med andet en int - hvad med hunde eller terninger?
 
 ```csharp
 Console.WriteLine();
