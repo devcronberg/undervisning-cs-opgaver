@@ -27,8 +27,23 @@ som burde resultere i:
 2
 ```
 
-Se eventuelt [min løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/avanceretlinq-extensions/Program.cs).
+Prøv dem også med andet en int - hver med hunde eller terninger?
 
+```csharp
+Console.WriteLine();
+List<Hund> lst2 = new List<Hund>() {
+    new Hund { AntalBen = 4, Navn = "F" },
+    new Hund { AntalBen = 3, Navn = "A" },
+    new Hund { AntalBen = 4, Navn = "C"} };
+
+foreach (var item in lst2.HverAnden())
+    Console.WriteLine(item.Navn);
+Console.WriteLine();
+foreach (var item in lst2.Where(i => i.AntalBen > 2, 1))
+    Console.WriteLine(item.Navn);
+```
+
+Se eventuelt [min løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/avanceretlinq-extensions/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)

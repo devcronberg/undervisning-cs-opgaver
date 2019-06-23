@@ -15,7 +15,22 @@ namespace avanceretlinq_extensions
             foreach (var item in lst1.Where(i => i < 5, 2))
                 Console.WriteLine(item);
 
+
+            Console.WriteLine();
+            List<Hund> lst2 = new List<Hund>() {
+                new Hund { AntalBen = 4, Navn = "F" },
+                new Hund { AntalBen = 3, Navn = "A" },
+                new Hund { AntalBen = 4, Navn = "C"} };
+
+            foreach (var item in lst2.HverAnden())
+                Console.WriteLine(item.Navn);
+            Console.WriteLine();
+            foreach (var item in lst2.Where(i => i.AntalBen > 2, 1))
+                Console.WriteLine(item.Navn);
+
         }
+
+
     }
 
     public static class MineExtensions
@@ -42,6 +57,17 @@ namespace avanceretlinq_extensions
         public static IEnumerable<T> Where<T>(this IEnumerable<T> source, Func<T, bool> where, int take)
         {
             return source.Where(where).Take(take);
+        }
+    }
+
+    class Hund : IComparable<Hund>
+    {
+        public int AntalBen { get; set; }
+        public string Navn { get; set; }
+
+        public int CompareTo(Hund other)
+        {
+            return this.Navn.CompareTo(other.Navn);
         }
     }
 }
