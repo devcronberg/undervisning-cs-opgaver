@@ -1,4 +1,4 @@
-﻿# Hent tilfældige tal fra ramdom.org
+﻿# Hent tilfældige tal fra random.org
 
 Du skal skabe en konsol applikation der skal hente tilfældige tal fra random.org - både synkront og asynkront.
 
