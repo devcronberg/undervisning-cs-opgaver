@@ -189,25 +189,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "415 ExpressionTrees", "415 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "expressiontrees-repository", "expressiontrees-repository\expressiontrees-repository.csproj", "{3BDF080F-C3BB-45F3-AA34-812CA46AE691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder-inotifypropertychanged", "metoder-inotifypropertychanged\metoder-inotifypropertychanged.csproj", "{77746201-5847-4653-BC1C-C858CB83A207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metoder-inotifypropertychanged", "metoder-inotifypropertychanged\metoder-inotifypropertychanged.csproj", "{77746201-5847-4653-BC1C-C858CB83A207}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "405 AvanceredeMetoder", "405 AvanceredeMetoder", "{966E43B3-1F4A-4C99-B698-96C4ED6AFDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredemetoder-overload", "avanceredemetoder-overload\avanceredemetoder-overload.csproj", "{2147235C-DBA1-41F1-A217-3C5E6AC3099A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avanceredemetoder-overload", "avanceredemetoder-overload\avanceredemetoder-overload.csproj", "{2147235C-DBA1-41F1-A217-3C5E6AC3099A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "400 AvanceredeTyper", "400 AvanceredeTyper", "{2A6F615B-77AC-4B27-8B52-CE04CEDA83BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceredetyper-filter", "avanceredetyper-filter\avanceredetyper-filter.csproj", "{447EF9C2-7820-4403-9652-B0F94AD19E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avanceredetyper-filter", "avanceredetyper-filter\avanceredetyper-filter.csproj", "{447EF9C2-7820-4403-9652-B0F94AD19E84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generisk-metode", "generisk-metode\generisk-metode.csproj", "{C016C311-6A4D-4858-840B-E5E01E05C02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "generisk-metode", "generisk-metode\generisk-metode.csproj", "{C016C311-6A4D-4858-840B-E5E01E05C02C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "420 AvanceretLinq", "420 AvanceretLinq", "{7E259AC6-32F9-4124-8540-215882DEB6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avanceretlinq-extensions", "avanceretlinq-extensions\avanceretlinq-extensions.csproj", "{831C0755-C2CE-4DA2-BD47-C9F87363168C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avanceretlinq-extensions", "avanceretlinq-extensions\avanceretlinq-extensions.csproj", "{831C0755-C2CE-4DA2-BD47-C9F87363168C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflection-attributter", "reflection-attributter\reflection-attributter.csproj", "{440009F7-10E6-43F1-8514-5EB6E32E00DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reflection-attributter", "reflection-attributter\reflection-attributter.csproj", "{440009F7-10E6-43F1-8514-5EB6E32E00DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-webclient", "async-webclient\async-webclient.csproj", "{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "async-webclient", "async-webclient\async-webclient.csproj", "{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-ef-sqlite", "data-ef-sqlite\data-ef-sqlite.csproj", "{BE22A500-70AE-4EA9-8166-7B24BF430779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -519,6 +521,10 @@ Global
 		{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE22A500-70AE-4EA9-8166-7B24BF430779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE22A500-70AE-4EA9-8166-7B24BF430779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE22A500-70AE-4EA9-8166-7B24BF430779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE22A500-70AE-4EA9-8166-7B24BF430779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -600,6 +606,7 @@ Global
 		{831C0755-C2CE-4DA2-BD47-C9F87363168C} = {7E259AC6-32F9-4124-8540-215882DEB6B7}
 		{440009F7-10E6-43F1-8514-5EB6E32E00DB} = {BD2A6845-614A-46D4-9C83-E8268E09FAA3}
 		{793DA0ED-AB27-4439-A4E5-9D0C7D5E8378} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
+		{BE22A500-70AE-4EA9-8166-7B24BF430779} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
