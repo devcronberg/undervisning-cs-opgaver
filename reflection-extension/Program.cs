@@ -1,4 +1,5 @@
 ﻿using System;
+// Bemærk!!
 using Teknologisk;
 
 namespace reflection_extension
