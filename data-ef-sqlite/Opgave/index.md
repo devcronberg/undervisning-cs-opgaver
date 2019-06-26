@@ -106,7 +106,7 @@ Du skal nu skrive koden til at
 - Udskrive samtlige personer hvor gender = 1 (kvinder) og IsHealthy = true sorteret efter LastName
 - Gruppere samtlige personer efter IsHealthy, og udskrive dem
 
-Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-datatable-sqlite/Program.cs)
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-ef-sqlite/Program.cs)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
