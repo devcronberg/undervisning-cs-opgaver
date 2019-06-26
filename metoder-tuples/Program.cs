@@ -20,6 +20,10 @@ namespace metoder_tuples
             var resultat2 = FindSumOgGns(5.4, 10.5);
             Console.WriteLine($"Sum: {resultat2.sum:n2}");
             Console.WriteLine($"Gns: {resultat2.gns:n2}");
+            
+            var (s, g) = FindSumOgGns(5.4, 10.5);
+            Console.WriteLine($"Sum: {s:n2}");
+            Console.WriteLine($"Gns: {g:n2}");
 
         }
 

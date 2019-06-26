@@ -16,6 +16,10 @@ var resultat2 = FindSumOgGns(5.4, 10.5);
 Console.WriteLine($"Sum: {resultat2.sum:n2}");
 Console.WriteLine($"Gns: {resultat2.gns:n2}");
 ```
+
+Prøv også at "deconstruct" returværdi til to variabler.
+
+
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-tuples/Program.cs).
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
