@@ -20,7 +20,7 @@ Din opgave er nu at
 - Løbe resultatet igennem og udskrive FirstName og LastName
 - Løbe samtlige datacolumns igennem og udskrive navn på feltet samt datatypen
 
-Se min løsning her
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-datatable-sqlite/Program.cs)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)

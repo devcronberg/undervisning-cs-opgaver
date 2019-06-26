@@ -19,7 +19,7 @@ Din opgave er nu at
 - Skabe en metode der finder antal personer under 160 cm ved hjælp af SQLiteConnection, SQLiteCommand (select count(*) from people where height<160) og ExecuteScalar.
 - Skabe en metode der opdaterer højde til 160 på personen med personid=1 ved hjælp af SQLiteConnection, SQLiteCommand (update person set height = 160 where personid = 1) og ExecuteNonQuery.
 
-Se min løsning her.
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-sqlite/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
