@@ -20,7 +20,7 @@ namespace data_sqlite
 
             VisData_DataReader();
             Console.WriteLine();
-            Console.WriteLine(FindAntalUnder20());
+            Console.WriteLine(FindAntalUnder160());
             Console.WriteLine();
             OpdaterPerson();
             Console.WriteLine();
@@ -43,7 +43,7 @@ namespace data_sqlite
             }
         }
 
-        private static int FindAntalUnder20()
+        private static int FindAntalUnder160()
         {
 
             using (SQLiteConnection cn = new SQLiteConnection(connectionString))
