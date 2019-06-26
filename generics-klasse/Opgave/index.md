@@ -4,7 +4,7 @@ Du skal skabe en konsol applikation med et simpelt arve hierarki – Person, Ins
 
 Herefter skal du skabe en klasse Personer1 som indeholder en liste (List) af Person (og dermed også af Instruktør eller Kursist), og en metode Tilføj som tilføjer en Person (og dermed Instruktør eller Kursist). 
 
-Opret så en ny klasse Personer2 og gør den generisk (class Personer2<T>), og tilret både listen og metoden til at arbejde med T i stedet for Person.
+Opret så en ny klasse Personer2 og gør den generisk (class Personer2\<T\>), og tilret både listen og metoden til at arbejde med T i stedet for Person.
 
 Prøv dem begge i Main(). Kan du se forskellen på de to klasser?
 
