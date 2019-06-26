@@ -18,7 +18,7 @@ Din opgave er nu at
 
 - Skabe en metode der returnerer en DataTable med personer under en vis højde
 - Løbe resultatet igennem og udskrive FirstName og LastName
-- Løbe samtlige datacolumns igennem og udskrive navn på feltet samt datatypen
+- Løbe samtlige DataColumns igennem og udskrive navn på feltet samt datatypen
 
 Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-datatable-sqlite/Program.cs)
 
