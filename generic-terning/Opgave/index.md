@@ -101,6 +101,7 @@ LudoTerning e = b.Terninger()[1];
 Console.WriteLine(e.ErGlobus());
 ```
 
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/generic-terning/Program.cs)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
