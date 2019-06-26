@@ -13,6 +13,8 @@ Prøv dem alle i Main().
 
 Kan du se forskellen på Personer2 og Personer3?
 
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/generics-klasse/Program.cs).
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
