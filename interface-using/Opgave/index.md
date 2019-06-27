@@ -24,6 +24,8 @@ Bulder
 Max
 Osv.
 
+Find et udkast til filen [her](https://raw.githubusercontent.com/devcronberg/undervisning-cs-opgaver/master/interface-using/dyrenavne.txt) (højreklik og "Gem som"), og løsningen [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/interface-using/Program.cs).
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
