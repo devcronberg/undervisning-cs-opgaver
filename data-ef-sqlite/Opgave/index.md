@@ -105,6 +105,9 @@ Du skal nu skrive koden til at
 - Udskrive samtlige personer hvor gender = 1 (kvinder) og IsHealthy = true
 - Udskrive samtlige personer hvor gender = 1 (kvinder) og IsHealthy = true sorteret efter LastName
 - Gruppere samtlige personer efter IsHealthy, og udskrive dem
+- Hent personen med PersonId = 1 således, at højden = 180
+- Opret en tilfældig person og gem det automatisk oprettede PersonId
+- Slet den nylig oprettede person
 
 Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-ef-sqlite/Program.cs)
 

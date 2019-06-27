@@ -55,6 +55,27 @@ namespace data_ef_sqlite
                         Console.WriteLine("\t" + person);
                     }
                 }
+
+                var p = c.People.Where(i => i.PersonId == 1).FirstOrDefault();
+                p.Height = 150;
+                c.SaveChanges();
+
+                Console.WriteLine();
+                p = new SQLiteEF.Person();
+                p.FirstName = "a";
+                p.LastName = "b";
+                p.DateOfBirth = DateTime.Now;
+                p.Gender = 1;
+                p.Height = 180;
+                p.IsHealthy = true;
+                c.People.Add(p);
+                c.SaveChanges();
+                int id = p.PersonId;
+                Console.WriteLine($"Person oprettet med {id}");
+
+                p = c.People.Where(i => i.PersonId == id).FirstOrDefault();
+                c.People.Remove(p);
+                c.SaveChanges();
             }
         }
     }
