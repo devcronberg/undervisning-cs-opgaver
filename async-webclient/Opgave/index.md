@@ -47,7 +47,7 @@ Task som argument. Denne Task har et Result som er en liste strenge (tal)
 
 - Kan du se nogen forskel i hastigheden mellem de to metoder?
 - Hvad med rækkefølgen at tekster til konsol - giver det mening? 
-	- Kan du se at WhenAll faktisk ikke blokkerer? 
+	- Kan du se at WhenAll faktisk ikke blokerer? 
 	- At "App slut" ikke kommer til slut men det gør listen aF tal?
 
 
