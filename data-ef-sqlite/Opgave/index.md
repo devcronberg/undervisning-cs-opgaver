@@ -8,7 +8,7 @@ installere NuGet-pakkerne:
 
 ```
 Microsoft.EntityFrameworkCore.Sqlite
-Microsoft.Extensions.Logging
+Microsoft.Extensions.Logging.Console
 ```
 
 Du kan evt læse mere om brugen af [People-database her](https://github.com/devcronberg/undervisning-db-sqlite/).
