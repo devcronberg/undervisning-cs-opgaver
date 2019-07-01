@@ -42,6 +42,9 @@ til funktionen kan se således ud:
 var f = FindTilfældigFunktion();
 int res4 = f(5, 5);
 ```
+
+Se evt. [min løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-simpel-beregner/Program.cs).
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
