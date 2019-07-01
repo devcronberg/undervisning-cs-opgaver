@@ -12,6 +12,7 @@ til en tekstfil som følger:
 
 ```csharp
 static void AppendLog(string txt) {
+    // Kræver at c:\temp findes i forvejen!
     System.IO.File.AppendAllText(@"c:\temp\log.txt", txt + "\r\n");
 }
 ```
