@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace delegates_lambda_beregner
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             int res = 0;
@@ -21,6 +18,9 @@ namespace delegates_lambda_beregner
             res = f(5, 5);
             Console.WriteLine(res);
 
+            // Avanceret brug af expressions (det skal du ikke kunne - det er blot til orientering)
+            // await Tilføjelse.Ekstra();
+            
         }
 
         public static int Beregner(int a, int b, Func<int, int, int> funktion)
@@ -40,5 +40,7 @@ namespace delegates_lambda_beregner
             return (a, b) => a / b;
 
         }
+
+        
     }
 }

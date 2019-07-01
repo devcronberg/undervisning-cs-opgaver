@@ -6,4 +6,8 @@
     <RootNamespace>delegates_lambda_beregner</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.1.0" />
+  </ItemGroup>
+
 </Project>
