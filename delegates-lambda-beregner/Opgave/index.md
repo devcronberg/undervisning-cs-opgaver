@@ -26,11 +26,18 @@ Console.WriteLine(res);
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-lambda-beregner/Program.cs)
 
-## Ekstra tilføjelse - avanceret brug af lambda-expressions
+## Ekstra tilføjelse - avanceret brug af lambda-expressions (bare for sjov!!)
+
 Blot til orientering har jeg medtaget en klasse Tilføjelse som indeholder metoden Ekstra. Metoden danner kompilerede lambda udtryk fra en 
 (emuleret) tekstfil. Det betyder, at brugeren selv kan tilføje (eller ændre - puha!!) de funktioner der ønskes i regnemaskinen.
 
-Du kan finde koden her, og hvis du selv har lyst til at prøve skal du tilføje NuGet-pakken "Microsoft.CodeAnalysis.CSharp.Scripting", som i den grad gør det hårde arbejde ;)
+Du kan finde [koden her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-lambda-beregner/Tilf%C3%B8jelse.cs), og hvis du selv har lyst til at prøve skal du tilføje NuGet-pakken 
+
+```
+Microsoft.CodeAnalysis.CSharp.Scripting
+```
+
+som i den grad gør det hårde arbejde ;)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
