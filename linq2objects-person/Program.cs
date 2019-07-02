@@ -53,13 +53,11 @@ namespace linq2objects_person
                 Console.WriteLine(person.Name + " " + person.Height);
             }
 
-
             Console.WriteLine();
-            int[] range = { 160, 170, 180, 190, 200, 210, 220 };
-            var res7 = people.OrderBy(i => i.Height).GroupBy(i => range.FirstOrDefault(x => x > i.Height));
+            var res7 = people.OrderBy(i => i.Height).GroupBy(i => i.Height / 10);
             foreach (var group in res7)
             {
-                Console.WriteLine(group.Key);
+                Console.WriteLine(group.Key * 10);
                 foreach (var person in group)
                 {
                     Console.WriteLine("  => " + person.Name + " " + person.Height);
