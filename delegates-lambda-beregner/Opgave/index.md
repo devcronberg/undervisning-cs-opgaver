@@ -7,7 +7,7 @@ Kald kan se således ud:
 
 ```csharp
 int res = 0;
-res = Beregner(1, 1, (a,b)=> a + b);
+res = Beregner(1, 1, (a, b)=> a + b);
 Console.WriteLine(res);
 ```
 
@@ -23,6 +23,19 @@ var f = FindTilfældigFunktion();
 res = f(5, 5);
 Console.WriteLine(res);
 ```
+
+Slutteligt kan du eventuelt overveje at skabe en FindTilfældigFunktion2, der som argument
+tager en liste/array (måske params?) af Func-delegates, og returnerer en tilfældig af dem ud fra 
+et tilfældigt tal skabt af System.Random. 
+
+```csharp
+var f = FindTilfældigFunktion2((a, b) => a + b, (a, b) => a - b, (a, b) => a * b, (a, b) => a / b);
+res = f(5, 5);
+Console.WriteLine(res);
+```
+
+> Bemærk - der er en del gentagelser af lamdba'er og det bør naturligvis undgås. Du kan eventuelt
+> overveje at skabe metoderne og gemme referencerne i statiske delegate-variabler. 
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-lambda-beregner/Program.cs)
 
