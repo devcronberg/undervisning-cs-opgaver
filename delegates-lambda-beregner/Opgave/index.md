@@ -39,7 +39,7 @@ Console.WriteLine(res);
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-lambda-beregner/Program.cs)
 
-## Ekstra tilføjelse - avanceret brug af lambda-expressions (bare for sjov!!)
+## Ekstra tilføjelse (bare for sjov - det er ikke en del af opgaven, og du skal ikke gøre noget)
 
 Blot til orientering har jeg medtaget en klasse Tilføjelse som indeholder metoden Ekstra. Metoden danner kompilerede lambda udtryk fra en 
 (emuleret) tekstfil. Det betyder, at brugeren selv kan tilføje (eller ændre - puha!!) de funktioner der ønskes i regnemaskinen.
