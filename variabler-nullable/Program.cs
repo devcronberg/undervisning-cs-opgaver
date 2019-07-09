@@ -11,13 +11,13 @@ namespace variabler_nullable
         static void Main(string[] args)
         {
             bool? res;
-            res = HentFraDb(1);
+            res = HentVærdiFraDb(1);
             Console.WriteLine($"resultat = {res}");
 
-            res = HentFraDb(2);
+            res = HentVærdiFraDb(2);
             Console.WriteLine($"resultat = {res}"); 
 
-            res = HentFraDb(3);
+            res = HentVærdiFraDb(3);
             Console.WriteLine($"resultat = {res}");
 
 
@@ -31,7 +31,7 @@ namespace variabler_nullable
         }
 
 
-        static bool? HentFraDb(int id)
+        static bool? HentVærdiFraDb(int id)
         {
             if (id == 1)
                 return true;
@@ -39,5 +39,27 @@ namespace variabler_nullable
                 return false;
             return null;
         }
+
+        static Person HentPersonFraDb(int personId)
+        {
+            if (personId == 1) {
+                return new Person {
+                    PersonId =1,
+                    Navn = "a",
+                    ErILive = null,
+                    Fødselsdato = null
+                };
+            }
+            throw new ApplicationException("Person findes ikke");
+        }
+    }
+
+    class Person {
+
+        public int PersonId { get; set; }
+        public string Navn { get; set; }
+        public DateTime? Fødselsdato { get; set; }
+        public bool? ErILive { get; set; }
+
     }
 }
