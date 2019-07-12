@@ -6,7 +6,7 @@ namespace start_afvikling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Start");
+            Console.WriteLine("Start")
             Console.ForegroundColor = ConsoleColor.Cyan;
             for (int i = 1; i < 6; i++)
                 Console.WriteLine(i);
