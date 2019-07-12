@@ -18,9 +18,9 @@ namespace DebugDemo
             Console.WriteLine($"x = {x}");
 
             Console.WriteLine("Tæller til 10 og retter farve");
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 4; i++)
             {
-                if (i < 5)
+                if (i < 2)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                 }
