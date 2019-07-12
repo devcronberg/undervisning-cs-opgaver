@@ -20,6 +20,19 @@ namespace variabler_nullable
             res = HentVærdiFraDb(3);
             Console.WriteLine($"resultat = {res}");
 
+            Person p = HentPersonFraDb(1);
+            Console.WriteLine(p.Navn);
+            Console.WriteLine(p.Fødselsdato.HasValue);
+            try
+            {
+                p = HentPersonFraDb(2);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Fejl");
+                
+            }
+
 
             // Hold console åben ved debug
             if (System.Diagnostics.Debugger.IsAttached)

@@ -215,7 +215,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data-datatable-sqlite", "da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-lambda-beregner", "delegates-lambda-beregner\delegates-lambda-beregner.csproj", "{F1315EC1-541F-4AD1-9608-D1B0026D3058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "expressiontrees-timecalc", "expressiontrees-timecalc\expressiontrees-timecalc.csproj", "{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "expressiontrees-timecalc", "expressiontrees-timecalc\expressiontrees-timecalc.csproj", "{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005 Start", "005 Start", "{DB01B5AC-53D0-4765-B111-072891242D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "start-afvikling", "start-afvikling\start-afvikling.csproj", "{DB87AD8F-99D0-43DC-B778-419E0A574605}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +547,10 @@ Global
 		{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB87AD8F-99D0-43DC-B778-419E0A574605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB87AD8F-99D0-43DC-B778-419E0A574605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB87AD8F-99D0-43DC-B778-419E0A574605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB87AD8F-99D0-43DC-B778-419E0A574605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -628,6 +636,7 @@ Global
 		{1865ABC6-1E58-4CC8-85C6-0C2EFE113137} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
 		{F1315EC1-541F-4AD1-9608-D1B0026D3058} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5} = {8DB35241-B236-4E3A-BB95-ED3CF46906B4}
+		{DB87AD8F-99D0-43DC-B778-419E0A574605} = {DB01B5AC-53D0-4765-B111-072891242D62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
