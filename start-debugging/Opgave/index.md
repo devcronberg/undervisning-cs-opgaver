@@ -24,10 +24,12 @@ Prøv nu at
 - Sæt et breakpoint på linje 35 og kør (F5)
 	- Tryk på F11 (step into) og bemærk, at du følger programpointeren ned i metoden og kommer retur
 	- Hold musen over res når du er retur - det er også en måde at se værdien af en variabel
-- Fjern alle breakpoints og sæt et nyt på linje 39 og kør (F5)
+- Stop debugging (shift+F5), fjern alle breakpoints og sæt et nyt på linje 39 og kør (F5)
 	- Tryk på F11 (step into) og bemærk, at du følger programpointeren ned i alle metoder og kommer hele vejen retur
 		- Check Call stack vinduet når du når program pointeren når til linje 63
 			- Her kan du se hvordan du er endt i metoden
+
+Du kan se en video med en gennemgang af hele processen [her](https://mcronberg.screencasthost.com/watch/cqjij1OsBP).
 
 Der er meget mere i C# debugging med Visual Studio - men det vil give dig en grundlæggende viden.
 
