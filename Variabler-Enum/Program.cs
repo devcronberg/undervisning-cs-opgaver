@@ -8,16 +8,23 @@ namespace Variabler_Enum
         static void Main(string[] args)
         {
 
-            int kort1Værdi = 2;
-            KortKulør kort1Kulør = KortKulør.Hjerter;
+            // Hjerter 2
+            int kort1Værdi = 2;                         // værdi
+            KortKulør kort1Kulør = KortKulør.Hjerter;   // kulør
 
-            // Skriver værdi og nummer ud
-            Console.WriteLine(kort1Kulør.ToString());
-            Console.WriteLine((int)kort1Kulør);
+            // Skriver "Hjerter 2"
+            Console.WriteLine(kort1Kulør.ToString() + " " + kort1Værdi);
 
+            // Ruder 2
             int kort2Værdi = 2;
             KortKulør kort2Kulør = KortKulør.Ruder;
 
+            // Skriver "Ruder 2"
+            Console.WriteLine(kort1Kulør.ToString() + " " + kort1Værdi);
+
+            
+            // udskriv tallet der svarer til ruder 
+            Console.WriteLine(Convert.ToInt32(kort1Kulør));     // 2
             
         }
     }
