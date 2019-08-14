@@ -5,10 +5,10 @@ For at lege lidt med instans- og statiske metoder så prøv at kigge på System.
 * Opret en fil på c:\temp kaldet test.txt og put lidt tekst i
   - PS: Husk at windows kunne finde på at kalde den test.txt.txt (gem som "test.txt" - altså med anførselstegn)
 * Dan en ny consol app
-* Skriv kode der benytter (hjælpe)metoder fra System.File
+* Skriv kode der benytter (hjælpe)metoder fra System.IO.File
   - Prøv Exists (findes filen)
   - Prøv ReadAllText (henter tekst fra filen)
-* Skriv kode der opretter et objekt der repræsenterer filen (System.FileInfo) 
+* Skriv kode der opretter et objekt der repræsenterer filen (System.IO.FileInfo) 
   * var fil = new System.IO.FileInfo(@"c:\temp\test.txt");
   * Udskriv LastAccessTime 
   * Udskriv Extension
