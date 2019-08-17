@@ -12,7 +12,7 @@ namespace Test
             Vare v2 = new Vare("vare #2", 200);
             Console.WriteLine(v2.PrisMedMoms());
 
-            // Hold console åben ved debug
+            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");

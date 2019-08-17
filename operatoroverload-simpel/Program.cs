@@ -11,7 +11,7 @@ namespace operatoroverload_simpel
             Hund h2 = new Hund() { Navn = "B", LydNiveau = 20 };
             Console.WriteLine(h1 > h2);
 
-            // Hold console åben ved debug
+            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");

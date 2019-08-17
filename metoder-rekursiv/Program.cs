@@ -10,7 +10,7 @@ namespace Test
             LøkkeSomMetode(1, 10);
 
 
-            // Hold console åben ved debug
+            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");

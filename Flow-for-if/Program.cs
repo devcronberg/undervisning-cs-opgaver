@@ -22,7 +22,7 @@ namespace Flow_for_if
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
 
-            // Hold console åben ved debug
+            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core) 
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
