@@ -219,9 +219,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "expressiontrees-timecalc", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005 Start", "005 Start", "{DB01B5AC-53D0-4765-B111-072891242D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "start-afvikling", "start-afvikling\start-afvikling.csproj", "{DB87AD8F-99D0-43DC-B778-419E0A574605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "start-afvikling", "start-afvikling\start-afvikling.csproj", "{DB87AD8F-99D0-43DC-B778-419E0A574605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "start-debugging", "start-debugging\start-debugging.csproj", "{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "start-debugging", "start-debugging\start-debugging.csproj", "{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samlinger-simpel2", "samlinger-simpel\samlinger-simpel2.csproj", "{4A784AE6-3558-4908-9273-C70BA1FF866B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -557,6 +559,10 @@ Global
 		{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A784AE6-3558-4908-9273-C70BA1FF866B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A784AE6-3558-4908-9273-C70BA1FF866B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A784AE6-3558-4908-9273-C70BA1FF866B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A784AE6-3558-4908-9273-C70BA1FF866B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -644,6 +650,7 @@ Global
 		{1A7DDA7F-E35A-485C-92E5-685EDE7DC4F5} = {8DB35241-B236-4E3A-BB95-ED3CF46906B4}
 		{DB87AD8F-99D0-43DC-B778-419E0A574605} = {DB01B5AC-53D0-4765-B111-072891242D62}
 		{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0} = {DB01B5AC-53D0-4765-B111-072891242D62}
+		{4A784AE6-3558-4908-9273-C70BA1FF866B} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}

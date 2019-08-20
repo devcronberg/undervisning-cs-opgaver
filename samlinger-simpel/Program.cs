@@ -7,23 +7,24 @@ namespace Samlinger
     {
         static void Main(string[] args)
         {
-            List<Person> lst1 = new List<Person>();
-            lst1.Add(new Person() { Id = 1, Navn = "M" });
-            lst1.Add(new Person() { Id = 2, Navn = "T" });
-            lst1.Add(new Person() { Id = 3, Navn = "P" });
+
+            List<int> lst1 = new List<int>();
+            lst1.Add(3);
+            lst1.Add(1);
+            lst1.Add(8);
             foreach (var item in lst1)
             {
-                Console.WriteLine(item.Navn);
+                Console.WriteLine(item);
             }
 
-            Dictionary<int, Person> lst2 = new Dictionary<int, Person>();
-            lst2.Add(1, new Person() { Id = 1, Navn = "M" });
-            lst2.Add(2, new Person() { Id = 2, Navn = "T" });
-            lst2.Add(3, new Person() { Id = 3, Navn = "P" });
+            Dictionary<int, string> lst2 = new Dictionary<int, string>();
+            lst2.Add(1, "M");
+            lst2.Add(2, "T");
+            lst2.Add(3, "P");
             var p = lst2[3];
-            Console.WriteLine(p.Navn);
+            Console.WriteLine(p);
 
-            // Hold console åben ved debug
+            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
@@ -31,10 +32,5 @@ namespace Samlinger
             }
         }
     }
-
-    class Person {
-        public int Id { get; set; }
-        public string Navn { get; set; }
-
-    }
+     
 }
