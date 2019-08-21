@@ -5,6 +5,8 @@ Opret en ny tom konsol-applikation og definer en terning som (eller skab din ege
 ```csharp
 public class Terning
 {        
+	// Kun nødvendig i .NET Framework - ved .NET Core kan man bare benytte en 
+	// instans når man har brug for det
     private static System.Random rnd = new Random();
     private int _værdi;
              
