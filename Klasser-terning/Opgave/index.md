@@ -16,6 +16,11 @@ Bemærk - en instans af System.Random kan erklæres således i selve klassen:
 private static Random rnd = new Random();
 ```
 
+Det er dog kun nødvendigt i en .NET Framework applikation (der kræves en statisk Random-instans). I en .NET Core applikation kan du blot i metoden der skal bruge et tilfældigt tal skabe en instans af System.Random og bruge den direkte:
+
+```csharp
+Random rnd = new Random();
+```
 Test klassen af i Main ved at skabe instanser og kalde Ryst og Skriv. Ret snyd til true/false så du er sikker på at det virker som forventet – eksempelvis:
 
 ```csharp
