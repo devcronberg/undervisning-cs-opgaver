@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace arrays_yatzybaeger
 {
@@ -14,6 +10,8 @@ namespace arrays_yatzybaeger
             b.Skriv();
             b.Ryst();
             b.Skriv();
+
+            Console.ReadKey();
         }
     }
 
@@ -25,7 +23,7 @@ namespace arrays_yatzybaeger
         {
             for (int i = 0; i < 5; i++)
                 terninger[i] = new Terning();
-
+            Ryst();
         }
 
         public void Ryst()
@@ -37,60 +35,31 @@ namespace arrays_yatzybaeger
         public void Skriv()
         {
             for (int i = 0; i < 5; i++)
-                Console.Write(terninger[i].ToString());
+                terninger[i].Skriv();
             Console.WriteLine();
         }
     }
 
 
-    public class Terning
+public class Terning
+{
+    // Ved .NET Core behøver den ikke være statisk!!
+    private static Random rnd = new Random();
+    public int værdi;
+
+    public Terning()
     {
-        private static System.Random rnd = new Random();
-        private int _værdi;
-
-        public int Værdi
-        {
-            get
-            {
-
-                return this._værdi;
-            }
-
-            set
-            {
-                if (value < 1 || value > 6)
-                    throw new ApplicationException("Forkert værdi på terning");
-
-                this._værdi = value;
-            }
-        }
-
-
-        public Terning()
-        {
-            this.Ryst();
-        }
-
-        public Terning(int værdi)
-        {
-            this.Værdi = værdi;
-        }
-
-
-
-        public void Ryst()
-        {
-            this.Værdi = rnd.Next(1, 7);
-        }
-
-        public void Skriv()
-        {
-            Console.WriteLine(this.ToString());
-        }
-
-        public override string ToString()
-        {
-            return $"[{this.Værdi}]";
-        }
+        this.værdi = 1;
     }
+
+    public void Skriv()
+    {
+        Console.Write("[" + this.værdi + "]");
+    }
+
+    public void Ryst()
+    {
+        this.værdi = rnd.Next(1, 7);
+    }
+}
 }

@@ -1,61 +1,31 @@
 ﻿# Bæger med terninger
 
-Opret en ny tom konsol-applikation og definer en terning som (eller skab din egen):
+Opret en ny tom konsol-applikation og definer en terning som følger:
 
 ```csharp
 public class Terning
-{        
-	// Kun nødvendig i .NET Framework - ved .NET Core kan man bare benytte en 
-	// instans når man har brug for det
-	private static System.Random rnd = new Random();
-	private int _værdi;
-             
-    public int Værdi
-    {
-        get
-        {
-                
-            return this._værdi;
-        }
+{
+    // Ved .NET Core behøver den ikke være statisk!!
+    private static Random rnd = new Random();
+    public int værdi;
 
-        set
-        {
-            if (value < 1 || value > 6)
-                throw new ApplicationException("Forkert værdi på terning");
-                
-            this._værdi = value;
-        }
-    }
-
-        
     public Terning()
     {
-        this.Ryst();
-    }
-
-    public Terning(int værdi)
-    {
-        this.Værdi = værdi;
-    }
-
-
-        
-    public void Ryst()
-    {
-        this.Værdi = rnd.Next(1, 7);
+        this.værdi = 1;
     }
 
     public void Skriv()
     {
-        Console.WriteLine(this.ToString());
+        Console.Write("[" + this.værdi + "]");
     }
 
-    public override string ToString()
+    public void Ryst()
     {
-        return $"[{this.Værdi}]";
+        this.værdi = rnd.Next(1, 7);
     }
 }
 ```
+
 Din opgave er nu at skabe en klasse Bæger som kan indeholde fem terninger i et private 
 array af Terning. Klassen skal indeholde følgende medlemmer:
 
