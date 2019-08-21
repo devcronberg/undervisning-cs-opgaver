@@ -21,6 +21,11 @@ Det er dog kun nødvendigt i en .NET Framework applikation (der kræves en stati
 ```csharp
 Random rnd = new Random();
 ```
+
+Klassen skal altså se således ud:
+
+![](terning.png)
+
 Test klassen af i Main ved at skabe instanser og kalde Ryst og Skriv. Ret snyd til true/false så du er sikker på at det virker som forventet – eksempelvis:
 
 ```csharp
@@ -36,6 +41,10 @@ t2.Skriv();
 ```
 
 Prøv at oprette et par andre objekter af klassen og visualiser stack og heap.
+
+## Ekstra
+
+Prøv også at tilføje et klassediagram (class diagram) og se klassen visuelt.
 
 Se evt. løsning - [Terning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-terning/Terning.cs) og [Program](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-terning/Program.cs)
 
