@@ -7,8 +7,8 @@ public class Terning
 {        
 	// Kun nødvendig i .NET Framework - ved .NET Core kan man bare benytte en 
 	// instans når man har brug for det
-    private static System.Random rnd = new Random();
-    private int _værdi;
+	private static System.Random rnd = new Random();
+	private int _værdi;
              
     public int Værdi
     {
@@ -62,6 +62,8 @@ array af Terning. Klassen skal indeholde følgende medlemmer:
 - en constructor der tilføje fem nye terninger til det interne arrays når der skabes en instans af Bæger
 - en Ryst-metode der ryster alle terninger i bæger
 - en Skriv der udskriver alle terninger som [x] [x] [x] [x] [x] 
+
+![](baeger.png)
 
 Klassen skal kunne bruges som:
 
