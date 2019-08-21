@@ -30,7 +30,7 @@ Din opgave er nu at skabe en klasse Bæger som kan indeholde fem terninger i et 
 array af Terning. Klassen skal indeholde følgende medlemmer:
 
 - en constructor der tilføje fem nye terninger til det interne arrays når der skabes en instans af Bæger
-- en Ryst-metode der ryster alle terninger i bæger
+- en Ryst-metode der ryster alle terninger i bæger (bør måske kaldes fra constructor?)
 - en Skriv der udskriver alle terninger som [x] [x] [x] [x] [x] 
 
 ![](baeger.png)
