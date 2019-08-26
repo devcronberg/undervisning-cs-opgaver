@@ -40,7 +40,7 @@ t2.Ryst();
 t2.Skriv();
 ```
 
-Prøv at oprette et par andre objekter af klassen og visualiser stack og heap.
+Prøv at oprette et par andre objekter af klassen.
 
 ## Ekstra
 
