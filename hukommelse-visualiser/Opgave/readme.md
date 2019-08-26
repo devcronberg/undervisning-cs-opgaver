@@ -126,6 +126,18 @@ Du skulle gerne nå frem til noget ala:
 ### Spørgsmål 1
 ![](spg1.jpg)
 
+### Spørgsmål 2
+![](spg2.jpg)
+
+### Spørgsmål 3
+![](spg3.jpg)
+
+### Spørgsmål 4
+![](spg4.jpg)
+
+### Spørgsmål 5
+![](spg5.jpg)
+
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
