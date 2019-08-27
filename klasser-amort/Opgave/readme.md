@@ -6,15 +6,15 @@ Du skal skabe en tom konsol app med klasser der skal bruges i en bank applikatio
 
 Klassen Transaktion repræsenterer en enkelt transaktion med følgende felter:
 
-dato (DateTime)
-tekst (string)
-beløb (decimal)
+- dato (DateTime)
+- tekst (string)
+- beløb (decimal)
 
 Felterne skal blot være offentlige - **se bort fra indkapsling og sikkerhed i denne opgave**.
 
 Klassen Konto med følgende felt
 
-transaktioner (List<Transaktion>)
+transaktioner (List\<Transaktion\>)
 
 Igen - listen skal blot være offentligt - **se bort fra indkapsling og sikkerhed i denne opgave**.
 
