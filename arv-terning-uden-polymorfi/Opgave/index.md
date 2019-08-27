@@ -16,8 +16,9 @@ Skab nu en ny klasse LudoTerning der arver fra Terning. Klassen har to metoder
 * ErGlobus() returnerer true hvis værdien er 3 – ellers false
 * ErStjerne() returnerer true hvis værdien er 5 – ellers false
 * Sørg for at der både er en default og custom constructor der kalder ”mor” uden yderligere funktionalitet
+* Sørg for at klassen er ```sealed``` så man ikke kan arve fra den
 
-Prøv at skabe instanser af LudoTerning og test at de nye metoder fungerer.	
+Prøv at skabe instanser af LudoTerning og test at de nye metoder fungerer, og check at man ikke kan skabe en klasse der arver fra LudoTerning.
 
 Løsning: 
 
