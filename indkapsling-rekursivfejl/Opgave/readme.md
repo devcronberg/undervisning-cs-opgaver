@@ -11,7 +11,7 @@ namespace indkapsling
         {
             Person p = new Person();
             p.Navn = "x";
-			System.Console.WriteLine(p.Navn);
+	    System.Console.WriteLine(p.Navn);
         }
     }
 
