@@ -229,6 +229,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-todim", "arrays-todi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hukommelse-visualiser", "hukommelse-visualiser\hukommelse-visualiser.csproj", "{A06CC511-D946-42AA-86D7-4D7C902EC5B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "klasser-amort", "klasser-amort\klasser-amort.csproj", "{EFC9443F-4333-49FA-9FCB-90737CFBF356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -575,6 +577,10 @@ Global
 		{A06CC511-D946-42AA-86D7-4D7C902EC5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A06CC511-D946-42AA-86D7-4D7C902EC5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A06CC511-D946-42AA-86D7-4D7C902EC5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC9443F-4333-49FA-9FCB-90737CFBF356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC9443F-4333-49FA-9FCB-90737CFBF356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC9443F-4333-49FA-9FCB-90737CFBF356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC9443F-4333-49FA-9FCB-90737CFBF356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -665,6 +671,7 @@ Global
 		{4A784AE6-3558-4908-9273-C70BA1FF866B} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{EB8F81EC-FD5E-4305-8DE2-1A25EDD3BD7F} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
 		{A06CC511-D946-42AA-86D7-4D7C902EC5B3} = {33F0AFDC-8B50-4734-AC67-846EE31387FB}
+		{EFC9443F-4333-49FA-9FCB-90737CFBF356} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
