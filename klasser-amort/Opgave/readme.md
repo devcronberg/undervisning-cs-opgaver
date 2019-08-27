@@ -56,7 +56,7 @@ Skab en metode KontoUdtog() som returnerer en streng der minder om et kontoudtog
 01-02-2019 Indsat                   250,00
 01-03-2019 Hævet                    -75,00
 ```
-Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-simpel/Program.cs)
+Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/klasser-amort/Program.cs)
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
 <!-- footerslut -->
