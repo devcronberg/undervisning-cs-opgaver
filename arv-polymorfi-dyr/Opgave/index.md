@@ -12,7 +12,7 @@ Prøv også at skabe en List<Dyr>, put 5-6 forskellige dyr på listen, og løb l
 
 -------------------
 
-Du kan evt. udvide opgaven ved at skabe en statisk metode TilfældigtDyr() på Dyr-klassen, som enten returnerer en Hund eller en Kat med et tilfældigt navn fra filen dyrenavne.txt (se repository). Brug System.Random til at finde et tilfældigt tal, og brug dette til at finde og returnere et tilfældigt Dyr (hund/kat) med et tilfældigt navn. 
+Du kan evt. udvide opgaven ved at skabe en statisk metode TilfældigtDyr() på Dyr-klassen, som enten returnerer en Hund eller en Kat med et tilfældigt navn. Brug System.Random til at finde et tilfældigt tal, og brug dette til at finde og returnere et tilfældigt Dyr (hund/kat) med et tilfældigt navn. 
 Du kan bruge dette array af navne til at navngive dyret:
 
 ```csharp
