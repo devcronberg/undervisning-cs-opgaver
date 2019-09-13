@@ -1,5 +1,5 @@
 ﻿
-public class LudoTerning : Terning
+public sealed class LudoTerning : Terning
 {
     public bool ErGlobus()
     {
