@@ -4,7 +4,7 @@ Du skal skabe en konsol app hvor du skal benytte System.IO.File og System.IO.Dir
 
 - Udskrive en boolsk værdi svarende til om mappen c:\temp eksisterer (hvis den ikke findes så opret den og placer et par filer i)
 - Udskrive navnet på samtlige filer i mappen
-- Udskrive en boolsk værdi svarende til om mappen c:\temp\data.txt eksisterer 
+- Udskrive en boolsk værdi svarende til om filen c:\temp\data.txt eksisterer 
 - (Over)skrive indholdet i c:\temp\data.txt med "xxx" (brug WriteAllText)
 - Tilføje "yyy" til filen (brug AppendAllText)
 - Hent indhold til en string variabel og skriv den ud (brug ReadAllText)
