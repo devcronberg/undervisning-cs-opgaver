@@ -15,8 +15,8 @@ Du kan hente en demo sqlite database [ved at klikke her](https://github.com/devc
 
 Din opgave er nu at 
 
-- Skabe en metode der henter og udskriver data sorteret efter højde ved hjælp af SQLiteConnection, SQLiteCommand (select * from people order by height) og SQLiteDataReader og ExecuteReader.
-- Skabe en metode der finder antal personer under 160 cm ved hjælp af SQLiteConnection, SQLiteCommand (select count(*) from people where height<160) og ExecuteScalar.
+- Skabe en metode der henter og udskriver data sorteret efter højde ved hjælp af SQLiteConnection, SQLiteCommand (select * from person order by height) og SQLiteDataReader og ExecuteReader.
+- Skabe en metode der finder antal personer under 160 cm ved hjælp af SQLiteConnection, SQLiteCommand (select count(*) from person where height<160) og ExecuteScalar.
 - Skabe en metode der opdaterer højde til 160 på personen med personid=1 ved hjælp af SQLiteConnection, SQLiteCommand (update person set height = 160 where personid = 1) og ExecuteNonQuery.
 
 Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/data-sqlite/Program.cs).
