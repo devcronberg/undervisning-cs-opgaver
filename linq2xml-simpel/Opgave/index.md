@@ -50,6 +50,7 @@ Du skal nu loade filen i et XDocument-objekt og skabe følgende metoder:
 - string FindNavn(XDocument d, int id)
   - Finder et givet navn efter et id. Hvis intet findes skal der returneres "?"
 
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/linq2xml-simpel/Program.cs)
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
