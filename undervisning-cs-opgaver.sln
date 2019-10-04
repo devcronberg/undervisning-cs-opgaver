@@ -225,7 +225,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "start-debugging", "start-de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samlinger-simpel2", "samlinger-simpel\samlinger-simpel2.csproj", "{4A784AE6-3558-4908-9273-C70BA1FF866B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "start-proevselv", "start-proevselv\start-proevselv.csproj", "{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "start-proevselv", "start-proevselv\start-proevselv.csproj", "{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-primtal", "async-primtal\async-primtal.csproj", "{1D5C05F9-7EE5-4470-8792-91FD3BDBC857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -569,6 +571,10 @@ Global
 		{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5C05F9-7EE5-4470-8792-91FD3BDBC857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5C05F9-7EE5-4470-8792-91FD3BDBC857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5C05F9-7EE5-4470-8792-91FD3BDBC857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5C05F9-7EE5-4470-8792-91FD3BDBC857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -658,6 +664,7 @@ Global
 		{0162A85E-1AB1-417B-8B8D-1D30D7A8ABA0} = {DB01B5AC-53D0-4765-B111-072891242D62}
 		{4A784AE6-3558-4908-9273-C70BA1FF866B} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{9C31A955-4EC7-4CF2-ACF1-1EB90A506EFA} = {DB01B5AC-53D0-4765-B111-072891242D62}
+		{1D5C05F9-7EE5-4470-8792-91FD3BDBC857} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
