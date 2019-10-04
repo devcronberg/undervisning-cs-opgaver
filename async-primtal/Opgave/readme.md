@@ -1,4 +1,4 @@
-﻿# ASync (primal)
+﻿# ASync (primtal)
 
 I denne opgave skal du forstå forskellen på en synkron funktion og en asynkron funktion. 
 
@@ -134,8 +134,6 @@ Console.WriteLine("Main slut");
 
 Kør programmet, og resultatet skulle gerne blive
 
-Resultatet skal blive:
-
 - Først skrives "Main start"
 - Så skrives "Run2 start"
 - Så skrives "FindPrimtal2 start"
@@ -148,7 +146,9 @@ Resultatet skal blive:
 
 ![](v2.gif)
 
-Kan du forstå hvad der sker? Når FindPrimtal2 kaldes så åbner den en tråd hvor primtal findes, metoden afsluttes, og eksekvering returneres
+Kan du forstå hvad der sker? 
+
+Når FindPrimtal2 kaldes så åbner den en tråd hvor primtal findes, metoden afsluttes, og eksekvering returneres
 til Main(). Main() kører videre og begynder at skrive tal. Når svaret fra FindPrimtal2 er tilgængelig i Run2() skrives antal, og 
 "Run2 slut". Pointen er, at await i Run2() holder styr på context, afventer svar fra FindPrimtal2 men lader hovedtråden fortsætte med at skrive tal. Når
 svaret er tilgængeligt afbryder Run2 hovedtråden og skriver resultatet og slipper tråden igen.
