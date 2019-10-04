@@ -1,16 +1,13 @@
 ﻿# ASync (primal)
 
-I denne opgave skal du gøre en ellers synkron funktion asynkron. Start med at skabe en .NET Core konsol applikation,
-og erstat hele koden med følgende:
+I denne opgave skal du forstå forskellen på en synkron funktion og en asynkron funktion. 
+
+Start med at skabe en .NET Core konsol applikation, og erstat hele koden med følgende:
 
 ```csharp
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Xml;
 
 namespace async_primtal
 {
@@ -77,6 +74,8 @@ Kør programmet om læg mærke til hvad der sker:
 
 Følg logikken i koden... Er du med på hvorfor den gør som den gør? Og at alt er synkront? Beviset på at
 koden er synkron er, at tal først begynder at skrives **efter** der er fundet primtal.
+
+![](v1.gif)
 
 Tilføj nu disse to funktioner:
 

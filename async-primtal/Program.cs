@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Xml;
 
 namespace async_primtal
 {
@@ -12,6 +8,7 @@ namespace async_primtal
     {
         static void Main(string[] args)
         {
+            Console.ReadKey();
             Console.WriteLine("Main start");
             Run1(60000);
             // _= Run2(60000);    // Glem evt warning - eller skriv _ = Run2(50000)
