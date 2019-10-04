@@ -146,6 +146,8 @@ Resultatet skal blive:
 - Og dukker der flere tal op (op til 10)
 - Så skrives "Main slut"
 
+![](v2.gif)
+
 Kan du forstå hvad der sker? Når FindPrimtal2 kaldes så åbner den en tråd hvor primtal findes, metoden afsluttes, og eksekvering returneres
 til Main(). Main() kører videre og begynder at skrive tal. Når svaret fra FindPrimtal2 er tilgængelig i Run2() skrives antal, og 
 "Run2 slut". Pointen er, at await i Run2() holder styr på context, afventer svar fra FindPrimtal2 men lader hovedtråden fortsætte med at skrive tal. Når

@@ -10,8 +10,8 @@ namespace async_primtal
         {
             Console.ReadKey();
             Console.WriteLine("Main start");
-            Run1(60000);
-            // _= Run2(60000);    // Glem evt warning - eller skriv _ = Run2(50000)
+            //Run1(60000);
+            _= Run2(60000);    // Glem evt warning - eller skriv _ = Run2(50000)
             for (int i = 0; i < 10; i++)
             {
                 System.Threading.Thread.Sleep(500);
