@@ -10,6 +10,7 @@ I denne opgave skal du hente tilfældig json fra http://www.filltext.com, og des
 	- Prøv eventuelt i en browser
 - Brug System.Text.Json.JsonSerializer.Deserialize<\T\> json til en liste af brugere
 	- Det kræver NuGet-pakken "System.Text.Json"
+	- Prøv feks ```var brugere = System.Text.Json.JsonSerializer.Deserialize<List<Bruger>>(json);```
 - Udskriv alle egenskaberne til konsol
 - Skriv "Slut" på konsol
 - Det skal se nogenlunde således ud:
