@@ -2,7 +2,7 @@
 
 I denne opgave skal du hente tilfældig json fra http://www.filltext.com, og deserialisere det til en liste af brugere.
 
-- Start med at skabe en tom .net core konsol applikation, og tilret "void Main" til "async Task Main""
+- Start med at skabe en tom .net core konsol applikation, og tilret "void Main" til "async Task Main"
 - Tilføj nu en simpel klasse med egenskaberne Id (int), Brugernavn (string) og Password (string)
 - Skriv "Start" på konsol
 - Hent ved hjælp af HttpClient's GetStringAsync metode tilfældig json ved følgende url
