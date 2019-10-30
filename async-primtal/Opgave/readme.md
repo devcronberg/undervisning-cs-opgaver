@@ -150,8 +150,7 @@ Kan du forstå hvad der sker?
 
 Når FindPrimtal2 kaldes så åbner den en tråd hvor primtal findes, metoden afsluttes, og eksekvering returneres
 til Main(). Main() kører videre og begynder at skrive tal. Når svaret fra FindPrimtal2 er tilgængelig i Run2() skrives antal, og 
-"Run2 slut". Pointen er, at await i Run2() holder styr på context, afventer svar fra FindPrimtal2 men lader hovedtråden fortsætte med at skrive tal. Når
-svaret er tilgængeligt afbryder Run2 hovedtråden og skriver resultatet og slipper tråden igen.
+"Run2 slut". Pointen er, at await i Run2() holder styr på context, afventer svar fra FindPrimtal2 men lader hovedtråden fortsætte med at skrive tal. 
 
 Forstå du ideen bag async og await bedre? I såfald skal du lære at tænke i Task! Slet FindPrimtal2 og skriv den igen ;)
 
