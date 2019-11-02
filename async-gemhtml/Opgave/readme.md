@@ -7,7 +7,7 @@ I denne opgave skal du hente HTML fra forsiden på https://www.teknologisk.dk, o
 - Hent ved hjælp af HttpClient's GetStringAsync metode HTML fra https://www.teknologisk.dk
 - Skriv hvor mange tegn der er hentet
 - Gem nu HTML i tre forskellige filer ved hjælp af System.IO.File.AppendAllTextAsync.
-	- Da de tre task ikke er afhængige af hinanden bør benytte Task.WhenAll til at vente på at alle operationer er gennemført
+	- Da de tre task ikke er afhængige af hinanden kan du benytte Task.WhenAll til at vente på at alle operationer er gennemført
 	- Skriv på konsol når en fil er gemt
 - Skriv "Slut" på konsol
 - Det skal se nogenlunde således ud:
