@@ -24,7 +24,7 @@ I Main skal du nu
 - Udskrive listen af tal til konsolen
 - Skriv "Henter tal asynkront" til konsol
 - Skabe en liste af Task\<string\> og fylde den med ti tifældige returværdier fra TilFældigTalASync
-- Afvent at alle Task's er afsluttet ved hjælp af den statiske metode AwaitAll (konverter listen til array med ToArray) på Task-typen
+- Afvent at alle Task's er afsluttet ved hjælp af den statiske metode WaitAll (konverter listen til array med ToArray) på Task-typen
 - Udskrive listen af tal til konsolen ved at løbe listen af Task-igennem og udskrive Result
 - Skriv "App Slut" til konsol
 - Console.ReadLine() som sidste instruktion i Main
@@ -47,9 +47,7 @@ Task som argument. Denne Task har et Result som er en liste strenge (tal)
 
 - Kan du se nogen forskel i hastigheden mellem de to metoder?
 - Hvad med rækkefølgen at tekster til konsol - giver det mening? 
-	- Kan du se at WhenAll faktisk ikke blokerer? 
-	- At "App slut" ikke kommer til slut men det gør listen aF tal?
-
+	
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/async-webclient/Program.cs)
 
