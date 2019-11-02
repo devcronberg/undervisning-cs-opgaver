@@ -8,7 +8,7 @@ https://www.random.org/integers/?num=1&min=10&max=100&col=1&base=10&format=plain
 
 og læg mærke til, at den retunerer et tal tilfældigt tal mellem 10 og 100.
 
-Du skal skabe to statiske metoder i Program:
+Du skal skabe to statiske metoder i Main (som i øvrigt skal være async):
 
 - static string TilFældigTalSync(int min, int max)
 	- henter og returnerer et tilfældigt tal ved hjælp af System.Net.WebClient og metoden DownloadString.
