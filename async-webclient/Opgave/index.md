@@ -11,9 +11,11 @@ og læg mærke til, at den retunerer et tal tilfældigt tal mellem 10 og 100.
 Du skal skabe to statiske metoder i Main (som i øvrigt skal være async):
 
 - static string TilFældigTalSync(int min, int max)
+	- skriver "henter tal sync" til konsol
 	- henter og returnerer et tilfældigt tal ved hjælp af System.Net.WebClient og metoden DownloadString.
 
 - static Task<string> TilFældigTalASync(int min, int max)
+	- skriver "henter tal async" til konsol	
 	- henter og returnerer en Task\<string\> ved hjælp af System.Net.Http.HttpClient og metoden GetStringAsync
 
 I Main skal du nu 
