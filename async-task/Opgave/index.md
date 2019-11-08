@@ -20,7 +20,10 @@ public static void DanFil(string fil)
 }
 ```
 
-Du skal nu skabe en asynkron metode async HentTekst(string filnavn), der ved hjælp af en StreamReader (System.IO.File.OpenText) læser filen (brug metoden ReadToEndAsync), og returnerer resultatet som en Task<string> svarende til indholdet af filen. Skab også en  (ikke async) HentTekst1(string filNavn), som returnerer en Task<string>.
+Du skal nu 
+
+- Skabe en asynkron metode async HentTekst(string filnavn), der ved hjælp af en StreamReader (System.IO.File.OpenText) læser filen (brug metoden ReadToEndAsync), og afventer og returnerer resultatet som en Task<string> svarende til indholdet af filen.
+- Skabe en (ikke async) HentTekst1(string filNavn), som blot returnerer en Task<string>.
 
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/async-task/Program.cs)
 
