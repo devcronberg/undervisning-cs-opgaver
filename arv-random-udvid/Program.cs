@@ -21,7 +21,9 @@ namespace Test
     {
         public bool NextBool()
         {
-            return this.Next(1, 1002) < 501;
+            int tal = this.Next(1, 1002);
+            bool res = tal < 501;
+            return res;
         }
     }
 }
