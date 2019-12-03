@@ -19,18 +19,20 @@ public class LudoTerning : Terning
 
     public override void Skriv()
     {
-        switch (this.Værdi)
+        if(ErGlobus())
         {
-            case 3:
-                Console.WriteLine("[G]");
-                break;
-            case 5:
-                Console.WriteLine("[S]");
-                break;
-            default:
-                base.Skriv();
-                break;
+            Console.WriteLine("[G]");
+            return;
         }
+        
+        if(ErStjerne())
+        {
+            Console.WriteLine("[S]");
+            return;
+        }
+        
+        base.Skriv();       
+        
     }
 
 }
