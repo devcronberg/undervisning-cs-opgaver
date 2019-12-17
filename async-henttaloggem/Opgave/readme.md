@@ -1,4 +1,4 @@
-﻿# Simpel brug af asymc/await
+﻿# Simpel brug af async/await
 
 I denne opgave skal du hente et tilfældigt tal fra random.org, og gemme dette i en fil - men begge ting skal ske asynkront!
 
