@@ -237,7 +237,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "167 HTTP", "167 HTTP", "{0C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "http-find-kommuner", "http-find-kommuner\http-find-kommuner.csproj", "{E8D2505F-F3C2-4CDB-9F63-026A421C95A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq2objects-tal", "linq2objects-tal\linq2objects-tal.csproj", "{DF9FC200-1551-4C7A-9C0F-BF8165456C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-tal", "linq2objects-tal\linq2objects-tal.csproj", "{DF9FC200-1551-4C7A-9C0F-BF8165456C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-henttaloggem", "async-henttaloggem\async-henttaloggem.csproj", "{291164B5-0AF7-4D08-A69F-D34999B3F8FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -601,6 +603,10 @@ Global
 		{DF9FC200-1551-4C7A-9C0F-BF8165456C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9FC200-1551-4C7A-9C0F-BF8165456C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9FC200-1551-4C7A-9C0F-BF8165456C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291164B5-0AF7-4D08-A69F-D34999B3F8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291164B5-0AF7-4D08-A69F-D34999B3F8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291164B5-0AF7-4D08-A69F-D34999B3F8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291164B5-0AF7-4D08-A69F-D34999B3F8FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -695,6 +701,7 @@ Global
 		{0CE04F36-2941-4947-BB49-0552936C1C7B} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
 		{E8D2505F-F3C2-4CDB-9F63-026A421C95A0} = {0CE67EFB-55B7-49D8-8ECE-04880F86763A}
 		{DF9FC200-1551-4C7A-9C0F-BF8165456C55} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
+		{291164B5-0AF7-4D08-A69F-D34999B3F8FF} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
