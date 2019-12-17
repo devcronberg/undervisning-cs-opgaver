@@ -3,7 +3,7 @@
 Du skal skabe en konsol app hvor du kan øve dig lidt på brugen af Entity Framework.
 
 ## Setup
-Opgaven benytter en SQLite database (simpel filbaseret database) som du kan hente [ved at klikke her](https://github.com/devcronberg/undervisning-db-sqlite/raw/master/db-download/people.db). Databasen skal du placere i mappen c:\temp. Samtidigt skal du 
+Opgaven benytter en SQLite database (simpel filbaseret database) som du kan hente [ved at klikke her](https://github.com/devcronberg/undervisning-db-sqlite/#sqlite-demo-database). Databasen skal du placere i mappen c:\temp. Samtidigt skal du 
 installere NuGet-pakkerne:
 
 ```
