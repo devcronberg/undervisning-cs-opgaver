@@ -45,7 +45,7 @@ namespace ConsoleApplication1
     class Ubåd : IDbFunktioner
     {
         public int Nummer { get; set; }
-        public double Tubine { get; set; }
+        public double Turbine { get; set; }
         public void Gem()
         {
             Console.WriteLine("Gemmer ubåd...");
