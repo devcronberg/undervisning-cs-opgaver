@@ -12,7 +12,7 @@ class Hund  {
 class Ubåd  {
 
     public int Nummer { get; set; }
-    public double Tubine { get; set; }
+    public double Turbine { get; set; }
 }
 ```
 
