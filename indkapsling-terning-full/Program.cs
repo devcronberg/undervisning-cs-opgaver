@@ -6,13 +6,14 @@ namespace indkapsling_terning_full
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Terning t = new Terning();
+            t.Skriv();
         }
     }
 
     public class Terning
     {
-        public int Værdi { get; set; }
+        public int Værdi { get; private set; }
 
         public void Ryst()
         {

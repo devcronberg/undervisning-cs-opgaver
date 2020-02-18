@@ -2,7 +2,8 @@
 
 Du skal skabe en tom (.NET Core) konsol app med en klasse Terning med følgende medlemmer:
 
-* En offentlig automatisk egenskab (int) Værdi 
+* En offentlig automatisk egenskab (int) Værdi (offentlig Get, private Set)
+	* Kan du se forskellen på en offentlig get/set og offentlig get/private set)
 * En offentlig metode Ryst() der giver et tilfældigt tal
 	* se [tidligere opgave](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Klasser-terning-simpel/Opgave#klasser-terning) for infomation om hvordan du kan finde en tilfældig værdi
 * En Offentlig metode Skriv() der viser terningen (eksempelvis [1] eller [2]) 
