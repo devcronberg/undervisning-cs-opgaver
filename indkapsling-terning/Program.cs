@@ -14,19 +14,11 @@ namespace MinTerning
             t.Skriv();
             t = new Terning(6);
             t.Skriv();
-
-            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
-                Console.Write("Press any key to continue . . . ");
-                Console.ReadKey();
-            }
         }
     }
 
     public class Terning
     {
-        private static System.Random rnd = new Random();
         private int værdi;
 
         public int Værdi
@@ -52,6 +44,7 @@ namespace MinTerning
 
         public void Ryst()
         {
+            System.Random rnd = new Random();
             this.Værdi = rnd.Next(1, 7);
         }
 
