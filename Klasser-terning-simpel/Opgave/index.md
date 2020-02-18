@@ -33,7 +33,7 @@ Terning t3 = new Terning(8);    // Fejl: Forkert værdi
 
 Prøv også at tilføje et klassediagram (class diagram) og se klassen visuelt.
 
-![](classdiagram1.png)
+![](ClassDiagram1.png)
 
 Se evt. løsning - [Terning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-terning/Terning.cs) og [Program](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-terning-simpel/Program.cs)
 
