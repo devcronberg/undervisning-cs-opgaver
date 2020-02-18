@@ -52,8 +52,5 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="Opgave\index.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Opgave\terning.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

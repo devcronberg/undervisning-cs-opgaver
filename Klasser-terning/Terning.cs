@@ -4,7 +4,7 @@ namespace Klasser_terning
 {
     public class Terning
     {
-        private static Random rnd = new Random();
+
         public int værdi;
         private bool snyd;
 
@@ -26,6 +26,7 @@ namespace Klasser_terning
 
         public void Ryst()
         {
+            Random rnd = new Random();
             if (snyd)
                 this.værdi = 6;
             else
