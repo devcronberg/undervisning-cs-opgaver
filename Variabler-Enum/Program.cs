@@ -20,11 +20,11 @@ namespace Variabler_Enum
             KortKulør kort2Kulør = KortKulør.Ruder;
 
             // Skriver "Ruder 2"
-            Console.WriteLine(kort1Kulør.ToString() + " " + kort1Værdi);
+            Console.WriteLine(kort2Kulør.ToString() + " " + kort2Værdi);
 
             
             // udskriv tallet der svarer til ruder 
-            Console.WriteLine(Convert.ToInt32(kort1Kulør));     // 2
+            Console.WriteLine(Convert.ToInt32(kort2Kulør));     // 2
             
         }
     }
