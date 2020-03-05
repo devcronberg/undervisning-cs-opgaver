@@ -123,7 +123,7 @@ og ret main til at kalde Run2(60000) i stedet for Run1(60000):
 
 ```csharp
 Console.WriteLine("Main start");
-Run2(50000);    // Glem evt warning - eller skriv _ = Run2(50000)
+Run2(60000);    // Glem evt warning - eller skriv _ = Run2(60000)
 for (int i = 0; i < 10; i++)
 {
     System.Threading.Thread.Sleep(500);
