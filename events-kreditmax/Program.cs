@@ -32,7 +32,7 @@ namespace events_kreditmax
         public int KreditMax { get; set; }
         public void Køb(int værdi)
         {
-            Console.WriteLine("Kunde {0} køber for {1}", Navn, værdi);
+            Console.WriteLine($"Kunde {Navn} køber for {værdi}");
             this.Saldo -= værdi;
             if (Saldo < KreditMax)
             {
