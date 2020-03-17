@@ -3,11 +3,10 @@ using System.Collections.Generic;
 
 namespace Samlinger
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
             List<int> lst1 = new List<int>();
             lst1.Add(3);
             lst1.Add(1);
@@ -17,11 +16,22 @@ namespace Samlinger
                 Console.WriteLine(item);
             }
 
-            Dictionary<int, string> lst2 = new Dictionary<int, string>();
-            lst2.Add(1, "M");
-            lst2.Add(2, "T");
-            lst2.Add(3, "P");
-            var p = lst2[3];
+            Stack<DateTime> lst2 = new Stack<DateTime>();
+            lst2.Push(new DateTime(2018, 1, 1));
+            lst2.Push(new DateTime(2019, 1, 1));
+            lst2.Push(new DateTime(2020, 1, 1));
+            foreach (var item in lst2)
+            {
+                Console.WriteLine(item);
+            }
+            DateTime d = lst2.Pop();
+            Console.WriteLine(d);
+
+            Dictionary<int, string> lst3 = new Dictionary<int, string>();
+            lst3.Add(1, "M");
+            lst3.Add(2, "T");
+            lst3.Add(3, "P");
+            var p = lst3[3];
             Console.WriteLine(p);
 
             // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
@@ -32,5 +42,4 @@ namespace Samlinger
             }
         }
     }
-     
 }

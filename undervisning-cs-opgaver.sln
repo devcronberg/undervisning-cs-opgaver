@@ -59,8 +59,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flow-break-continue", "flow
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "090 Samlinger", "090 Samlinger", "{8346EB98-46B7-415C-A8F0-000FFA6673DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samlinger-simpel", "ConsoleApp1\samlinger-simpel.csproj", "{0173671E-55A8-45A6-8135-3AD465602B44}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samlinger-stack", "samlinger-stack\samlinger-stack.csproj", "{F4C4BFC5-FC71-4C73-8ED2-A91A85FC2385}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "100 Arv", "100 Arv", "{712D8985-4E33-437C-BDBB-7A2629B2065D}"
@@ -241,9 +239,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-tal", "linq2ob
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "async-henttaloggem", "async-henttaloggem\async-henttaloggem.csproj", "{291164B5-0AF7-4D08-A69F-D34999B3F8FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser-terning-simpel", "Klasser-terning-simpel\Klasser-terning-simpel.csproj", "{D4717AB5-B4CF-4C0F-82AA-E5E8D5E106CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser-terning-simpel", "Klasser-terning-simpel\Klasser-terning-simpel.csproj", "{D4717AB5-B4CF-4C0F-82AA-E5E8D5E106CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-terning-full", "indkapsling-terning-full\indkapsling-terning-full.csproj", "{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indkapsling-terning-full", "indkapsling-terning-full\indkapsling-terning-full.csproj", "{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,10 +325,6 @@ Global
 		{2CF192E2-AD20-4BF8-A9BB-22A2FC4CCE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF192E2-AD20-4BF8-A9BB-22A2FC4CCE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF192E2-AD20-4BF8-A9BB-22A2FC4CCE5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0173671E-55A8-45A6-8135-3AD465602B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0173671E-55A8-45A6-8135-3AD465602B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0173671E-55A8-45A6-8135-3AD465602B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0173671E-55A8-45A6-8135-3AD465602B44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4C4BFC5-FC71-4C73-8ED2-A91A85FC2385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4C4BFC5-FC71-4C73-8ED2-A91A85FC2385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4C4BFC5-FC71-4C73-8ED2-A91A85FC2385}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -643,7 +637,6 @@ Global
 		{B6B840A0-924A-4C20-932D-84D4AD21439F} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 		{0438615B-5A9C-45A5-ACF3-EAC21148FCBE} = {420E0AD8-BE55-4972-A227-050D8A78CEC6}
 		{2CF192E2-AD20-4BF8-A9BB-22A2FC4CCE5C} = {8DB10973-89AF-46BE-882C-88DF47CE73B8}
-		{0173671E-55A8-45A6-8135-3AD465602B44} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{F4C4BFC5-FC71-4C73-8ED2-A91A85FC2385} = {8346EB98-46B7-415C-A8F0-000FFA6673DF}
 		{9B24E1F8-15B1-45F4-8F77-4DBB0DC3A892} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
 		{142696E7-12C0-421D-B0C1-E9A531E4A413} = {712D8985-4E33-437C-BDBB-7A2629B2065D}
