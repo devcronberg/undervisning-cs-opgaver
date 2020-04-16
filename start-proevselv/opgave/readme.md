@@ -42,9 +42,11 @@ som på [video](http://cdn.cronberg.dk/kurser/cs/0819_VS2019_Console.mp4)
 - Prøv at afvikle applikationen fra VS fra at trykke Ctrl+F5 (uden debugger)
   - Dukker der et konsol vindue frem, og bliver der talt til 5?
 
+Husk at se video hvis du er i tvivl!
+
 ### Ekstra (ikke med i video)
 
-Man kan vælge at afvikle en dll-fil direkte fra kommandoprompt.
+Man kan vælge at afvikle en fil direkte fra kommandoprompt.
 
 - Start en kommandoprompt og naviger til mappen hvor projektfilen (.csproj) befinder sig
   - skriv dotnet run
@@ -52,9 +54,7 @@ Man kan vælge at afvikle en dll-fil direkte fra kommandoprompt.
   - naviger til mappen bin\debug\netcoreapp2.2
     - skriv dotnet [navn på dll](eksempelvis "dotnet demo.dll")
       - det burde afvikle den tidligere kompilere kode (IL)
-
-
-Husk at se video hvis du er i tvivl!
+  - i nyere versioner af .net core vil der på Windows også blive produceret en exe-fil. Prøv at afvikle den direkte!
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
