@@ -10,6 +10,8 @@ namespace ConsoleApplication3
             Console.WriteLine(res); // 7
             double res2 = BeregnAreal(5);
             Console.WriteLine(res2); // 78.5398
+            double res3 = BeregnBeløbEfterMoms(100, .25);
+            Console.WriteLine(res3); // 125
             Udskriv("Dette er en test"); // Dette er en test
 
 
@@ -22,9 +24,9 @@ namespace ConsoleApplication3
         }
 
 
-        static double BeregnMoms(double tal, double momsPct)
+        static double BeregnBeløbEfterMoms(double tal, double momsPct)
         {
-            return tal * momsPct;
+            return tal * (1 + momsPct);
         }
 
         static int LægSammen(int a, int b)
