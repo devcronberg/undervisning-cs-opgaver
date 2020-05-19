@@ -18,8 +18,7 @@ namespace Flow_for_if
                         Console.ForegroundColor = ConsoleColor.White;
                     Console.Write(tal.PadLeft(4));
                 }
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine();        
             }
 
             // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core) 
