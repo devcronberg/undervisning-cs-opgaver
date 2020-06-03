@@ -1,38 +1,39 @@
 ﻿# Hukommelse (struct / class)
 
-Opret en ny konsol app og tilføj en struct kaldet Person med et offentligt felt kaldet Id (int):
+Opret en ny konsol app og tilføj følgende kode:
 
 ```csharp
-struct Person
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        Person k1 = new Person();
+        k1.Id = 1;
+        Person k2 = new Person();
+        k2.Id = 2;
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
+        k1 = k2;
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
+        k1.Id = 3;
+        Console.WriteLine(k1.Id);
+        Console.WriteLine(k2.Id);
+    }
+}
+
+struct Person   
 {
     public int Id;
 }
 ```
 
-Tilføj kode til main:
-
-1) 
-- Opret en ny person med Person k1 = new Person(); 
-- Opret en ny person med Person k2 = new Person();
-- Sæt k1.Id = 1
-- Sæt k2.Id = 2
-- Udskriv k1.Id og k2.Id
-
-2) 
-- Sæt k1 = k2;
-- Udskriv k1.Id og k2.Id
-
-3)
-- Sæt k1.Id = 3
-- Udskriv k1.Id og k2.Id
-
-Hvad skriver den ud – og hvorfor??
-
-Prøv nu at 
-
-- Rette struct Person til class Person
-
-Hvad skriver den ud – og hvorfor??
+1) Hvad skriver programmet ud – og hvorfor??
+2) Ret struct Person til class Person 
+3) Hvad skriver programmet ud – og hvorfor??
 
 -------------
 
