@@ -12,7 +12,7 @@ struct Person
 Tilføj kode til main:
 
 1) 
-- Opret en ny person med Person k1 = new Person(); (så felter sættes til default værdi – best pratice)
+- Opret en ny person med Person k1 = new Person(); 
 - Opret en ny person med Person k2 = new Person();
 - Sæt k1.Id = 1
 - Sæt k2.Id = 2
