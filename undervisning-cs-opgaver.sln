@@ -243,6 +243,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser-terning-simpel", "K
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indkapsling-terning-full", "indkapsling-terning-full\indkapsling-terning-full.csproj", "{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flow-for-if-simpel", "flow-for-if-simpel\flow-for-if-simpel.csproj", "{2D35E183-84B5-4EE0-8202-BE33F048911A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -613,6 +615,10 @@ Global
 		{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECC4967-5EDE-4C27-AA3F-4B46E604943B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D35E183-84B5-4EE0-8202-BE33F048911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D35E183-84B5-4EE0-8202-BE33F048911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D35E183-84B5-4EE0-8202-BE33F048911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D35E183-84B5-4EE0-8202-BE33F048911A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -709,6 +715,7 @@ Global
 		{291164B5-0AF7-4D08-A69F-D34999B3F8FF} = {7367F5AA-3FE7-45A0-8B76-40816B32196D}
 		{D4717AB5-B4CF-4C0F-82AA-E5E8D5E106CB} = {FC38DEEA-FD81-49EE-86CF-E2D158DA4318}
 		{3ECC4967-5EDE-4C27-AA3F-4B46E604943B} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{2D35E183-84B5-4EE0-8202-BE33F048911A} = {8DB10973-89AF-46BE-882C-88DF47CE73B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
