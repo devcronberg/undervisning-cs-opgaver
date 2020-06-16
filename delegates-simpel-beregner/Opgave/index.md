@@ -30,7 +30,14 @@ der den funktion der ønskes benyttes. Kald kan se således ud:
 
 ```csharp
 int res = Beregner(1, 1, Plus);	// lægger sammen
-res = Beregner(1, 1, Minus);	// trækker fra
+
+// eller (forudsat at BeregnDelegate er defineret)
+BeregnDelegate d = new BeregnDelegate(Plus);
+int res2 = Beregner(1, 1, d);
+
+// eller (forudsat at BeregnDelegate er defineret)
+BeregnDelegate d = Plus;
+int res3 = Beregner(1, 1, d);
 ```
 
 Prøv også at skabe en metode FindTilfældigFunktion, der returnerer
