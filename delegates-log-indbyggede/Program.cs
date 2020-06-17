@@ -20,11 +20,12 @@ namespace delegates_log
         }
     }
 
-    public delegate void LogDelegate(string txt);  
+    public delegate void LogDelegate(string txt);
+
     public class Maskine
     {
 
-        public LogDelegate Log { get; set; }    
+        public Action<string> Log { get; set; }
 
         public void Start()
         {
@@ -34,5 +35,5 @@ namespace delegates_log
         {
             Log?.Invoke(DateTime.Now.ToLongTimeString() + " Stopper");
         }
-    }    
+    }
 }
