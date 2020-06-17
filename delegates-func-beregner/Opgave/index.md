@@ -23,7 +23,7 @@ public static int Gange(int a, int b)
 }
 ```
 Skab en metode Beregner der tager to heltal til beregning samt 
-en Func, der henviser der den funktion der ønskes benyttes. 
+en Func, der henviser til den funktion der ønskes benyttes. 
 Kald kan se således ud:
 
 ```csharp
