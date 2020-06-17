@@ -5,7 +5,7 @@ Du skal skabe en tom konsol app med klassen Terning. Klassen skal indeholde
 - En offentlig egenskab Værdi (int)
 - En private delegate kaldet rystDelegate som ikke tager nogle argumenter men returnerer en int
 - En konstruktør der som argument tager en reference til en delegate. Denne reference gemmes i rystDelegate. Hvis
-der ikke medsendes et argument skal der antages at værdien af null (valgfrit argument - =null). Hvis det medsendte argument er null skal der tilføjes en standard metode (brug System.Random til at finde et tal mellem 1-6). 
+der ikke medsendes et argument skal der antages at værdien er null (valgfrit argument). Hvis det medsendte argument er null (eller der ikke er angivet noget) skal der tilføjes en standard metode (brug System.Random til at finde et tal mellem 1-6). 
 - En Ryst-metode som blot afvikler metoden i rystDelegate, og gemmer værdien i Værdi.
 
 Du kan bruge følgende kode til at teste klassen
