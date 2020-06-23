@@ -8,6 +8,10 @@ namespace MinTerning
         {
             Terning t = new Terning();
             t.Skriv();
+            
+            // eller
+            Console.WriteLine(t.Værdi);
+            
             t.Ryst();
             t.Skriv();
             t.Værdi = 7;
