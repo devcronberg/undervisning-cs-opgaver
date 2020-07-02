@@ -20,8 +20,6 @@ namespace delegates_log
         }
     }
 
-    public delegate void LogDelegate(string txt);
-
     public class Maskine
     {
 
