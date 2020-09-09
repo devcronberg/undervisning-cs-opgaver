@@ -16,7 +16,7 @@ Skab nu en ny klasse LudoTerning der arver fra Terning. Klassen har to metoder
 
 Prøv at skabe instanser af både Terning og LudoTerning og test at metoder fungerer.	
 
-Se [løsning for Terning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-terning-med-polymorfi/Terning.cs) og [her er Program.cs (main)](https://github.com/devcronberg/undervisning-cs-opgaver/blob/9e015a194c3aba6818beb1d39cf6acc138673f8e/arv-terning-med-polymorfi/Program.cs#L11)
+Se [løsning for Terning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-terning-med-polymorfi/Terning.cs), [løsning for LudoTerning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-terning-med-polymorfi/LudoTerning.cs) og [her er Program.cs (main)](https://github.com/devcronberg/undervisning-cs-opgaver/blob/9e015a194c3aba6818beb1d39cf6acc138673f8e/arv-terning-med-polymorfi/Program.cs#L11)
 
 Ekstra:
 
