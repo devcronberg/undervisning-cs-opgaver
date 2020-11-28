@@ -27,10 +27,10 @@ Din opgave er at serialisere data til en klasse der repræsenterer en person med
 
 og du skal gøre det på to måder ved hjælp af to forskellige metoder.
 
-I den ene metode ```kaldet List<Person> HentPersonerManuelt([sti til csv])``` skal du foretage serialisering helt manuelt ved at 
-hente data med metoder fra System.IO.File og splitte linjer og felter for på den måde at skabe en liste.
+I den ene metode kaldet ```List<Person> HentPersonerManuelt([sti til csv])``` skal du foretage serialisering helt manuelt ved at 
+hente data med metoder fra System.IO.File og splitte linjer og felter (husk at string typen har en Split-metode) for på den måde at skabe en liste.
 
-I den anden metode ```kaldet List<Person> HentPersonerCsvHelper([sti til csv])``` skal du benytte NuGet-pakken CsvHelper til at skabe listen. Du kan læse 
+I den anden metode kaldet ```List<Person> HentPersonerCsvHelper([sti til csv])``` skal du benytte NuGet-pakken CsvHelper til at skabe listen. Du kan læse 
 om CsvHelper og se eksempler på deres [side](https://joshclose.github.io/CsvHelper/). Bemærk, at klassen CsvHelper tager som argument i 
 konstruktør en instans af en StreamReader og en instans af CultureInfo. Sidstnævnte kan sættes til dansk med ```new CultureInfo("da-DK")```.
 
