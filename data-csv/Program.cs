@@ -12,12 +12,12 @@ namespace data_csv
     {
         static void Main(string[] args)
         {
-string sti = "c:\\temp\\data.csv";            
-foreach (var item in HentPersonerManuelt(sti).OrderBy(i=>i.Fødselsdato))
-    Console.WriteLine(item.Navn);
-Console.WriteLine();
-foreach (var item in HentPersonerCsvHelper(sti).OrderBy(i => i.Fødselsdato))
-    Console.WriteLine(item.Navn);
+            string sti = "c:\\temp\\data.csv";
+            foreach (var item in HentPersonerManuelt(sti).OrderBy(i => i.Fødselsdato))
+                Console.WriteLine(item.Navn);
+            Console.WriteLine();
+            foreach (var item in HentPersonerCsvHelper(sti).OrderBy(i => i.Fødselsdato))
+                Console.WriteLine(item.Navn);
         }
 
         static List<Person> HentPersonerManuelt(string sti)
@@ -52,7 +52,7 @@ foreach (var item in HentPersonerCsvHelper(sti).OrderBy(i => i.Fødselsdato))
         static List<Person> HentPersonerCsvHelper(string sti)
         {
             try
-            {           
+            {
                 using (var csv = new CsvReader(new StreamReader(sti, System.Text.Encoding.UTF8), new CultureInfo("da-DK")))
                     return csv.GetRecords<Person>().ToList();
             }
