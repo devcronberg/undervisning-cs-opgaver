@@ -253,6 +253,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-terning-ryst-dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-csv", "data-csv\data-csv.csproj", "{961ED059-B81F-43E9-84A8-A9A042D15237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "io-streaming", "..\io-streaming\io-streaming.csproj", "{6E8A12AF-701A-42E3-B4D3-04B99EAD060A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -643,6 +645,10 @@ Global
 		{961ED059-B81F-43E9-84A8-A9A042D15237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{961ED059-B81F-43E9-84A8-A9A042D15237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{961ED059-B81F-43E9-84A8-A9A042D15237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8A12AF-701A-42E3-B4D3-04B99EAD060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8A12AF-701A-42E3-B4D3-04B99EAD060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8A12AF-701A-42E3-B4D3-04B99EAD060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8A12AF-701A-42E3-B4D3-04B99EAD060A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -744,6 +750,7 @@ Global
 		{8AB5B526-0104-45F2-9FCB-0E8A8B183D5E} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{19393E02-4E5B-4A31-AD79-FF7DF3F0F22A} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{961ED059-B81F-43E9-84A8-A9A042D15237} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
+		{6E8A12AF-701A-42E3-B4D3-04B99EAD060A} = {72A0EBF9-D732-4993-9F61-1915D6095837}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
