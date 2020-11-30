@@ -35,6 +35,8 @@ For at tilføje funktioner til regnemaskinen kan du benytte metoden TilføjBereg
 der som argument tager en string der beskriver navnet (feks "minus") og en reference
 til en delegate af typen ```Func<int, int, int>``` med den konkrete beregning. 
 
+![](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-regnemaskine-delegate/Opgave/regnemaskine.png)
+
 Tilføj eventuelt nogle flere funktioner - de skal bare returnere en int og tage to int's
 som argument.
 

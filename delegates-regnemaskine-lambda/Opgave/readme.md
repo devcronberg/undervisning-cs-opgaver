@@ -36,6 +36,8 @@ der som argument tager en string der beskriver navnet (feks "minus") og en refer
 til en delegate af typen ```Func<int, int, int>``` med den konkrete beregning. I denne
 opgave skal du skabe reference ved at benytte en lambda til de tre første funktioner.
 
+![](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-regnemaskine-delegate/Opgave/regnemaskine.png)
+
 Tilføj eventuelt nogle flere funktioner - de skal bare returnere en int og tage to int's
 som argument.
 
