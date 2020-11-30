@@ -20,6 +20,7 @@ namespace delegates_lambda
             a.ForEach(ListVærdi);
             Console.WriteLine();
             a.ForEach(i => { Console.WriteLine(i); });
+            a.ForEach(i => Console.WriteLine(i));
 
             // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
             if (System.Diagnostics.Debugger.IsAttached)
