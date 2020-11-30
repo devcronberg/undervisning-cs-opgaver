@@ -251,9 +251,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-terning", "delega
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-terning-ryst-delegate", "delegates-terning-ryst-delegate\delegates-terning-ryst-delegate.csproj", "{19393E02-4E5B-4A31-AD79-FF7DF3F0F22A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-csv", "data-csv\data-csv.csproj", "{961ED059-B81F-43E9-84A8-A9A042D15237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data-csv", "data-csv\data-csv.csproj", "{961ED059-B81F-43E9-84A8-A9A042D15237}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "io-streaming", "io-streaming\io-streaming.csproj", "{7E28E542-D40C-4D8E-849B-6F719C2968D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-regnemaskine", "delegates-regnemaskine\delegates-regnemaskine.csproj", "{28F90E04-00FE-4C81-B8EA-F075ED1796BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-regnemaskine-delegate", "delegates-regnemaskine-delegate\delegates-regnemaskine-delegate.csproj", "{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -649,6 +653,14 @@ Global
 		{7E28E542-D40C-4D8E-849B-6F719C2968D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E28E542-D40C-4D8E-849B-6F719C2968D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E28E542-D40C-4D8E-849B-6F719C2968D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F90E04-00FE-4C81-B8EA-F075ED1796BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F90E04-00FE-4C81-B8EA-F075ED1796BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F90E04-00FE-4C81-B8EA-F075ED1796BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F90E04-00FE-4C81-B8EA-F075ED1796BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -751,6 +763,8 @@ Global
 		{19393E02-4E5B-4A31-AD79-FF7DF3F0F22A} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{961ED059-B81F-43E9-84A8-A9A042D15237} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
 		{7E28E542-D40C-4D8E-849B-6F719C2968D5} = {72A0EBF9-D732-4993-9F61-1915D6095837}
+		{28F90E04-00FE-4C81-B8EA-F075ED1796BB} = {9DBA3402-0D65-4538-A870-1D277010F40E}
+		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
