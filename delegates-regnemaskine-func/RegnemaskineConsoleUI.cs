@@ -3,19 +3,17 @@
     using System;
     using System.Collections.Generic;
     
-    public delegate int BeregnDelegate(int tal1, int tal2);
-
     public class RegnemaskineConsoleUI
     {
-        private Dictionary<string, BeregnDelegate> beregninger { get; set; }
+        private Dictionary<string, Func<int, int, int>> beregninger { get; set; }
 
         public RegnemaskineConsoleUI()
         {
-            beregninger = new Dictionary<string, BeregnDelegate>();
+            beregninger = new Dictionary<string, Func<int, int, int>>();
             TilføjBeregning("plus", (a, b) => a + b);
         }
 
-        public void TilføjBeregning(string navn, BeregnDelegate funktion)
+        public void TilføjBeregning(string navn, Func<int, int, int> funktion)
         {
             beregninger.Add(navn.ToLower(), funktion);
         }

@@ -1,10 +1,10 @@
-﻿# Regnemaskine (rå delegates)
+﻿# Regnemaskine (lambda)
 
 I denne opgave skal du tilføje funktioner til en regnemaskine som
 jeg har lavet på forhånd. Start med at skabe en tom konsol applikation
 og kopier følgende kode 
 
-https://raw.githubusercontent.com/devcronberg/undervisning-cs-opgaver/master/delegates-regnemaskine-delegate/RegnemaskineConsoleUI.cs
+https://raw.githubusercontent.com/devcronberg/undervisning-cs-opgaver/master/delegates-regnemaskine-lambda/RegnemaskineConsoleUI.cs
 
 ind i projektet - enten i bunden af Program.cs eller som en fil for 
 sig selv. Du behøver ikke forstå koden - du skal bare bruge den.
@@ -33,11 +33,12 @@ De tre første skal du kode selv og den sidste kommer fra System.Math.
 
 For at tilføje funktioner til regnemaskinen kan du benytte metoden TilføjBeregning, 
 der som argument tager en string der beskriver navnet (feks "minus") og en reference
-til en delegate af typen BeregnDelegate med den konkrete beregning. 
+til en delegate af typen ```Func<int, int, int>``` med den konkrete beregning. I denne
+opgave skal du skabe reference ved at benytte en lambda til de tre første funktioner.
 
 Tilføj eventuelt nogle flere funktioner - de skal bare returnere en int og tage to int's
 som argument.
 
 Kan du se, at du som bruger af min regnemaskine kan udvide funktionaliteten som du ønsker?
 
-Se eventuelt min [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-regnemaskine-delegate/Program.cs).
+Se eventuelt min [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/delegates-regnemaskine-lambda/Program.cs).
