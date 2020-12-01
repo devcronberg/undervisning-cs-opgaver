@@ -8,7 +8,7 @@ I denne opgave skal du hente tilfældig json fra http://www.filltext.com, og des
 - Hent ved hjælp af HttpClient's GetStringAsync metode tilfældig json ved følgende url
 	- http://www.filltext.com/?rows=10&id={index}&brugernavn={username}&password={randomString|5}
 	- Prøv eventuelt i en browser
-- Brug System.Text.Json.JsonSerializer.Deserialize<\T\> json til en liste af brugere
+- Brug System.Text.Json.JsonSerializer.Deserialize<T> json til en liste af brugere
 	- Det kræver NuGet-pakken "System.Text.Json"
 	- Prøv feks ```var brugere = System.Text.Json.JsonSerializer.Deserialize<List<Bruger>>(json);```
 - Udskriv alle egenskaberne til konsol
