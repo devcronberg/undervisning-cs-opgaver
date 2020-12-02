@@ -44,7 +44,7 @@ ved at vælge "Override "
 
 ![](override.png)
 
-Så før at alle egenskaber er valgt, der implementeres IEquatable og overskrives operatorer
+Sørg for at alle egenskaber er valgt, der implementeres IEquatable og overskrives operatorer
 
 ![](override1.png)
 
