@@ -257,9 +257,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "io-streaming", "io-streamin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-regnemaskine-delegate", "delegates-regnemaskine-delegate\delegates-regnemaskine-delegate.csproj", "{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-regnemaskine-func", "delegates-regnemaskine-func\delegates-regnemaskine-func.csproj", "{889B0870-B72C-46AA-B286-11D9CA23EB9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-regnemaskine-func", "delegates-regnemaskine-func\delegates-regnemaskine-func.csproj", "{889B0870-B72C-46AA-B286-11D9CA23EB9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-regnemaskine-lambda", "delegates-regnemaskine-lambda\delegates-regnemaskine-lambda.csproj", "{8A8D278E-D958-46DC-AAB8-03DB199E8A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-regnemaskine-lambda", "delegates-regnemaskine-lambda\delegates-regnemaskine-lambda.csproj", "{8A8D278E-D958-46DC-AAB8-03DB199E8A3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indkapsling-immutable-klasse", "indkapsling-immutable-klasse\indkapsling-immutable-klasse.csproj", "{21E40205-4951-4B47-82AF-04307B883766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -667,6 +669,10 @@ Global
 		{8A8D278E-D958-46DC-AAB8-03DB199E8A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8D278E-D958-46DC-AAB8-03DB199E8A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8D278E-D958-46DC-AAB8-03DB199E8A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E40205-4951-4B47-82AF-04307B883766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E40205-4951-4B47-82AF-04307B883766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E40205-4951-4B47-82AF-04307B883766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E40205-4951-4B47-82AF-04307B883766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -772,6 +778,7 @@ Global
 		{9EF448F1-EB4D-44F8-B3F9-1F1C9A396371} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{889B0870-B72C-46AA-B286-11D9CA23EB9E} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 		{8A8D278E-D958-46DC-AAB8-03DB199E8A3C} = {9DBA3402-0D65-4538-A870-1D277010F40E}
+		{21E40205-4951-4B47-82AF-04307B883766} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
