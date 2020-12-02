@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace delegates_simpel_beregner
 {
+
     class Program
     {
 
@@ -72,5 +73,4 @@ namespace delegates_simpel_beregner
         }
 
     }
-
 }
