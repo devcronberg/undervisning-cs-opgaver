@@ -1,9 +1,9 @@
-﻿# En uforanderlig (immutable) klasse
+﻿# En uforanderlig (immutable) klasse 
 
 I denne opgave skal du designe en immutable (uforanderlig) klasse Person med to egenskaber
 
-PersonId (int)
-Navn (string)
+- PersonId (int)
+- Navn (string)
 
 Til at starte med skal du designe klassen således, at egenskaberne udelukkende skal kunne 
 tildeles en værdi gennem en brugerdefineret konstruktør (ingen konstruktør uden argumenter - man skal benytte den
@@ -21,7 +21,7 @@ Med klassen skal du kunne benytte følgende kode
 
 ```csharp
 Person p1 = new Person(1, "Mikkel");
-Console.WriteLine(p1.Navn);
+Console.WriteLine(p1.Navn);	// Mikkel
 // p1.Navn = "Mathias";     // Fejl
 Console.WriteLine(p1);      // Person { PersonId: 1, Navn: Mikkel }
 
@@ -44,6 +44,31 @@ ved at vælge "Override "
 
 ![](override.png)
 
-Så før at alle egenskaber er valgt og at der implementeres IEquatable
+Så før at alle egenskaber er valgt, der implementeres IEquatable og overskrives operatorer
 
 ![](override1.png)
+
+Prøv nu at køre følgende kode igen
+
+```csharp
+Person p3 = new Person(1, "Mathias");
+Person p4 = new Person(1, "Mathias");
+Console.WriteLine(p3 == p4);// true
+```
+
+Nu returnerer sammenligning true fordi der sammenlignes på værdier. Prøv eventuelt også
+
+```csharp
+Console.WriteLine(ReferenceEquals(p3, p4)); // false
+```
+
+Her sammenlignes på referencer og derfor returneres false.
+
+## Ekstra - brug af C# 9 records
+
+Ovennævnte kode Person-klasse kan erstattes fuldstændig af en record (C# 9). Prøv selv ved at udmarkere klassen og tilføje:
+
+```csharp
+record Person(int PersonId, string Navn);
+```
+

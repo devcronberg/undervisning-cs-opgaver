@@ -19,10 +19,10 @@ namespace indkapsling_immutable_klasse
             Console.WriteLine(p2);      // Person { PersonId: 2, Navn: Mikkel }
 
 
-Person p3 = new Person(1, "Mathias");
-Person p4 = new Person(1, "Mathias");
-Console.WriteLine(p3 == p4);// false
-
+            Person p3 = new Person(1, "Mathias");
+            Person p4 = new Person(1, "Mathias");
+            Console.WriteLine(p3 == p4);// false
+            Console.WriteLine(ReferenceEquals(p3, p4)); // false
         }
     }
 
@@ -69,4 +69,7 @@ Console.WriteLine(p3 == p4);// false
             return !(left == right);
         }
     }
+
+    // record Person(int PersonId, string Navn);
+
 }
