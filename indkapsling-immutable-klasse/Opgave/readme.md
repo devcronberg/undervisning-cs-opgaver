@@ -72,3 +72,8 @@ Ovennævnte kode Person-klasse kan erstattes fuldstændig af en record (C# 9). P
 record Person(int PersonId, string Navn);
 ```
 
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-immutable-klasse/Program.cs).
+
+<!-- footerstart -->
+> Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)
+<!-- footerslut -->
