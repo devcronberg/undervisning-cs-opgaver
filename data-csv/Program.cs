@@ -68,7 +68,7 @@ namespace data_csv
     {
         public int Id { get; set; }
         public string Navn { get; set; }
-        public DateTime Fødselsdato { get; set; }
+        public DateTime Dato { get; set; }
         public bool ErDansk { get; set; }
     }
 }
