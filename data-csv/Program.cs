@@ -13,10 +13,10 @@ namespace data_csv
         static void Main(string[] args)
         {
             string sti = "c:\\temp\\data.csv";
-            foreach (var item in HentPersonerManuelt(sti).OrderBy(i => i.Fødselsdato))
+            foreach (var item in HentPersonerManuelt(sti).OrderBy(i => i.Dato))
                 Console.WriteLine(item.Navn);
             Console.WriteLine();
-            foreach (var item in HentPersonerCsvHelper(sti).OrderBy(i => i.Fødselsdato))
+            foreach (var item in HentPersonerCsvHelper(sti).OrderBy(i => i.Dato))
                 Console.WriteLine(item.Navn);
         }
 
@@ -36,7 +36,7 @@ namespace data_csv
                         Id = Convert.ToInt32(felter[0]),
                         Navn = felter[1].Trim(),
                         ErDansk = felter[2].ToLower() == "true" ? true : false,
-                        Fødselsdato = Convert.ToDateTime(felter[3])
+                        Dato = Convert.ToDateTime(felter[3])
                     }); ;
 
                 }

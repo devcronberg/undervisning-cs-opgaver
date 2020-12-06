@@ -76,4 +76,18 @@ namespace ConsoleApp1
 }
 ```
 
-Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/tree/master/Con)
+Du kan bruge følgende metoder til kontrol/kopiering:
+
+```csharp
+System.IO.File.Exists()
+System.IO.Directory.Exists()
+System.IO.File.Delete()
+System.IO.File.Copy()
+System.IO.Path.Combine()
+System.IO.Path.GetFileName()
+```
+
+Se i øvrigt også [denne lidt udvidere opgave](Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Configuration/Opgave))
+
+
+Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Parser/Program.cs)
