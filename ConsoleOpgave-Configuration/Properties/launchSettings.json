@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleOpgave-Configuration": {
+      "commandName": "Project",
+      "commandLineArgs": "-f c:\\temp\\data.txt"
+    }
+  }
+}
