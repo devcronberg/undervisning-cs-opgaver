@@ -87,7 +87,7 @@ System.IO.Path.Combine()
 System.IO.Path.GetFileName()
 ```
 
-Se i øvrigt også [denne lidt udvidere opgave](Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Configuration/Opgave))
+Se i øvrigt også [denne lidt udvidere opgave](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Configuration/Opgave).
 
 
 Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Parser/Program.cs)
