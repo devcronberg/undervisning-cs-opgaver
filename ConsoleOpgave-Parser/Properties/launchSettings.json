@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleOpgave-Parser": {
+      "commandName": "Project",
+      "commandLineArgs": "-f c:\\tmp\\data.txt -d c:\\temp -r"
+    }
+  }
+}
