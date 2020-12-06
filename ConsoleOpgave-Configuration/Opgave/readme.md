@@ -67,4 +67,15 @@ namespace ConsoleOpgave_Configuration
     }
 }
 ```
+
+Idet settings gemmes i appsettings.json (husk at angive "Copy always" i egenskaber til filen):
+
+```json
+{
+    "A": "abc",
+    "B": 1,
+    "C": true
+}
+```
+
 Se min løsning [her](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/ConsoleOpgave-Configuration/Program.cs)
