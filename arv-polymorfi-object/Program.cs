@@ -12,7 +12,7 @@ namespace arv_polymorfi_object
         {
 
             Faktura f = new Faktura() { Nr = 1, Kunde = "abc", Dato = DateTime.Now.Date };
-            Console.WriteLine(f);
+            Console.WriteLine(f.ToString());
 
         }
     }
