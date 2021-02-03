@@ -27,6 +27,11 @@ namespace arv_polymorfi_object
         {
             return $"Faktura til {Kunde} nr {Nr} fra {Dato:D}.";
         }
+        
+        // public override string ToString()
+        // {
+        //    return JsonSerializer.Serialize(this);
+        // }
     }
 
 }
