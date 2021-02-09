@@ -13,7 +13,7 @@ Tilføj nu en overskrevet version af ToString der returnerer "Faktura til {Kunde
 
 ```csharp
 string jsonString;
-jsonString = JsonSerializer.Serialize(this);
+jsonString = System.Text.Json.JsonSerializer.Serialize(this);
 ```
 
 Se [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/arv-polymorfi-object/Program.cs)
