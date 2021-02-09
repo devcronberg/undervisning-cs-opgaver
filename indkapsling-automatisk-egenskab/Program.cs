@@ -46,6 +46,14 @@ namespace ConsoleApplication6
         {
             return Fornavn + " " + Efternavn;
         }
+
+        // public string FuldtNavn
+        // {
+        //    get 
+        //    {
+        //        return Fornavn + " " + Efternavn;
+        //    }
+        // }
     }
 
 }
