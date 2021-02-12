@@ -267,9 +267,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data-excel", "data-excel\da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008 Console", "008 Console", "{E9A5643A-D9BF-4C0C-B0E9-C11D889B1041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOpgave-Parser", "ConsoleOpgave-Parser\ConsoleOpgave-Parser.csproj", "{589AD209-EBBB-42CB-90B7-EE876567CC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOpgave-Parser", "ConsoleOpgave-Parser\ConsoleOpgave-Parser.csproj", "{589AD209-EBBB-42CB-90B7-EE876567CC35}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOpgave-Configuration", "ConsoleOpgave-Configuration\ConsoleOpgave-Configuration.csproj", "{4FE25255-DCD0-4F73-A02D-E018CBFB1350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "200 Serialisering", "200 Serialisering", "{C34C729C-906D-4033-89A8-7DBC5AC7C49B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisering-Xml", "Serialisering-Xml\Serialisering-Xml.csproj", "{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-array-predicate", "delegates-array-predicate\delegates-array-predicate.csproj", "{28B34494-10AA-4D2D-AA40-082EFBCD835F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -693,6 +699,14 @@ Global
 		{4FE25255-DCD0-4F73-A02D-E018CBFB1350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE25255-DCD0-4F73-A02D-E018CBFB1350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE25255-DCD0-4F73-A02D-E018CBFB1350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -802,6 +816,8 @@ Global
 		{93BFF7E8-C1C9-4A46-BD92-445EAF1BFE29} = {A2FB4D6A-15B9-4FB8-B809-5D953D8BB84B}
 		{589AD209-EBBB-42CB-90B7-EE876567CC35} = {E9A5643A-D9BF-4C0C-B0E9-C11D889B1041}
 		{4FE25255-DCD0-4F73-A02D-E018CBFB1350} = {E9A5643A-D9BF-4C0C-B0E9-C11D889B1041}
+		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4} = {C34C729C-906D-4033-89A8-7DBC5AC7C49B}
+		{28B34494-10AA-4D2D-AA40-082EFBCD835F} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
