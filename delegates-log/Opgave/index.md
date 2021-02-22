@@ -3,7 +3,7 @@
 Du skal skabe en tom konsol app med en klasse maskine 
 med følgende medlemmer:
 
-* En egenskab som wrapper en delegate, der kan bruges på void metoder der har en string som argument 
+* En offentlig delegate der kan bruges på void metoder der har en string som argument 
 * En start metode der kalder Log med Tid + ” Starter” (eksempelvis ”16:13:25 Starter”)
 * En stop metode der kalder Log med Tid + ” Stopper” (eksempelvis ”16:13:25 Stopper”)
 
