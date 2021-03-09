@@ -18,6 +18,7 @@ Tilføj følgende kode (enten i program.cs eller en fil for sig selv - men sørg
 ```csharp
 namespace SQLiteEF
 {
+    using System;
     using System.ComponentModel.DataAnnotations.Schema;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Logging;
