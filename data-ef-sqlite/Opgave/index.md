@@ -105,7 +105,6 @@ Du skal nu skrive koden til at
 - Udskrive samtlige personer hvor gender = 1 (kvinder)
 - Udskrive samtlige personer hvor gender = 1 (kvinder) og IsHealthy = true
 - Udskrive samtlige personer hvor gender = 1 (kvinder) og IsHealthy = true sorteret efter LastName
-- Gruppere samtlige personer efter IsHealthy, og udskrive dem
 - Hent personen med PersonId = 1 således, at højden = 180
     - Brug FirstOrDefault() til at finde en enkelt
     - Ret objektet
