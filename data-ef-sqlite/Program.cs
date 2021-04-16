@@ -46,15 +46,6 @@ namespace data_ef_sqlite
                 lst.ForEach(i => Console.WriteLine(i));
 
                 Console.WriteLine();
-                var grp = c.People.GroupBy(i => i.IsHealthy);
-                foreach (var gruppe in grp)
-                {
-                    Console.WriteLine(gruppe.Key);
-                    foreach (var person in gruppe)
-                    {
-                        Console.WriteLine("\t" + person);
-                    }
-                }
 
                 var p = c.People.Where(i => i.PersonId == 1).FirstOrDefault();
                 p.Height = 150;
