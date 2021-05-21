@@ -16,7 +16,7 @@ app.exe -f c:\tmp\data.txt -d c:\temp -r
 
 Argumenterne f (fil) og d (mappe) er nødvendige (required) og hvis r er angivet skal filen slettes når den er kopieret.
 
-Brug pakken CommandLineParser til at styre angivne argumenter. Du kan se eksempler i [dokumentationen](https://github.com/commandlineparser/commandline) eller benytte denne
+Brug pakken CommandLineParser til at styre angivne argumenter - husk at tilføje den gennem NuGet. Du kan se eksempler i [dokumentationen](https://github.com/commandlineparser/commandline) eller benytte denne
 simple skabelon:
 
 ```csharp
