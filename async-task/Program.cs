@@ -18,6 +18,8 @@ namespace async_task
             try
             {
                 string t1 = await HentTekst(@"c:\temp\a1.txt");
+                string t2 = await HentTekst1(@"c:\temp\a1.txt");
+                
                 Console.WriteLine(t1);
             }
             catch (Exception ex)
