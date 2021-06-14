@@ -1,6 +1,6 @@
 ﻿# ASync (Fil)
 
-Du skal skabe en (.NET 7.3 - ret version i projektets properties/build/advanced - eller .NET Core) konsol app med følgende main:
+Du skal skabe en konsol app (.NET Core 2.x eller .NET 5+) med følgende main:
 
 ```csharp
 static async Task Main(string[] args) {}
