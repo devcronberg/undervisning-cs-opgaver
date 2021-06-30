@@ -8,11 +8,14 @@ namespace delegates_regnemaskine_func
         {
             RegnemaskineApp.RegnemaskineConsoleUI r =
                 new RegnemaskineApp.RegnemaskineConsoleUI();
-            r.TilføjBeregning("minus", Minus);
-            r.TilføjBeregning("gange", Gange);
-            // Nyt delegate objekt gemmes i variabel
-            Func<int, int, int> f = Divider;
-            r.TilføjBeregning("divider", f);
+            
+            Func<int, int, int> f1 = Minus;            
+            r.TilføjBeregning("minus", f1);
+            // Eller blot
+            // r.TilføjBeregning("minus", Minus);
+            
+            r.TilføjBeregning("gange", Gange);           
+            r.TilføjBeregning("divider", Divider);
             // Metode fra System.Math
             r.TilføjBeregning("max", Math.Max);
 
