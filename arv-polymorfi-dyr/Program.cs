@@ -18,7 +18,7 @@ namespace arv_polymorfi_dyr
             Dyr d = new Kat() { Navn = "c" }; ;
             d.SigNoget();
             Console.WriteLine();
-            List<Dyr> forskelligeDyr = new List<Dyr>() { h, k, new Hund() { Navn = "c" }, new Kat() { Navn = "d" } };
+            List<Dyr> forskelligeDyr = new List<Dyr>() { h, k, new Hund() { Navn = "d" }, new Kat() { Navn = "e" } };
             foreach (Dyr item in forskelligeDyr)
             {
                 item.SigNoget();
