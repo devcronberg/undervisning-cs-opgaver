@@ -47,13 +47,15 @@ så den tager hensyn til det nye skema.
 
 ## Ekstra Ekstra:
 
-Prøv at tilføje følgende kode til sidst i main:
+Prøv at tilføje følgende kode til sidst i main (og sørg for at klassen Person er public):
 
 ```csharp
 System.Xml.Serialization.XmlSerializer x = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
 System.IO.TextWriter writer = new System.IO.StreamWriter(@"c:\temp\data.xml");
 x.Serialize(writer, lst);
 ```
+
+Check om der er kommet en xml-fil på disken med det rette indhold.
 
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-deserialisering/Program.cs).
 
