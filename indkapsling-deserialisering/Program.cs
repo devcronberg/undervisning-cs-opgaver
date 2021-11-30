@@ -17,9 +17,9 @@ namespace indkapsling_deserialisering
             System.IO.TextWriter writer = new System.IO.StreamWriter(@"c:\temp\data.xml");
             x.Serialize(writer, lst);
 
-// Bare for sjov - brug ServiceStack.Text (NuGet) til at gemme som CSV            
-ServiceStack.Text.CsvConfig.ItemSeperatorString = ";";  // Dansk format
-System.IO.File.WriteAllText(@"c:\temp\data.csv", ServiceStack.Text.CsvSerializer.SerializeToString(lst));
+            // Bare for sjov - brug ServiceStack.Text (NuGet) til at gemme som CSV            
+            ServiceStack.Text.CsvConfig.ItemSeperatorString = ";";  // Dansk format
+            System.IO.File.WriteAllText(@"c:\temp\data.csv", ServiceStack.Text.CsvSerializer.SerializeToString(lst));
         }
     }
 
