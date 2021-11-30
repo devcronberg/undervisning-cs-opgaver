@@ -40,10 +40,12 @@ List<Person> lst = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(jso
 
 Herefter skal du løbe listen igennem og udskrive Navn eller lign.
 
-Ekstra: Prøv evt at udvide JSON filen med en ny egenskab på hver person, og tilrette klassen
+## Ekstra
+
+Prøv evt at udvide JSON filen med en ny egenskab på hver person, og tilrette klassen
 så den tager hensyn til det nye skema.
 
-Ekstra Ekstra:
+## Ekstra Ekstra:
 
 Prøv at tilføje følgende kode til sidst i main:
 
