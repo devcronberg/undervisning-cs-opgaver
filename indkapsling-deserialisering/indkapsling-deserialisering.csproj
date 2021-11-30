@@ -6,4 +6,8 @@
     <RootNamespace>indkapsling_deserialisering</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Text" Version="5.13.2" />
+  </ItemGroup>
+
 </Project>

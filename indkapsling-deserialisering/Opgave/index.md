@@ -57,6 +57,18 @@ x.Serialize(writer, lst);
 
 Check om der er kommet en xml-fil på disken med det rette indhold.
 
+## Ekstra Ekstra Ekstra
+
+Prøv at tilføje NuGet-pakken [ServiceStack.Text](https://github.com/ServiceStack/ServiceStack.Text) og tilføj følgende kode i bunden af main:
+
+```csharp
+// Bare for sjov - brug ServiceStack.Text (NuGet) til at gemme som CSV            
+ServiceStack.Text.CsvConfig.ItemSeperatorString = ";";  // Dansk format
+System.IO.File.WriteAllText(@"c:\temp\data.csv", ServiceStack.Text.CsvSerializer.SerializeToString(lst));
+``` 
+
+Check om der er kommet en csv-fil på disken med det rette indhold.
+
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-deserialisering/Program.cs).
 
 <!-- footerstart -->
