@@ -27,7 +27,7 @@ Skab en fil på disken (feks c:\temp\data.json) med følgende indhold:
 
 Det er en liste af personer med fire egenskaber.
 
-Din opgave er at skabe en klasse Person med de fire egenskaber (skal hedde det samme som filen), 
+Din opgave er at skabe en klasse Person med de fire egenskaber (skal hedde det samme som i filen), 
 og herefter skabe en liste af personer ved hjælp af JSON deserialisering. Du 
 kan benytte den indbyggede System.Text.Json.Deserialize<> som følger:
 
