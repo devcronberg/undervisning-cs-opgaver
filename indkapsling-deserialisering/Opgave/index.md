@@ -43,6 +43,16 @@ Herefter skal du løbe listen igennem og udskrive Navn eller lign.
 Ekstra: Prøv evt at udvide JSON filen med en ny egenskab på hver person, og tilrette klassen
 så den tager hensyn til det nye skema.
 
+Ekstra Ekstra:
+
+Prøv at tilføje følgende kode til sidst i main:
+
+```csharp
+System.Xml.Serialization.XmlSerializer x = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
+System.IO.TextWriter writer = new System.IO.StreamWriter(@"c:\temp\data.xml");
+x.Serialize(writer, lst);
+```
+
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/indkapsling-deserialisering/Program.cs).
 
 <!-- footerstart -->

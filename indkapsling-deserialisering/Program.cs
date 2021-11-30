@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 
 namespace indkapsling_deserialisering
 {
@@ -13,10 +12,15 @@ namespace indkapsling_deserialisering
             List<Person> lst = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(json);
             foreach (var item in lst)
                 Console.WriteLine(item.Navn);
+
+            // Bare for sjov - gem som xml
+            System.Xml.Serialization.XmlSerializer x = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
+            System.IO.TextWriter writer = new System.IO.StreamWriter(@"c:\temp\data.xml");
+            x.Serialize(writer, lst);
         }
     }
 
-    class Person
+    public class Person
     {
         public int Id { get; set; }
         public string Navn { get; set; }
