@@ -1,4 +1,4 @@
-﻿# ASync (primtal)
+﻿# Grundlæggende forståelse af asynkron kode (primtal)
 
 I denne opgave skal du forstå forskellen på en synkron funktion og en asynkron funktion. 
 
