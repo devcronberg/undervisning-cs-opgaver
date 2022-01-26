@@ -31,10 +31,5 @@ namespace klasser_statisk
         {
             return a - b;
         }
-
-        private Beregninger()
-        {
-
-        }
     }
 }
