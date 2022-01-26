@@ -23,7 +23,7 @@ namespace klasser_statisk
         }
     }
 
-    public class Beregninger {
+    public static class Beregninger {
         public static int LægSammen(int a, int b) {
             return a + b;
         }
