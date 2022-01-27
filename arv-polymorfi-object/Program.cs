@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.Json; // Kun til JSON (ekstra opgaven)
+
+// Kun til JSON (ekstra opgaven)
+// using System.Text.Json; 
 
 namespace arv_polymorfi_object
 {
