@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 Variabler", "010 Variabler", "{47863C65-BB5A-4606-9677-2B319D52E9EE}"
 EndProject
@@ -277,7 +277,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisering-Xml", "Serial
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates-array-predicate", "delegates-array-predicate\delegates-array-predicate.csproj", "{28B34494-10AA-4D2D-AA40-082EFBCD835F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-serialisering", "indkapsling-serialisering\indkapsling-serialisering.csproj", "{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-faktura", "linq2objects-faktura\linq2objects-faktura.csproj", "{BAAA7317-76DE-4DBB-81BE-F4FD1205F214}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-terning", "linq2objects-terning\linq2objects-terning.csproj", "{EEE77A23-E145-42DE-9510-DD759B91EC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-deserialisering", "indkapsling-deserialisering\indkapsling-deserialisering.csproj", "{D19AA799-9E75-46D9-8E05-53B73F82F58C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -709,10 +713,18 @@ Global
 		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B34494-10AA-4D2D-AA40-082EFBCD835F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE77A23-E145-42DE-9510-DD759B91EC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE77A23-E145-42DE-9510-DD759B91EC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE77A23-E145-42DE-9510-DD759B91EC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE77A23-E145-42DE-9510-DD759B91EC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -824,7 +836,9 @@ Global
 		{4FE25255-DCD0-4F73-A02D-E018CBFB1350} = {E9A5643A-D9BF-4C0C-B0E9-C11D889B1041}
 		{BD1EEEEC-BCFA-4D8F-B5FF-71BDCA454DE4} = {C34C729C-906D-4033-89A8-7DBC5AC7C49B}
 		{28B34494-10AA-4D2D-AA40-082EFBCD835F} = {9DBA3402-0D65-4538-A870-1D277010F40E}
-		{8A782CCB-4BA0-4193-BD7A-AECAE141E5C3} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
+		{EEE77A23-E145-42DE-9510-DD759B91EC73} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
+		{D19AA799-9E75-46D9-8E05-53B73F82F58C} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}

@@ -1,4 +1,4 @@
-﻿# ASync (primtal)
+﻿# Grundlæggende forståelse af asynkron kode (primtal)
 
 I denne opgave skal du forstå forskellen på en synkron funktion og en asynkron funktion. 
 
@@ -77,61 +77,70 @@ koden er synkron er, at tal først begynder at skrives **efter** der er fundet p
 
 ![](v1.gif)
 
-Tilføj nu disse to funktioner:
+prøv nu denne kode i stedet:
 
 ```csharp
-static async Task Run2(int antal)
-{
-    Console.WriteLine("Run2 start");
-    var res1 = await FindPrimtal2(antal);
-    Console.WriteLine($"\nAntal fundet: {res1.Count}");
-    Console.WriteLine("\nRun2 slut");
-}
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-public static Task<List<int>> FindPrimtal2(int tilVærdi)
+namespace async_primtal
 {
-    Console.WriteLine("FindPrimtal2 start");
-    Task<List<int>> t = new Task<List<int>>(() =>
+    class Program
     {
-        List<int> primes = new List<int>();
-        bool isPrime = true;
-        for (int i = 2; i <= tilVærdi; i++)
+        static void Main(string[] args)
         {
-            for (int j = 2; j <= tilVærdi; j++)
+            Console.WriteLine("Main start");
+            Run2(60000);    // ignorer warning
+            for (int i = 0; i < 10; i++)
             {
-                if (i != j && i % j == 0)
-                {
-                    isPrime = false;
-                    break;
-                }
+                System.Threading.Thread.Sleep(500);
+                Console.Write(i.ToString("00" + " "));
             }
-            if (isPrime)
-            {
-                primes.Add(i);
-            }
-            isPrime = true;
+            Console.WriteLine("Main slut");
         }
-        return primes;
-    });
-    t.Start();
-    Console.WriteLine("FindPrimtal2 slut");
-    return t;
+
+        static async Task Run2(int antal)
+        {
+            Console.WriteLine("Run2 start");
+            var res1 = await FindPrimtal2(antal);
+            Console.WriteLine($"\nAntal fundet: {res1.Count}");
+            Console.WriteLine("\nRun2 slut");
+        }
+
+        public static Task<List<int>> FindPrimtal2(int tilVærdi)
+        {
+            Console.WriteLine("FindPrimtal2 start");
+            Task<List<int>> t = new Task<List<int>>(() =>
+            {
+                List<int> primes = new List<int>();
+                bool isPrime = true;
+                for (int i = 2; i <= tilVærdi; i++)
+                {
+                    for (int j = 2; j <= tilVærdi; j++)
+                    {
+                        if (i != j && i % j == 0)
+                        {
+                            isPrime = false;
+                            break;
+                        }
+                    }
+                    if (isPrime)
+                    {
+                        primes.Add(i);
+                    }
+                    isPrime = true;
+                }
+                return primes;
+            });
+            t.Start();
+            Console.WriteLine("FindPrimtal2 slut");
+            return t;
+        }
+    }
 }
+
 ```
-
-og ret main til at kalde Run2(60000) i stedet for Run1(60000):
-
-```csharp
-Console.WriteLine("Main start");
-Run2(60000);    // Glem evt warning - eller skriv _ = Run2(60000)
-for (int i = 0; i < 10; i++)
-{
-    System.Threading.Thread.Sleep(500);
-    Console.Write(i.ToString("00"+ " "));
-}
-Console.WriteLine("Main slut");
-```
-
 Kør programmet, og resultatet skulle gerne blive
 
 - Først skrives "Main start"

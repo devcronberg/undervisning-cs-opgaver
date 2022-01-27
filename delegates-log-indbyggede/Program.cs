@@ -7,7 +7,11 @@ namespace delegates_log
         static void Main(string[] args)
         {
             Maskine m = new Maskine();
-            m.Log = Console.WriteLine;
+            Action<string> a1 = Console.WriteLine;
+            m.Log = a1;
+            // eller blot 
+            // m.Log = Console.WriteLine;
+            
             m.Log += AppendLog;
             m.Start();
             m.Stop();

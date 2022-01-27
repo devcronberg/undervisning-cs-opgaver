@@ -1,6 +1,6 @@
 ﻿# ASync (Fil)
 
-Du skal skabe en (.NET 7.3 - ret version i projektets properties/build/advanced - eller .NET Core) konsol app med følgende main:
+Du skal skabe en konsol app (.NET Core 2.x eller .NET 5+) med følgende main:
 
 ```csharp
 static async Task Main(string[] args) {}
@@ -24,7 +24,8 @@ Du skal nu
 
 - Skabe en asynkron metode async HentTekst(string filnavn), der ved hjælp af en StreamReader (System.IO.File.OpenText) læser filen (brug metoden ReadToEndAsync), og afventer og returnerer resultatet som en Task<string> svarende til indholdet af filen.
 - Skabe en (ikke async) HentTekst1(string filNavn), som blot returnerer en Task<string>.
-
+- Overvej - hvad er forskellen på de to metoder?
+    
 Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/async-task/Program.cs)
 
 <!-- footerstart -->

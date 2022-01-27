@@ -24,7 +24,7 @@ namespace delegates_log
     public class Maskine
     {
 
-        public LogDelegate Log { get; set; }    
+        public LogDelegate Log;  
 
         public void Start()
         {

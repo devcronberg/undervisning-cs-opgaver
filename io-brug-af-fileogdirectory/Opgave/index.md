@@ -10,7 +10,9 @@ Du skal skabe en konsol app hvor du skal benytte System.IO.File og System.IO.Dir
 - Hent indhold til en string variabel og skriv den ud (brug ReadAllText)
 - Slet filen
 
-Husk fejlhåndtering - og gerne således at fejl fra IO fanges og behandles separat (System.IO.IOException)
+Husk fejlhåndtering - og gerne således at fejl fra IO fanges og behandles separat (System.IO.IOException).
+
+Se [Løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/io-brug-af-fileogdirectory/Program.cs).
 
 <!-- footerstart -->
 > Denne opgave må ikke benyttes uden tilladelse fra Michell Cronberg (michell@cronberg.dk)

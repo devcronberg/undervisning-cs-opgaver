@@ -34,7 +34,8 @@ namespace generisk_metode
             }
             return antal;
         }
-
+        
+        // Eksemplet med int
         static int AntalMaxInt(IEnumerable<int> liste, int maxVærdi)
         {
             int antal = 0;
