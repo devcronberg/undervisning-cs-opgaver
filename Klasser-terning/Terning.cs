@@ -17,7 +17,7 @@ namespace Klasser_terning
         public Terning(bool snyd)
         {
             this.snyd = snyd;
-            Ryst();
+            this.værdi = 1;
         }
         public void Skriv()
         {
