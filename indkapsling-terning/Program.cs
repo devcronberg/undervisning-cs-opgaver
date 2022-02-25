@@ -34,7 +34,7 @@ namespace MinTerning
             }
             set
             {
-                if (value < 0 || value > 6)
+                if (value < 1 || value > 6)
                     value = 1;
                 Console.WriteLine("Terning tildeles " + value);
                 this.værdi = value;
