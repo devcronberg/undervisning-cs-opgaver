@@ -281,7 +281,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-faktura", "lin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-terning", "linq2objects-terning\linq2objects-terning.csproj", "{EEE77A23-E145-42DE-9510-DD759B91EC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-deserialisering", "indkapsling-deserialisering\indkapsling-deserialisering.csproj", "{D19AA799-9E75-46D9-8E05-53B73F82F58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indkapsling-deserialisering", "indkapsling-deserialisering\indkapsling-deserialisering.csproj", "{D19AA799-9E75-46D9-8E05-53B73F82F58C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates-lambda-leg", "delegates-lambda-leg\delegates-lambda-leg.csproj", "{336D4B09-32A1-42C1-AED5-6C8413B2B95F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -725,6 +727,10 @@ Global
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336D4B09-32A1-42C1-AED5-6C8413B2B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336D4B09-32A1-42C1-AED5-6C8413B2B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336D4B09-32A1-42C1-AED5-6C8413B2B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336D4B09-32A1-42C1-AED5-6C8413B2B95F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -839,6 +845,7 @@ Global
 		{BAAA7317-76DE-4DBB-81BE-F4FD1205F214} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
 		{EEE77A23-E145-42DE-9510-DD759B91EC73} = {83631B37-17EA-4565-ABCC-C8FFC4C5F728}
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C} = {DFAE8CCF-5CC9-418C-9B3C-DAB11D598F0F}
+		{336D4B09-32A1-42C1-AED5-6C8413B2B95F} = {9DBA3402-0D65-4538-A870-1D277010F40E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5230236-959F-46F7-85A7-E22F0BD44887}
