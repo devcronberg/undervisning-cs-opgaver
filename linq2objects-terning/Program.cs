@@ -129,7 +129,16 @@ namespace linq2objects_terning
 
         public bool FuldtHus()
         {
-            return FindGrupper().Count(i => i.Antal > 1) == 2;
+            // Hvis der præcis to grupper og én gruppe med tre ens, så er der fuldt hus
+            if ((FindGrupper().Count(i => i.Antal >= 2) == 2) && (FindGrupper().Count(i => i.Antal == 3) == 1))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
         }
 
         public bool Lav()
