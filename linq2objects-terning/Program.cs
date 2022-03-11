@@ -48,7 +48,7 @@ namespace linq2objects_terning
         }
     }
 
-    class Bæger
+    public class Bæger
     {
 
         private Terning[] terninger;

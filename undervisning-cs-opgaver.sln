@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 Variabler", "010 Variabler", "{47863C65-BB5A-4606-9677-2B319D52E9EE}"
 EndProject
@@ -281,7 +281,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-faktura", "lin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq2objects-terning", "linq2objects-terning\linq2objects-terning.csproj", "{EEE77A23-E145-42DE-9510-DD759B91EC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indkapsling-deserialisering", "indkapsling-deserialisering\indkapsling-deserialisering.csproj", "{D19AA799-9E75-46D9-8E05-53B73F82F58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indkapsling-deserialisering", "indkapsling-deserialisering\indkapsling-deserialisering.csproj", "{D19AA799-9E75-46D9-8E05-53B73F82F58C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YatzyTest", "..\..\Kursus\YatzyTest\YatzyTest.csproj", "{E5DD48CE-0360-4C3A-8D3E-7BBD7A1FFB42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -725,6 +727,10 @@ Global
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19AA799-9E75-46D9-8E05-53B73F82F58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DD48CE-0360-4C3A-8D3E-7BBD7A1FFB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DD48CE-0360-4C3A-8D3E-7BBD7A1FFB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DD48CE-0360-4C3A-8D3E-7BBD7A1FFB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DD48CE-0360-4C3A-8D3E-7BBD7A1FFB42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
