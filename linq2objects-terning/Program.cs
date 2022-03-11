@@ -80,6 +80,7 @@ namespace linq2objects_terning
             s.AppendLine("Et par    : " + EtPar());
             s.AppendLine("To par    : " + ToPar());
             s.AppendLine("Tre ens   : " + TreEns());
+            s.AppendLine("Fire ens  : " + FireEns());
             s.AppendLine("Lav       : " + Lav());
             s.AppendLine("Høj       : " + Høj());
             s.AppendLine("Fuldt hus : " + FuldtHus());
@@ -128,7 +129,7 @@ namespace linq2objects_terning
 
         public bool FuldtHus()
         {
-            return FindGrupper().Count(i => i.Antal > 0) == 2;
+            return FindGrupper().Count(i => i.Antal > 1) == 2;
         }
 
         public bool Lav()
