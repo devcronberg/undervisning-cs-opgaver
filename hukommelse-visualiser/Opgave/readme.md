@@ -2,7 +2,7 @@
 
 Denne opgave er lidt speciel for du skal ikke skrive noget kode men tegne et 
 stack/heap diagram ud fra eksisterende kode. Start med at skabe en tom 
-.NET Core konsol applikation, og erstat eksisterende kode med følgende:
+.NET konsol applikation, og erstat eksisterende kode med følgende:
 
 ```csharp
 using System;
