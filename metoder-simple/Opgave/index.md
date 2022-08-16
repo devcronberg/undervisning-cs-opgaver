@@ -9,7 +9,7 @@ Du skal skabe en tom konsol app med følgende små metoder:
   * Beregner og returnere arealet af en cirkel (radius * radius * pi (se System.Math.PI) )
 * double BeregnBeløbEfterMoms(double beløb, double momsPct)
   * Beregner og returnere et beløb efter moms
-* Udskriv(string txt)
+* void Udskriv(string txt)
   * Udskriver txt på konsol (med Console.WriteLine)
 
 Følgende er fra løsningen – du skal implementere metoderne (se evt løsning for hints):
