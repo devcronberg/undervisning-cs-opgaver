@@ -16,7 +16,7 @@ namespace http_find_kommuner
             httpClient.DefaultRequestHeaders.Accept.Clear();
             httpClient.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = await httpClient.GetAsync("https://dawa.aws.dk/Kommuner");
+            var response = await httpClient.GetAsync("https://api.dataforsyningen.dk/kommuner");
             response.EnsureSuccessStatusCode();
             List<Kommune> lst = await response.Content.ReadAsAsync<List<Kommune>>();
             lst.OrderBy(i => i.Navn).ToList().ForEach(i => Console.WriteLine($"{i.Kode} {i.Navn}"));
