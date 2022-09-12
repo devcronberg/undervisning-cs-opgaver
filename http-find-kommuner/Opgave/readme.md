@@ -1,7 +1,7 @@
 ﻿# HTTP (Hent JSON)
 
 Du skal skabe en .NET Core konsol app hvor du skal benytte HTTPClient (System.Net.Http) til at hente samtlige kommuner 
-i Danmark fra DAWA, som har en JSON service på https://dawa.aws.dk/Kommuner. Denne service returnerer følgende:
+i Danmark fra DAWA, som har en JSON service på https://api.dataforsyningen.dk/kommuner. Denne service returnerer følgende:
 
 ```
 [
