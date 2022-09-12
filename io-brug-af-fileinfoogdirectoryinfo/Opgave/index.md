@@ -7,7 +7,7 @@ Du skal skabe en konsol app hvor du skal benytte System.IO.FileInfo og System.IO
 - Udskrive en boolsk værdi svarende til om mappen c:\temp\data.txt eksisterer 
 - Oprette filen c:\temp\data.txt med indholdet "xxx" (brug CreateText/StreamWriter)
 - Tilføje "yyy" til filen (brug AppendText/StreamWriter)
-- Hent indhold til en string variabel og skriv den ud (brug OpenText/StreamWriter)
+- Hent indhold til en string variabel og skriv den ud (brug OpenText/StreamReader)
 - Slet filen
 
 Husk fejlhåndtering - og gerne således at fejl fra IO fanges og behandles separat (System.IO.IOException).
