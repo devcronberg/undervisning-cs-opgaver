@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+// using Polly; kræver Polly (NuGet)
 
 namespace Fejlhåndtering_simpel
 {
@@ -14,6 +15,7 @@ namespace Fejlhåndtering_simpel
             {
                 Run();
                 //PrøvIgen();
+                //BrugPolly();
             }
             catch (Exception ex)
             {
@@ -50,6 +52,10 @@ namespace Fejlhåndtering_simpel
                 }
             }
         }
+
+        //static void BrugPolly() { 
+        //    Policy.Handle<FormatException>().Retry(3).Execute(Run);
+        //}
     }
 
 }
