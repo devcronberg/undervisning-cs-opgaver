@@ -3,35 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// using Polly; kræver Polly (NuGet)
+// using Polly; // Kræver Polly (Nuget) - lidt avanceret men blot til orientering
 
-namespace Fejlhåndtering_simpel
+namespace Fejlhåndtering
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+            Simpel();
+            //PrøvIgen();
+            //BrugPolly();
+
+
+        }
+
+        private static void Simpel()
+        {
+            int tal1 = HentTal("Indtast 1. tal");
+            int tal2 = HentTal("Indtast 2. tal");
+            int res = tal1 + tal2;
+            Console.WriteLine("resultatet er " + res);
+        }
+
+        private static int HentTal(string tekst)
+        {
             try
             {
-                Run();
-                //PrøvIgen();
-                //BrugPolly();
+                Console.WriteLine(tekst);
+                int tal = Convert.ToInt32(Console.ReadLine());
+                return tal;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Der er sket en fejl " + ex.Message);
+                throw;  // samme som throw ex;
             }
-
-        }
-
-        private static void Run()
-        {
-            Console.WriteLine("Indtast 1. tal");
-            int tal1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Indtast 2. tal");
-            int tal2 = Convert.ToInt32(Console.ReadLine());
-            int res = tal1 + tal2;
-            Console.WriteLine("resultatet er " + res);
         }
 
         static void PrøvIgen()
@@ -42,20 +50,33 @@ namespace Fejlhåndtering_simpel
             {
                 try
                 {
-                    Run();
+                    int tal1 = HentTal("Indtast 1. tal");
+                    int tal2 = HentTal("Indtast 2. tal");
+                    int res = tal1 + tal2;
+                    Console.WriteLine("resultatet er " + res);
                     break;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    Console.WriteLine("Der er sket en fejl " + ex.Message);
                     antal++;
                 }
             }
         }
 
-        //static void BrugPolly() { 
-        //    Policy.Handle<FormatException>().Retry(3).Execute(Run);
+        //static void BrugPolly()
+        //{
+        //    int tal1 = 0, tal2 = 0;
+        //    Policy.Handle<FormatException>().Retry(3).Execute(() =>
+        //    {
+        //        tal1 = HentTal("Indtast 1. tal");
+        //    });
+        //    Policy.Handle<FormatException>().Retry(3).Execute(() =>
+        //    {
+        //        tal2 = HentTal("Indtast 2. tal");
+        //    });
+        //    int res = tal1 + tal2;
+        //    Console.WriteLine("resultatet er " + res);
+
         //}
     }
-
 }
