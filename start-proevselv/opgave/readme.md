@@ -1,4 +1,4 @@
-﻿# Prøv selv Visual Studio 2019
+﻿# Prøv selv Visual Studio 2022
 
 Det er vigtig at du lige får prøvet at oprette en konsol applikation, og leget 
 lidt med de forskellige muligheder. Prøv at gøre det samme 
