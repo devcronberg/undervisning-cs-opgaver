@@ -24,6 +24,10 @@ Console.WriteLine(res3); // 125
 Udskriv("Dette er en test"); // Dette er en test
 ```
 
+Se min [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-simple/Program2.cs) for et eksempel uden Program/Main.
+
+## Hvis du benytter Program/Main skabelon
+
 Det er nemmest hvis en metode i Program-klassen er static. 
 
 ```csharp
@@ -77,7 +81,7 @@ namespace OpgaveMetoderSimpel
 ```
 
 
-Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-simple/Program.cs) for eksempel. Se evt også [løsning2](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-simple/Program2.cs) for et eksempel uden Program/Main.
+Se evt. [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/metoder-simple/Program.cs) for eksempel. 
 
 
 <!-- footerstart -->
