@@ -11,6 +11,7 @@ Du skal skabe en tom konsol app med en klasse Person med følgende medlemmer:
 
 Brug klassen i Main ved at skabe en 2-3 objekter med new og test at metoderne virker.
 
+Ekstra: Prøv at serialisere og deserialisere til JSON med System.Text.Json.JsonSerializer.Serialize og System.Text.Json.JsonSerializer.Deserialize - se løsning.
 
 Se evt [løsning](https://github.com/devcronberg/undervisning-cs-opgaver/blob/master/Klasser-simpel/Program.cs)
 <!-- footerstart -->
