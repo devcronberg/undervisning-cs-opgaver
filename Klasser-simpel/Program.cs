@@ -18,13 +18,13 @@ namespace Teknologisk.MinApp
             Person p2 = new Person("mikkel", "cronberg", 2006);
             Console.WriteLine(p2.FuldtNavn());
             Console.WriteLine(p2.EstimeretAlder());
-
-            // Hold console åben ved debug (kun nødvendigt ved .NET Framework - ikke .NET Core)
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
-                Console.Write("Press any key to continue . . . ");
-                Console.ReadKey();
-            }
+            
+            // Ekstra 
+            // Til string
+            string json = System.Text.Json.JsonSerializer.Serialize(p2);
+            // Fra string
+            Person p3 = System.Text.Json.JsonSerializer.Deserialize<Person>(json);
+      
         }
     }
 
